@@ -15,7 +15,7 @@
       };
     in {
       devShells.default = pkgs.mkShell {
-        name = "Example project";
+        name = "ROS2 RIDE";
         packages = [
           #non ROS packages
           (pkgs.python3.withPackages (ps:
@@ -41,9 +41,12 @@
               paths = [
                 #ROS packages
                 ros-core
+                controller-manager
                 demo-nodes-cpp
                 ament-cmake-core
                 python-cmake-module
+                joint-state-publisher-gui
+                rviz2
 
                 #moveit
                 moveit-core
@@ -66,7 +69,6 @@
             })
         ];
       };
-      #shellHook = ''./roarm_ws_em0/build_common.sh'';
     });
   nixConfig = {
     extra-substituters = ["https://ros.cachix.org"];
