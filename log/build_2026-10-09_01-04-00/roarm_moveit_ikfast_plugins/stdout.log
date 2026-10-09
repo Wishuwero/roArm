@@ -1,0 +1,25 @@
+-- Found ament_cmake: 1.3.14 (/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake)
+-- Found Python3: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/bin/python3 (found version "3.14.6") found components: Interpreter
+-- Found moveit_core: 2.5.10 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/moveit_core/cmake)
+-- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: chrono date_time filesystem iostreams program_options regex serialization thread
+-- Found rclcpp: 16.0.21 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.4 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /nix/store/39jzpf9ray7mxjnlmqbrxlyz0dsz0448-openssl-3.6.3/lib/libcrypto.so (found version "3.6.3")
+-- Found FastRTPS: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE
+-- Found tcb_span: 1.3.2 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/tcb_span/cmake)
+-- Found rclcpp_lifecycle: 16.0.21 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rclcpp_lifecycle/cmake)
+-- Found parameter_traits: 0.7.6 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/parameter_traits/cmake)
+-- library: /nix/store/9gg2kw74rag1sjl2jl6qaddaisllpdip-curl-8.21.0/lib/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.1")
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Configuring incomplete, errors occurred!

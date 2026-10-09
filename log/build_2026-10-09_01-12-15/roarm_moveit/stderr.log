@@ -1,0 +1,100 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File [35m"/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp"[0m, line [35m38[0m, in [35m<module>[0m
+    sys.exit([31mmain[0m[1;31m()[0m)
+             [31m~~~~[0m[1;31m^^[0m
+  File [35m"/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp"[0m, line [35m34[0m, in [35mmain[0m
+    [31mgenerate_cpp[0m[1;31m(args.generator_arguments_file)[0m
+    [31m~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_generator_cpp/__init__.py"[0m, line [35m39[0m, in [35mgenerate_cpp[0m
+    return generate_files(
+        generator_arguments_file, mapping,
+        post_process_callback=prefix_with_bom_if_necessary)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_cmake/__init__.py"[0m, line [35m74[0m, in [35mgenerate_files[0m
+    idl_file = parse_idl_file(locator)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_parser/parser.py"[0m, line [35m64[0m, in [35mparse_idl_file[0m
+    content = parse_idl_string(string, png_file=png_file)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_parser/parser.py"[0m, line [35m72[0m, in [35mparse_idl_string[0m
+    tree = get_ast_from_idl_string(idl_string)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_parser/parser.py"[0m, line [35m89[0m, in [35mget_ast_from_idl_string[0m
+    return [31m_parser.parse[0m[1;31m(idl_string)[0m
+           [31m~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/lark.py"[0m, line [35m677[0m, in [35mparse[0m
+    return [31mself.parser.parse[0m[1;31m(text, start=start, on_error=on_error)[0m
+           [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parser_frontends.py"[0m, line [35m131[0m, in [35mparse[0m
+    return [31mself.parser.parse[0m[1;31m(stream, chosen_start, **kw)[0m
+           [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parsers/earley.py"[0m, line [35m280[0m, in [35mparse[0m
+    to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parsers/xearley.py"[0m, line [35m153[0m, in [35m_parse[0m
+    to_scan, node_cache = [31mscan[0m[1;31m(i, to_scan)[0m
+                          [31m~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parsers/xearley.py"[0m, line [35m85[0m, in [35mscan[0m
+    delayed_matches[[31mm.end[0m[1;31m()[0m].extend([(item, i, None) for item in to_scan ])
+                    [31m~~~~~[0m[1;31m^^[0m
+[1;35mKeyboardInterrupt[0m
+  File [35m"/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c"[0m, line [35m38[0m, in [35m<module>[0m
+    sys.exit([31mmain[0m[1;31m()[0m)
+             [31m~~~~[0m[1;31m^^[0m
+  File [35m"/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c"[0m, line [35m34[0m, in [35mmain[0m
+    [31mgenerate_c[0m[1;31m(args.generator_arguments_file)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_generator_c/__init__.py"[0m, line [35m37[0m, in [35mgenerate_c[0m
+    return generate_files(
+        generator_arguments_file, mapping,
+        post_process_callback=prefix_with_bom_if_necessary)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_cmake/__init__.py"[0m, line [35m74[0m, in [35mgenerate_files[0m
+    idl_file = parse_idl_file(locator)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_parser/parser.py"[0m, line [35m64[0m, in [35mparse_idl_file[0m
+    content = parse_idl_string(string, png_file=png_file)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_parser/parser.py"[0m, line [35m72[0m, in [35mparse_idl_string[0m
+    tree = get_ast_from_idl_string(idl_string)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/rosidl_parser/parser.py"[0m, line [35m89[0m, in [35mget_ast_from_idl_string[0m
+    return [31m_parser.parse[0m[1;31m(idl_string)[0m
+           [31m~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/lark.py"[0m, line [35m677[0m, in [35mparse[0m
+    return [31mself.parser.parse[0m[1;31m(text, start=start, on_error=on_error)[0m
+           [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parser_frontends.py"[0m, line [35m131[0m, in [35mparse[0m
+    return [31mself.parser.parse[0m[1;31m(stream, chosen_start, **kw)[0m
+           [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parsers/earley.py"[0m, line [35m280[0m, in [35mparse[0m
+    to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parsers/xearley.py"[0m, line [35m151[0m, in [35m_parse[0m
+    [31mself.predict_and_complete[0m[1;31m(i, to_scan, columns, transitives, node_cache)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parsers/earley.py"[0m, line [35m152[0m, in [35mpredict_and_complete[0m
+    new_item = Item(rule, 0, i)
+  File [35m"/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/python3.14/site-packages/lark/parsers/earley_common.py"[0m, line [35m23[0m, in [35m__init__[0m
+    self._hash = [31mhash[0m[1;31m((self.s, self.start, self.rule))[0m
+                 [31m~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mKeyboardInterrupt[0m
+make[2]: *** [CMakeFiles/roarm_moveit__cpp.dir/build.make:105: rosidl_generator_cpp/roarm_moveit/srv/get_pose_cmd.hpp] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:411: CMakeFiles/roarm_moveit__cpp.dir/all] Interrupt
+Traceback (most recent call last):
+  File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/.cmake-wrapped"[0m, line [35m9[0m, in [35m<module>[0m
+    sys.exit([31mcmake[0m[1;31m()[0m)
+             [31m~~~~~[0m[1;31m^^[0m
+  File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/lib/python3.14/site-packages/cmake/__init__.py"[0m, line [35m13[0m, in [35mcmake[0m
+    raise SystemExit([31m_program[0m[1;31m('cmake', sys.argv[1:])[0m)
+                     [31m~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/lib/python3.14/site-packages/cmake/__init__.py"[0m, line [35m10[0m, in [35m_program[0m
+    return [31msubprocess.call[0m[1;31m([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)[0m
+           [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m398[0m, in [35mcall[0m
+    return [31mp.wait[0m[1;31m(timeout=timeout)[0m
+           [31m~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m1279[0m, in [35mwait[0m
+    return [31mself._wait[0m[1;31m(timeout=timeout)[0m
+           [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m2084[0m, in [35m_wait[0m
+    (pid, sts) = [31mself._try_wait[0m[1;31m(0)[0m
+                 [31m~~~~~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m2042[0m, in [35m_try_wait[0m
+    (pid, sts) = [31mos.waitpid[0m[1;31m(self.pid, wait_flags)[0m
+                 [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mKeyboardInterrupt[0m
+make[2]: *** [CMakeFiles/roarm_moveit__rosidl_generator_c.dir/build.make:89: rosidl_generator_c/roarm_moveit/srv/get_pose_cmd.h] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:282: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all] Interrupt
+make: *** [Makefile:146: all] Interrupt

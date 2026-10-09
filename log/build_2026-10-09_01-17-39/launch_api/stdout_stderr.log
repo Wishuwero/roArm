@@ -1,0 +1,17 @@
+/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+writing launch_api.egg-info/PKG-INFO
+writing dependency_links to launch_api.egg-info/dependency_links.txt
+writing requirements to launch_api.egg-info/requires.txt
+writing top-level names to launch_api.egg-info/top_level.txt
+reading manifest file 'launch_api.egg-info/SOURCES.txt'
+writing manifest file 'launch_api.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch-api.egg-link (link to .)
+
+Installed /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api
+running symlink_data
+symbolically linking /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/resource/launch_api -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/share/ament_index/resource_index/packages
+symbolically linking /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/package.xml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/share/launch_api

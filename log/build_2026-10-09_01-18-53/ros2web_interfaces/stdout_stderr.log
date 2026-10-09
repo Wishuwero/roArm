@@ -1,0 +1,335 @@
+[  1%] Built target ros2web_interfaces__rs
+[  5%] Built target ros2web_interfaces__cpp
+[ 13%] Built target ros2web_interfaces__rosidl_generator_c
+[ 13%] Built target ament_cmake_python_copy_ros2web_interfaces
+[ 25%] Built target ros2web_interfaces__rosidl_typesupport_introspection_cpp
+[ 36%] Built target ros2web_interfaces__rosidl_typesupport_c
+[ 47%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c
+running egg_info
+writing ros2web_interfaces.egg-info/PKG-INFO
+writing dependency_links to ros2web_interfaces.egg-info/dependency_links.txt
+writing top-level names to ros2web_interfaces.egg-info/top_level.txt
+reading manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[ 47%] Built target ament_cmake_python_build_ros2web_interfaces_egg
+[ 59%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c
+[ 70%] Built target ros2web_interfaces__rosidl_typesupport_cpp
+[ 81%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target ros2web_interfaces
+[ 82%] Built target ros2web_interfaces__py
+[ 93%] Built target ros2web_interfaces__rosidl_generator_py
+[ 95%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ros2web_interfaces__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2web_interfaces
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/content_type.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/body_part.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/http_status_code.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_data.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_type.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/ws.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/http.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/library_path.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/library_path.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/body_part.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/content_type.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_type.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg_data.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/ws_msg.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/http_status_code.hpp
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__traits.hpp
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/ws.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/http.hpp
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__struct.hpp
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/dds_fastrtps
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/dds_fastrtps
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/content_type__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/http_status_code__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/ws_msg_type__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/msg/detail/body_part__type_support.cpp
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/ws__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/include/ros2web_interfaces/ros2web_interfaces/srv/detail/http__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/pythonpath.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/pythonpath.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces-0.1.0-py3.14.egg-info
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces-0.1.0-py3.14.egg-info/PKG-INFO
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces-0.1.0-py3.14.egg-info/dependency_links.txt
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces-0.1.0-py3.14.egg-info/SOURCES.txt
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces-0.1.0-py3.14.egg-info/top_level.txt
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/__init__.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/libros2web_interfaces__rosidl_generator_py.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/__init__.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_content_type.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg_data.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg_type_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_http_status_code.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_http_status_code_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg_type.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg_data_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_body_part.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_body_part_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_content_type_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-314-x86_64-linux-gnu.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-314-x86_64-linux-gnu.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-314-x86_64-linux-gnu.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv/__init__.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv/_ws_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv/_http.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv/_http_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv/_ws.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_c.c
+Listing '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/__init__.py'...
+Listing '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/__init__.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_body_part.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_content_type.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_http_status_code.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg_data.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/msg/_ws_msg_type.py'...
+Listing '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv/__init__.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv/_http.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/srv/_ws.py'...
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-314-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-314-x86_64-linux-gnu.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-314-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-314-x86_64-linux-gnu.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-314-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-314-x86_64-linux-gnu.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/libros2web_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/build.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/src
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/src/srv.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/src/lib.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/src/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/src/msg/rmw.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/src/msg.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/src/srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/src/srv/rmw.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/rust/Cargo.toml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/BodyPart.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/ContentType.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/HTTPStatusCode.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgData.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgType.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsg.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/BodyPart.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/ContentType.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/HTTPStatusCode.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgData.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsgType.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/msg/WSMsg.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP.srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP_Request.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/HTTP_Response.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS.srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS_Request.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/srv/WS_Response.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2web_interfaces
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2web_interfaces
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/path.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/environment/path.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.bash
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.zsh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/local_setup.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ament_index/resource_index/packages/ros2web_interfaces
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/export_ros2web_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfacesConfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/cmake/ros2web_interfacesConfig-version.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/share/ros2web_interfaces/package.xml

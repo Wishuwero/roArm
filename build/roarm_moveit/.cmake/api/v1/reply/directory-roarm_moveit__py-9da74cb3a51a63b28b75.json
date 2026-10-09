@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "roarm_moveit__py",
+		"source" : "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py"
+	}
+}

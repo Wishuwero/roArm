@@ -1,0 +1,137 @@
+[0.035s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages:${PYTHONPATH} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd
+[0.129s] -- Found moveit_common: 2.5.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_common/cmake)
+[0.130s] -- Found ament_cmake: 1.3.14 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/ament_cmake/cmake)
+[1.012s] [0mroarm_moveit_cmd: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.013s] [33mCMake Warning (dev) at CMakeLists.txt:9 (find_package):
+[1.013s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.013s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.013s]   set the policy and suppress this warning.
+[1.013s] 
+[1.013s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.013s] [0m
+[1.675s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time thread
+[1.680s] -- Found control_msgs: 4.9.0 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/control_msgs/cmake)
+[1.766s] -- Found rosidl_generator_c: 3.1.9 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rosidl_generator_c/cmake)
+[1.777s] -- Found rosidl_adapter: 3.1.9 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rosidl_adapter/cmake)
+[1.796s] -- Found rosidl_generator_cpp: 3.1.9 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rosidl_generator_cpp/cmake)
+[1.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.199s] -- Found moveit_core: 2.5.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_core/cmake)
+[2.199s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+[2.199s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.199s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.199s]   set the policy and suppress this warning.
+[2.200s] 
+[2.200s] Call Stack (most recent call first):
+[2.200s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[2.200s]   CMakeLists.txt:12 (find_package)
+[2.200s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.200s] [0m
+[2.237s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: chrono date_time filesystem iostreams program_options regex serialization thread
+[2.423s] -- Found rclcpp: 16.0.21 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rclcpp/cmake)
+[2.512s] -- Found rmw_implementation_cmake: 6.1.4 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rmw_implementation_cmake/cmake)
+[2.518s] -- Found rmw_fastrtps_cpp: 6.2.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rmw_fastrtps_cpp/cmake)
+[2.850s] -- Found OpenSSL: /nix/store/39jzpf9ray7mxjnlmqbrxlyz0dsz0448-openssl-3.6.3/lib/libcrypto.so (found version "3.6.3")
+[2.907s] -- Found FastRTPS: /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/include
+[2.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.008s] -- Found Threads: TRUE
+[3.119s] -- Found tcb_span: 1.3.2 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/tcb_span/cmake)
+[3.136s] -- Found rclcpp_lifecycle: 16.0.21 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rclcpp_lifecycle/cmake)
+[3.189s] -- Found parameter_traits: 0.7.6 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/parameter_traits/cmake)
+[3.593s] -- library: /nix/store/9gg2kw74rag1sjl2jl6qaddaisllpdip-curl-8.21.0/lib/libcurl.so
+[3.796s] -- Found Eigen3: TRUE (found version "3.4.1")
+[3.797s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.529s] -- Found moveit_ros_planning: 2.5.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning/cmake)
+[4.530s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+[4.530s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.530s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.530s]   set the policy and suppress this warning.
+[4.530s] 
+[4.530s] Call Stack (most recent call first):
+[4.530s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+[4.530s]   CMakeLists.txt:13 (find_package)
+[4.531s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.531s] [0m
+[4.542s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time program_options thread chrono
+[4.641s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+[4.641s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.641s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.641s]   set the policy and suppress this warning.
+[4.641s] 
+[4.641s] Call Stack (most recent call first):
+[4.642s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[4.642s]   CMakeLists.txt:14 (find_package)
+[4.642s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.642s] [0m
+[4.642s] -- Found moveit_ros_planning_interface: 2.5.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake)
+[4.652s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: date_time filesystem program_options thread
+[4.686s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+[4.686s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.686s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.686s]   set the policy and suppress this warning.
+[4.687s] 
+[4.688s] Call Stack (most recent call first):
+[4.688s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+[4.688s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.688s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[4.688s]   CMakeLists.txt:14 (find_package)
+[4.689s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.689s] [0m
+[4.698s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: thread filesystem regex date_time program_options
+[4.768s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+[4.768s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.768s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.768s]   set the policy and suppress this warning.
+[4.769s] 
+[4.771s] Call Stack (most recent call first):
+[4.771s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+[4.771s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.771s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[4.772s]   CMakeLists.txt:14 (find_package)
+[4.772s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.772s] [0m
+[4.779s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time program_options thread
+[4.936s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[4.936s]   By not providing "Findmoveit_visual_tools.cmake" in CMAKE_MODULE_PATH this
+[4.936s]   project has asked CMake to find a package configuration file provided by
+[4.937s]   "moveit_visual_tools", but CMake did not find one.
+[4.937s] 
+[4.937s]   Could not find a package configuration file provided by
+[4.937s]   "moveit_visual_tools" with any of the following names:
+[4.937s] 
+[4.937s]     moveit_visual_tools.cps
+[4.938s]     moveit_visual_toolsConfig.cmake
+[4.938s]     moveit_visual_tools-config.cmake
+[4.938s] 
+[4.938s]   Add the installation prefix of "moveit_visual_tools" to CMAKE_PREFIX_PATH
+[4.938s]   or set "moveit_visual_tools_DIR" to a directory containing one of the above
+[4.939s]   files.  If "moveit_visual_tools" provides a separate development package or
+[4.939s]   SDK, be sure it has been installed.
+[4.939s] 
+[4.939s] [0m
+[4.939s] -- Configuring incomplete, errors occurred!
+[4.975s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd' returned '1': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages:${PYTHONPATH} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd

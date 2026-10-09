@@ -1,0 +1,293 @@
+[0.050s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:/nix/store/6hrmjpzsdrpnmdnvj4a5qrv3v8bwdbfj-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd
+[0.152s] -- Found moveit_common: 2.5.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_common/cmake)
+[0.153s] -- Found ament_cmake: 1.3.14 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/ament_cmake/cmake)
+[1.072s] [0mroarm_moveit_cmd: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.073s] [33mCMake Warning (dev) at CMakeLists.txt:9 (find_package):
+[1.073s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.073s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.073s]   set the policy and suppress this warning.
+[1.073s] 
+[1.074s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.074s] [0m
+[1.094s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time thread
+[1.097s] -- Found control_msgs: 4.9.0 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/control_msgs/cmake)
+[1.158s] -- Found rosidl_generator_c: 3.1.9 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rosidl_generator_c/cmake)
+[1.163s] -- Found rosidl_adapter: 3.1.9 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rosidl_adapter/cmake)
+[1.175s] -- Found rosidl_generator_cpp: 3.1.9 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rosidl_generator_cpp/cmake)
+[1.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.561s] -- Found moveit_core: 2.5.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_core/cmake)
+[1.561s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+[1.561s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.561s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.562s]   set the policy and suppress this warning.
+[1.562s] 
+[1.562s] Call Stack (most recent call first):
+[1.562s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[1.562s]   CMakeLists.txt:12 (find_package)
+[1.562s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.562s] [0m
+[1.577s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: chrono date_time filesystem iostreams program_options regex serialization thread
+[1.745s] -- Found rclcpp: 16.0.21 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rclcpp/cmake)
+[1.811s] -- Found rmw_implementation_cmake: 6.1.4 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rmw_implementation_cmake/cmake)
+[1.814s] -- Found rmw_fastrtps_cpp: 6.2.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rmw_fastrtps_cpp/cmake)
+[2.007s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.118s] -- Found tcb_span: 1.3.2 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/tcb_span/cmake)
+[2.121s] -- Found rclcpp_lifecycle: 16.0.21 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/rclcpp_lifecycle/cmake)
+[2.160s] -- Found parameter_traits: 0.7.6 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/parameter_traits/cmake)
+[2.324s] -- library: /nix/store/9gg2kw74rag1sjl2jl6qaddaisllpdip-curl-8.21.0/lib/libcurl.so
+[2.435s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.870s] -- Found moveit_ros_planning: 2.5.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning/cmake)
+[2.870s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+[2.870s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.870s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.871s]   set the policy and suppress this warning.
+[2.871s] 
+[2.871s] Call Stack (most recent call first):
+[2.871s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+[2.871s]   CMakeLists.txt:13 (find_package)
+[2.871s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.872s] [0m
+[2.879s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time program_options thread chrono
+[2.942s] -- Found moveit_ros_planning_interface: 2.5.10 (/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake)
+[2.942s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+[2.942s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.942s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.942s]   set the policy and suppress this warning.
+[2.943s] 
+[2.943s] Call Stack (most recent call first):
+[2.943s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[2.943s]   CMakeLists.txt:14 (find_package)
+[2.943s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.943s] [0m
+[2.950s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: date_time filesystem program_options thread
+[2.971s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+[2.971s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.971s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.971s]   set the policy and suppress this warning.
+[2.971s] 
+[2.971s] Call Stack (most recent call first):
+[2.971s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+[2.972s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.972s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[2.972s]   CMakeLists.txt:14 (find_package)
+[2.972s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.972s] [0m
+[2.979s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: thread filesystem regex date_time program_options
+[3.020s] [33mCMake Warning (dev) at /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+[3.020s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.020s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.020s]   set the policy and suppress this warning.
+[3.020s] 
+[3.021s] Call Stack (most recent call first):
+[3.021s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+[3.021s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.021s]   /nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[3.021s]   CMakeLists.txt:14 (find_package)
+[3.021s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.022s] [0m
+[3.029s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time program_options thread
+[3.105s] -- Found moveit_visual_tools: 4.2.0 (/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env/share/moveit_visual_tools/cmake)
+[3.278s] -- Setting assimp_DIR to: '/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[3.286s] -- Setting OGRE_DIR to: '/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.289s] -- Found OGRE
+[3.289s] --   static     : OFF
+[3.289s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.289s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.289s] --   media      : /nix/store/y5ja99j8kbyscjpgfrk6cvq5vpamwj16-ros-humble-rviz-ogre-vendor-11.2.29-r1/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.290s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.290s] -- OGRE_LIBRARY_DIRS: /nix/store/y5ja99j8kbyscjpgfrk6cvq5vpamwj16-ros-humble-rviz-ogre-vendor-11.2.29-r1/opt/rviz_ogre_vendor/lib
+[3.290s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.290s] -- OGRE_PLUGIN_DIR: /nix/store/y5ja99j8kbyscjpgfrk6cvq5vpamwj16-ros-humble-rviz-ogre-vendor-11.2.29-r1/opt/rviz_ogre_vendor/lib/OGRE
+[3.290s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /nix/store/y5ja99j8kbyscjpgfrk6cvq5vpamwj16-ros-humble-rviz-ogre-vendor-11.2.29-r1/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.290s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /nix/store/y5ja99j8kbyscjpgfrk6cvq5vpamwj16-ros-humble-rviz-ogre-vendor-11.2.29-r1/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.291s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /nix/store/y5ja99j8kbyscjpgfrk6cvq5vpamwj16-ros-humble-rviz-ogre-vendor-11.2.29-r1/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.291s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /nix/store/y5ja99j8kbyscjpgfrk6cvq5vpamwj16-ros-humble-rviz-ogre-vendor-11.2.29-r1/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.303s] -- Could not find freeimage library
+[3.969s] -- Found moveit_servo: 2.5.5 (/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake)
+[4.085s] -- Found roarm_moveit: 0.3.0 (/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake)
+[4.122s] [33mCMake Warning (dev) at /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package):
+[4.123s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.123s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.123s]   set the policy and suppress this warning.
+[4.123s] 
+[4.123s] Call Stack (most recent call first):
+[4.124s]   /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)
+[4.124s]   /nix/store/6hrmjpzsdrpnmdnvj4a5qrv3v8bwdbfj-ros-env/share/ompl/cmake/omplConfig.cmake:30 (find_dependency)
+[4.124s]   CMakeLists.txt:29 (find_package)
+[4.124s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.124s] [0m
+[4.129s] -- Found Boost: /nix/store/759j64bx0i9i6kxvjlzd4fiysq6jw3nw-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: serialization filesystem
+[4.136s] -- Found ompl: /nix/store/6hrmjpzsdrpnmdnvj4a5qrv3v8bwdbfj-ros-env/include/ompl-1.7;/nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/include;/nix/store/0a944vkfl89hk2kzz36n5ywf8mgakr94-eigen-3.4.1/include/eigen3
+[4.262s] -- Configuring done (4.1s)
+[4.881s] -- Generating done (0.6s)
+[5.226s] -- Build files have been written to: /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd
+[5.268s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:/nix/store/6hrmjpzsdrpnmdnvj4a5qrv3v8bwdbfj-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd
+[5.271s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:/nix/store/6hrmjpzsdrpnmdnvj4a5qrv3v8bwdbfj-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd -- -j8 -l8
+[5.447s] [  7%] [32mBuilding CXX object CMakeFiles/getposecmd_tf2.dir/src/getposecmd_tf2.cpp.o[0m
+[5.451s] [ 14%] [32mBuilding CXX object CMakeFiles/movepointcmd.dir/src/movepointcmd.cpp.o[0m
+[5.452s] [ 21%] [32mBuilding CXX object CMakeFiles/getposecmd.dir/src/getposecmd_moveit2.cpp.o[0m
+[5.454s] [ 28%] [32mBuilding CXX object CMakeFiles/keyboardcontrol.dir/src/keyboardcontrol.cpp.o[0m
+[5.463s] [ 35%] [32mBuilding CXX object CMakeFiles/movecirclecmd.dir/src/movecirclecmd.cpp.o[0m
+[7.588s] In file included from [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:6[m[K:
+[7.589s] [01m[K/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.589s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[7.592s]       |  [01;35m[K^~~~~~~[m[K
+[7.618s] In file included from [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:10[m[K:
+[7.618s] [01m[K/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.618s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[7.618s]       |  [01;35m[K^~~~~~~[m[K
+[10.483s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K handle_service[m[K(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >, std::shared_ptr<RobotPosePublisher>)[m[K’:
+[10.483s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp:59:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+[10.483s]    59 | [01;35m[Ked_ptr<roarm_moveit::srv::GetPoseCmd::Request> request[m[K,
+[10.483s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[14.057s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K handle_service[m[K(std::shared_ptr<roarm_moveit::srv::MovePointCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MovePointCmd_Response_<std::allocator<void> > >)[m[K’:
+[14.057s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:35:92:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing moveit::planning_interface::MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[14.057s]    35 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[14.057s]       |                                                                                            [01;35m[K^~~~~~~[m[K
+[14.057s] In file included from [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:4[m[K:
+[14.057s] [01m[K/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.057s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[14.058s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[14.950s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K handle_service[m[K(std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Response_<std::allocator<void> > >)[m[K’:
+[14.950s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:93:94:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing moveit::planning_interface::MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[14.950s]    93 |     bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[14.950s]       |                                                                                              [01;35m[K^~~~~~~[m[K
+[14.951s] In file included from [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:8[m[K:
+[14.951s] [01m[K/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.951s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[14.951s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[14.951s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:42:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wno-unused-variable-Wunused-variable]8;;[m[K]
+[14.951s]    42 |   double [01;35m[Kcenter_z[m[K = request->z;
+[14.951s]       |          [01;35m[K^~~~~~~~[m[K
+[15.860s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K handle_service[m[K(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >)[m[K’:
+[15.860s] [01m[K/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp:14:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+[15.860s]    14 | void handle_service([01;35m[Kconst std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request[m[K,
+[15.860s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[16.607s] [ 42%] [1m[32mLinking CXX executable getposecmd_tf2[0m
+[18.080s] [ 50%] [1m[32mLinking CXX executable keyboardcontrol[0m
+[19.677s] [ 50%] Built target getposecmd_tf2
+[19.723s] [ 64%] [32mBuilding CXX object CMakeFiles/setgrippercmd.dir/src/setgrippercmd.cpp.o[0m
+[19.723s] [ 64%] [32mBuilding CXX object CMakeFiles/webappcontrol.dir/src/webappcontrol.cpp.o[0m
+[20.105s] [ 71%] [1m[32mLinking CXX executable movepointcmd[0m
+[20.914s] [ 71%] Built target keyboardcontrol
+[22.999s] [ 71%] Built target movepointcmd
+[25.216s] [ 78%] [1m[32mLinking CXX executable getposecmd[0m
+[27.834s] [ 78%] Built target getposecmd
+[29.136s] [ 85%] [1m[32mLinking CXX executable movecirclecmd[0m
+[31.590s] [ 85%] Built target movecirclecmd
+[35.309s] [ 92%] [1m[32mLinking CXX executable webappcontrol[0m
+[36.724s] [100%] [1m[32mLinking CXX executable setgrippercmd[0m
+[37.641s] [100%] Built target webappcontrol
+[39.012s] [100%] Built target setgrippercmd
+[39.033s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:/nix/store/6hrmjpzsdrpnmdnvj4a5qrv3v8bwdbfj-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd -- -j8 -l8
+[39.038s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:/nix/store/6hrmjpzsdrpnmdnvj4a5qrv3v8bwdbfj-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd
+[39.093s] -- Install configuration: "Release"
+[39.093s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd
+[39.094s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd" to ""
+[39.094s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd_tf2
+[39.095s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd_tf2" to ""
+[39.095s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/keyboardcontrol
+[39.096s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/keyboardcontrol" to ""
+[39.096s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd
+[39.096s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd" to ""
+[39.096s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movecirclecmd
+[39.097s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movecirclecmd" to ""
+[39.097s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/webappcontrol
+[39.098s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/webappcontrol" to ""
+[39.098s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/setgrippercmd
+[39.100s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/setgrippercmd" to ""
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch/command_control.launch.py
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config/command_control.rviz
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_cmd
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_cmd
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.sh
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.dsv
+[39.101s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.sh
+[39.102s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.dsv
+[39.102s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.bash
+[39.102s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.sh
+[39.102s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.zsh
+[39.102s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.dsv
+[39.102s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv
+[39.102s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/packages/roarm_moveit_cmd
+[39.103s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.103s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.103s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig.cmake
+[39.103s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig-version.cmake
+[39.103s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.xml
+[39.113s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo:/nix/store/6hrmjpzsdrpnmdnvj4a5qrv3v8bwdbfj-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd

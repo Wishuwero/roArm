@@ -1,0 +1,84 @@
+[2.271s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build
+[3.059s] running develop
+[3.505s] Removing /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web-widgets.egg-link (link to .)
+[3.609s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets' returned '0': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build
+[3.612s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_widgets build --build-base /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build install --record /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/install.log --install-scripts $base/lib/ros2web_widgets --single-version-externally-managed install_data --force
+[4.379s] running egg_info
+[4.436s] writing ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/PKG-INFO
+[4.436s] writing dependency_links to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/dependency_links.txt
+[4.437s] writing entry points to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/entry_points.txt
+[4.438s] writing requirements to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/requires.txt
+[4.438s] writing top-level names to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/top_level.txt
+[4.532s] reading manifest file '../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/SOURCES.txt'
+[4.536s] writing manifest file '../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/SOURCES.txt'
+[4.536s] running build
+[4.537s] running build_py
+[4.537s] copying ros2web_widgets/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets
+[4.537s] copying ros2web_widgets/widgets.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets
+[4.538s] copying ros2web_widgets/data/config.yml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets/data
+[4.538s] running install
+[4.552s] running install_lib
+[4.599s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web_widgets
+[4.599s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web_widgets
+[4.599s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web_widgets/data
+[4.600s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets/data/config.yml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web_widgets/data
+[4.600s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets/widgets.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web_widgets
+[4.601s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web_widgets/__init__.py to __init__.cpython-314.pyc
+[4.601s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web_widgets/widgets.py to widgets.cpython-314.pyc
+[4.603s] running install_data
+[4.604s] copying resource/ros2web_widgets -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/share/ament_index/resource_index/packages
+[4.604s] copying package.xml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets
+[4.604s] running install_egg_info
+[4.632s] Copying ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info to /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages/ros2web_widgets-0.0.0-py3.14.egg-info
+[4.633s] running install_scripts
+[4.832s] Installing widgets script to /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/ros2web_widgets
+[4.833s] writing list of installed files to '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/install.log'
+[4.942s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets' returned '0': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_widgets/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_widgets build --build-base /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/build install --record /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_widgets/install.log --install-scripts $base/lib/ros2web_widgets --single-version-externally-managed install_data --force

@@ -1,0 +1,69 @@
+[0.021s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description:/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit
+[0.953s] -- The C compiler identification is GNU 15.3.0
+[1.790s] -- The CXX compiler identification is GNU 15.3.0
+[1.847s] -- Detecting C compiler ABI info
+[2.739s] -- Detecting C compiler ABI info - done
+[3.302s] -- Check for working C compiler: /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/gcc - skipped
+[3.303s] -- Detecting C compile features
+[3.304s] -- Detecting C compile features - done
+[4.484s] -- Detecting CXX compiler ABI info
+[5.049s] -- Detecting CXX compiler ABI info - done
+[5.337s] -- Check for working CXX compiler: /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ - skipped
+[5.337s] -- Detecting CXX compile features
+[5.338s] -- Detecting CXX compile features - done
+[5.750s] -- Found ament_cmake: 1.3.14 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake/cmake)
+[5.993s] -- Found Python3: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/bin/python3 (found version "3.14.6") found components: Interpreter
+[6.180s] -- Found rosidl_default_generators: 1.2.1 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_default_generators/cmake)
+[6.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.192s] -- Found rosidl_adapter: 3.1.9 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_adapter/cmake)
+[6.245s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.128s] -- Found ament_cmake_ros: 0.10.1 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_ros/cmake)
+[7.915s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.917s] [33mCMake Warning (dev) at /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[8.917s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[8.917s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[8.917s]   the cmake_policy command to set the policy and suppress this warning.
+[8.917s] 
+[8.918s] Call Stack (most recent call first):
+[8.918s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[8.918s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[8.918s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[8.918s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.918s] [0m
+[8.953s] -- Found PythonInterp: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/bin/python3 (found suitable version "3.14.6", minimum required is "3.6")
+[8.973s] [31mCMake Error at /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:22 (find_package):
+[8.974s]   By not providing "Findpython_cmake_module.cmake" in CMAKE_MODULE_PATH this
+[8.974s]   project has asked CMake to find a package configuration file provided by
+[8.974s]   "python_cmake_module", but CMake did not find one.
+[8.974s] 
+[8.974s]   Could not find a package configuration file provided by
+[8.974s]   "python_cmake_module" with any of the following names:
+[8.974s] 
+[8.975s]     python_cmake_module.cps
+[8.975s]     python_cmake_moduleConfig.cmake
+[8.975s]     python_cmake_module-config.cmake
+[8.975s] 
+[8.975s]   Add the installation prefix of "python_cmake_module" to CMAKE_PREFIX_PATH
+[8.975s]   or set "python_cmake_module_DIR" to a directory containing one of the above
+[8.975s]   files.  If "python_cmake_module" provides a separate development package or
+[8.975s]   SDK, be sure it has been installed.
+[8.975s] Call Stack (most recent call first):
+[8.975s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[8.975s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[8.976s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[8.976s] 
+[8.976s] [0m
+[8.976s] -- Configuring incomplete, errors occurred!

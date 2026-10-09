@@ -1,0 +1,79 @@
+[1.332s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins -- -j8 -l8
+[1.601s] [100%] Built target roarm_description_hand_moveit_ikfast_plugin
+[1.644s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins -- -j8 -l8
+[1.651s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins
+[1.806s] -- Install configuration: ""
+[1.806s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib/libroarm_description_hand_moveit_ikfast_plugin.so
+[1.807s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib/libroarm_description_hand_moveit_ikfast_plugin.so" to ""
+[1.808s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/roarm_description_hand_moveit_ikfast_plugin_description.xml
+[1.808s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/library_path.sh
+[1.809s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/library_path.dsv
+[1.810s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_ikfast_plugins
+[1.810s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_ikfast_plugins
+[1.810s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/ament_prefix_path.sh
+[1.810s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/ament_prefix_path.dsv
+[1.810s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/path.sh
+[1.810s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/path.dsv
+[1.813s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/local_setup.bash
+[1.813s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/local_setup.sh
+[1.813s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/local_setup.zsh
+[1.813s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/local_setup.dsv
+[1.813s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.dsv
+[1.813s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/ament_index/resource_index/packages/roarm_moveit_ikfast_plugins
+[1.816s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/ament_index/resource_index/moveit_core__pluginlib__plugin/roarm_moveit_ikfast_plugins
+[1.816s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/export_roarm_moveit_ikfast_pluginsExport.cmake
+[1.816s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/export_roarm_moveit_ikfast_pluginsExport-noconfig.cmake
+[1.816s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[1.816s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.816s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/roarm_moveit_ikfast_pluginsConfig.cmake
+[1.817s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/roarm_moveit_ikfast_pluginsConfig-version.cmake
+[1.817s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.xml
+[1.845s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins

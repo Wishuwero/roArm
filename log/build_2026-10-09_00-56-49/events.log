@@ -1,0 +1,23 @@
+[0.000000] (-) TimerEvent: {}
+[0.001033] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001223] (-) JobUnselected: {'identifier': 'roarm_description'}
+[0.001282] (-) JobUnselected: {'identifier': 'roarm_driver'}
+[0.001324] (-) JobUnselected: {'identifier': 'roarm_moveit'}
+[0.001363] (-) JobUnselected: {'identifier': 'roarm_moveit_cmd'}
+[0.001402] (-) JobUnselected: {'identifier': 'roarm_moveit_ikfast_plugins'}
+[0.001439] (-) JobUnselected: {'identifier': 'ros2web_interfaces'}
+[0.001476] (launch_api) JobQueued: {'identifier': 'launch_api', 'dependencies': OrderedDict()}
+[0.001505] (ros2web) JobQueued: {'identifier': 'ros2web', 'dependencies': OrderedDict({'ros2web_interfaces': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces'})}
+[0.001539] (ros2web_app) JobQueued: {'identifier': 'ros2web_app', 'dependencies': OrderedDict({'ros2web_interfaces': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces', 'ros2web': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web'})}
+[0.001568] (ros2web_example_py) JobQueued: {'identifier': 'ros2web_example_py', 'dependencies': OrderedDict({'ros2web_interfaces': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces', 'ros2web': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web'})}
+[0.001595] (roarm_web_app) JobQueued: {'identifier': 'roarm_web_app', 'dependencies': OrderedDict({'ros2web_interfaces': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces', 'ros2web': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web', 'ros2web_app': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app'})}
+[0.001636] (ros2web_widgets) JobQueued: {'identifier': 'ros2web_widgets', 'dependencies': OrderedDict({'ros2web_interfaces': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces', 'ros2web': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web', 'ros2web_app': '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app'})}
+[0.002014] (ros2web) JobStarted: {'identifier': 'ros2web'}
+[0.009723] (ros2web) JobEnded: {'identifier': 'ros2web', 'rc': 1}
+[0.010858] (launch_api) JobStarted: {'identifier': 'launch_api'}
+[0.014599] (launch_api) JobEnded: {'identifier': 'launch_api', 'rc': 'SIGINT'}
+[0.025310] (ros2web_app) JobSkipped: {'identifier': 'ros2web_app'}
+[0.025372] (ros2web_example_py) JobSkipped: {'identifier': 'ros2web_example_py'}
+[0.025396] (roarm_web_app) JobSkipped: {'identifier': 'roarm_web_app'}
+[0.025416] (ros2web_widgets) JobSkipped: {'identifier': 'ros2web_widgets'}
+[0.025438] (-) EventReactorShutdown: {}

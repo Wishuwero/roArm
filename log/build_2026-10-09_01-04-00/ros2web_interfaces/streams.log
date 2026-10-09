@@ -1,0 +1,79 @@
+[0.034s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces
+[0.613s] -- Found ament_cmake: 1.3.14 (/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake)
+[0.614s] -- Found Python3: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/bin/python3 (found version "3.14.6") found components: Interpreter
+[0.614s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.614s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.615s]   CMake.
+[0.615s] 
+[0.616s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.618s]   to tell CMake that the project requires at least <min> but has been updated
+[0.618s]   to work with policies introduced by <max> or earlier.
+[0.618s] 
+[0.623s] [0m
+[0.850s] -- Found rosidl_default_generators: 1.2.1 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_default_generators/cmake)
+[0.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.872s] -- Found rosidl_adapter: 3.1.9 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_adapter/cmake)
+[0.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.958s] -- Found ament_cmake_ros: 0.10.1 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_ros/cmake)
+[4.874s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.859s] [33mCMake Warning (dev) at /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[6.859s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.859s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.859s]   the cmake_policy command to set the policy and suppress this warning.
+[6.860s] 
+[6.860s] Call Stack (most recent call first):
+[6.860s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.860s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.860s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[6.860s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.860s] [0m
+[6.922s] -- Found PythonInterp: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/bin/python3 (found suitable version "3.14.6", minimum required is "3.6")
+[6.957s] [31mCMake Error at /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:22 (find_package):
+[6.958s]   By not providing "Findpython_cmake_module.cmake" in CMAKE_MODULE_PATH this
+[6.958s]   project has asked CMake to find a package configuration file provided by
+[6.958s]   "python_cmake_module", but CMake did not find one.
+[6.958s] 
+[6.958s]   Could not find a package configuration file provided by
+[6.958s]   "python_cmake_module" with any of the following names:
+[6.958s] 
+[6.958s]     python_cmake_module.cps
+[6.958s]     python_cmake_moduleConfig.cmake
+[6.959s]     python_cmake_module-config.cmake
+[6.959s] 
+[6.959s]   Add the installation prefix of "python_cmake_module" to CMAKE_PREFIX_PATH
+[6.959s]   or set "python_cmake_module_DIR" to a directory containing one of the above
+[6.959s]   files.  If "python_cmake_module" provides a separate development package or
+[6.959s]   SDK, be sure it has been installed.
+[6.959s] Call Stack (most recent call first):
+[6.959s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.959s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.959s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[6.960s] 
+[6.960s] [0m
+[6.960s] -- Configuring incomplete, errors occurred!
+[6.983s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces' returned '1': CMAKE_PREFIX_PATH=/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces

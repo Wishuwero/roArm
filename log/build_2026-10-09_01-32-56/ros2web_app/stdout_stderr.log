@@ -1,0 +1,18 @@
+/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+writing ros2web_app.egg-info/PKG-INFO
+writing dependency_links to ros2web_app.egg-info/dependency_links.txt
+writing entry points to ros2web_app.egg-info/entry_points.txt
+writing requirements to ros2web_app.egg-info/requires.txt
+writing top-level names to ros2web_app.egg-info/top_level.txt
+reading manifest file 'ros2web_app.egg-info/SOURCES.txt'
+writing manifest file 'ros2web_app.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web-app.egg-link (link to .)
+
+Installed /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app
+running symlink_data
+symbolically linking /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/resource/ros2web_app -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/share/ament_index/resource_index/packages
+symbolically linking /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/package.xml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/share/ros2web_app

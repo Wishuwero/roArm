@@ -1,0 +1,49 @@
+[1.456s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit_ikfast_plugins
+[1.570s] -- Found ament_cmake: 1.3.14 (/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake)
+[2.538s] -- Found moveit_core: 2.5.10 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/moveit_core/cmake)
+[2.540s] [33mCMake Warning (dev) at /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+[2.541s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.541s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.541s]   set the policy and suppress this warning.
+[2.542s] 
+[2.543s] Call Stack (most recent call first):
+[2.543s]   /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[2.543s]   CMakeLists.txt:11 (find_package)
+[2.543s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.543s] [0m
+[2.803s] -- Found rclcpp: 16.0.21 (/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rclcpp/cmake)
+[3.005s] Traceback (most recent call last):
+[3.005s]   File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/.cmake-wrapped"[0m, line [35m9[0m, in [35m<module>[0m
+[3.006s]     sys.exit([31mcmake[0m[1;31m()[0m)
+[3.006s]              [31m~~~~~[0m[1;31m^^[0m
+[3.006s]   File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/lib/python3.14/site-packages/cmake/__init__.py"[0m, line [35m13[0m, in [35mcmake[0m
+[3.006s]     raise SystemExit([31m_program[0m[1;31m('cmake', sys.argv[1:])[0m)
+[3.006s]                      [31m~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[3.006s]   File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/lib/python3.14/site-packages/cmake/__init__.py"[0m, line [35m10[0m, in [35m_program[0m
+[3.006s]     return [31msubprocess.call[0m[1;31m([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)[0m
+[3.007s]            [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[3.007s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m398[0m, in [35mcall[0m
+[3.007s]     return [31mp.wait[0m[1;31m(timeout=timeout)[0m
+[3.007s]            [31m~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+[3.007s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m1279[0m, in [35mwait[0m
+[3.007s]     return [31mself._wait[0m[1;31m(timeout=timeout)[0m
+[3.007s]            [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+[3.008s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m2084[0m, in [35m_wait[0m
+[3.008s]     (pid, sts) = [31mself._try_wait[0m[1;31m(0)[0m
+[3.008s]                  [31m~~~~~~~~~~~~~~[0m[1;31m^^^[0m
+[3.008s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m2042[0m, in [35m_try_wait[0m
+[3.008s]     (pid, sts) = [31mos.waitpid[0m[1;31m(self.pid, wait_flags)[0m
+[3.008s]                  [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+[3.008s] [1;35mKeyboardInterrupt[0m

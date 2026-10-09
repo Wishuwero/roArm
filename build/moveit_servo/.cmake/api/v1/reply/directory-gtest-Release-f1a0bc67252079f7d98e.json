@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gtest",
+		"source" : "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/src/gtest_vendor"
+	}
+}

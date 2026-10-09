@@ -1,0 +1,60 @@
+[0.041s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo -- -j8 -l8
+[0.876s] [  6%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/servo_parameters.cpp.o[0m
+[0.876s] [  6%] [32mBuilding CXX object CMakeFiles/servo_controller_input.dir/src/teleop_demo/joystick_servo_example.cpp.o[0m
+[0.877s] [ 12%] [32mBuilding CXX object CMakeFiles/fake_command_publisher.dir/test/publish_fake_jog_commands.cpp.o[0m
+[0.877s] [ 12%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/parameter_descriptor_builder.cpp.o[0m
+[14.676s] [ 15%] [1m[32mLinking CXX executable fake_command_publisher[0m
+[15.360s] [ 15%] Built target fake_command_publisher
+[15.397s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.398s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.990s] [ 24%] [1m[32mLinking CXX static library libgtest_main.a[0m
+[17.048s] [ 24%] Built target gtest_main
+[21.714s] [ 27%] [1m[32mLinking CXX shared library libmoveit_servo_lib_parameters.so[0m
+[23.307s] [ 27%] Built target moveit_servo_lib_parameters
+[23.342s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/collision_check.cpp.o[0m
+[23.344s] [ 36%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo.cpp.o[0m
+[23.344s] [ 36%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/enforce_limits.cpp.o[0m
+[27.004s] [ 39%] [1m[32mLinking CXX shared library libservo_controller_input.so[0m
+[27.207s] [ 42%] [1m[32mLinking CXX static library libgtest.a[0m
+[27.283s] [ 42%] Built target gtest
+[27.329s] [ 45%] [32mBuilding CXX object CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o[0m
+[27.329s] [ 48%] [32mBuilding CXX object CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o[0m
+[28.923s] [ 48%] Built target servo_controller_input
+[30.020s] [ 51%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/utilities.cpp.o[0m
+[30.021s] [ 54%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o[0m
+[70.473s] [ 57%] [1m[32mLinking CXX executable test_servo_collision[0m
+[72.454s] [ 57%] Built target test_servo_collision
+[75.056s] [ 60%] [1m[32mLinking CXX executable test_servo_integration[0m
+[76.945s] [ 60%] Built target test_servo_integration
+[100.121s] [ 63%] [1m[32mLinking CXX shared library libmoveit_servo_lib.so[0m
+[101.836s] [ 63%] Built target moveit_servo_lib
+[101.874s] [ 66%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[101.878s] [ 69%] [32mBuilding CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o[0m
+[101.881s] [ 72%] [32mBuilding CXX object CMakeFiles/servo_calcs_unit_tests.dir/test/servo_calcs_unit_tests.cpp.o[0m
+[119.054s] [ 75%] [1m[32mLinking CXX shared library libservo_node.so[0m
+[120.780s] [ 75%] Built target servo_node
+[120.815s] [ 78%] [32mBuilding CXX object CMakeFiles/servo_node_main.dir/src/servo_node_main.cpp.o[0m
+[130.530s] [ 81%] [1m[32mLinking CXX shared library libpose_tracking.so[0m
+[132.403s] [ 81%] Built target pose_tracking
+[132.438s] [ 84%] [32mBuilding CXX object CMakeFiles/test_servo_pose_tracking.dir/test/pose_tracking_test.cpp.o[0m
+[132.441s] [ 87%] [32mBuilding CXX object CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o[0m
+[135.387s] [ 90%] [1m[32mLinking CXX executable servo_calcs_unit_tests[0m
+[136.040s] [ 93%] [1m[32mLinking CXX executable servo_node_main[0m
+[137.351s] [ 93%] Built target servo_calcs_unit_tests
+[137.949s] [ 93%] Built target servo_node_main
+[158.107s] [ 96%] [1m[32mLinking CXX executable servo_pose_tracking_demo[0m
+[158.698s] [100%] [1m[32mLinking CXX executable test_servo_pose_tracking[0m
+[159.906s] [100%] Built target servo_pose_tracking_demo
+[160.422s] [100%] Built target test_servo_pose_tracking

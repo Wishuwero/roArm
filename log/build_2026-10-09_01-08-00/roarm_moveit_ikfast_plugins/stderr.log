@@ -1,0 +1,20 @@
+[33mCMake Warning (dev) at /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+  CMakeLists.txt:11 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake:290 (message):
+  Could NOT find BLAS (missing: BLAS_LIBRARIES)
+Call Stack (most recent call first):
+  /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake:654 (_FPHSA_FAILURE_MESSAGE)
+  /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/FindBLAS.cmake:1503 (find_package_handle_standard_args)
+  /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/FindLAPACK.cmake:275 (find_package)
+  /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/FindLAPACK.cmake:321 (_lapack_find_dependency)
+  CMakeLists.txt:16 (find_package)
+
+[0m

@@ -1,0 +1,33 @@
+{
+  "package_name": "ros2web_interfaces",
+  "output_dir": "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_typesupport_introspection_c/ros2web_interfaces",
+  "template_dir": "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/BodyPart.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/ContentType.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/HTTPStatusCode.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsgData.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsgType.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsg.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:srv/HTTP.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:srv/WS.idl"
+  ],
+  "target_dependencies": [
+    "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/python3.14/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/BodyPart.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/ContentType.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/HTTPStatusCode.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/WSMsgData.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/WSMsgType.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/WSMsg.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/srv/HTTP.idl",
+    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/srv/WS.idl"
+  ]
+}

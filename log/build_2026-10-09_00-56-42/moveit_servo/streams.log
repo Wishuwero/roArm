@@ -1,0 +1,63 @@
+[0.035s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo
+[0.622s] -- The C compiler identification is GNU 15.3.0
+[1.166s] -- The CXX compiler identification is GNU 15.3.0
+[1.202s] -- Detecting C compiler ABI info
+[1.794s] -- Detecting C compiler ABI info - done
+[2.261s] -- Check for working C compiler: /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/gcc - skipped
+[2.262s] -- Detecting C compile features
+[2.263s] -- Detecting C compile features - done
+[3.352s] -- Detecting CXX compiler ABI info
+[4.006s] -- Detecting CXX compiler ABI info - done
+[4.380s] -- Check for working CXX compiler: /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ - skipped
+[4.381s] -- Detecting CXX compile features
+[4.382s] -- Detecting CXX compile features - done
+[4.996s] -- Found moveit_common: 2.5.10 (/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/moveit_common/cmake)
+[5.010s] -- Found ament_cmake: 1.3.14 (/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake)
+[5.073s] [31mCMake Error at /nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package):
+[5.074s]   By not providing "Findament_cmake_core.cmake" in CMAKE_MODULE_PATH this
+[5.074s]   project has asked CMake to find a package configuration file provided by
+[5.074s]   "ament_cmake_core", but CMake did not find one.
+[5.074s] 
+[5.074s]   Could not find a package configuration file provided by "ament_cmake_core"
+[5.074s]   with any of the following names:
+[5.074s] 
+[5.074s]     ament_cmake_core.cps
+[5.075s]     ament_cmake_coreConfig.cmake
+[5.075s]     ament_cmake_core-config.cmake
+[5.077s] 
+[5.077s]   Add the installation prefix of "ament_cmake_core" to CMAKE_PREFIX_PATH or
+[5.077s]   set "ament_cmake_core_DIR" to a directory containing one of the above
+[5.077s]   files.  If "ament_cmake_core" provides a separate development package or
+[5.077s]   SDK, be sure it has been installed.
+[5.078s] Call Stack (most recent call first):
+[5.078s]   /nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[5.078s]   /nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/moveit_common/cmake/moveit_package.cmake:32 (find_package)
+[5.078s]   CMakeLists.txt:31 (moveit_package)
+[5.078s] 
+[5.078s] [0m
+[5.078s] -- Configuring incomplete, errors occurred!
+[5.092s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo' returned '1': CMAKE_PREFIX_PATH=/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo

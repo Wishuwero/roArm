@@ -6,7 +6,7 @@ find_package(moveit_common REQUIRED)
 moveit_package()
 
 find_package(Eigen3 REQUIRED)
-find_package(Boost REQUIRED system filesystem date_time thread)
+find_package(Boost REQUIRED  filesystem date_time thread) # MADE CHANGE HERE, REMOVED "system" between REQUIRED and filesystem
 find_package(ament_cmake REQUIRED)
 find_package(control_msgs REQUIRED)
 find_package(moveit_core REQUIRED)

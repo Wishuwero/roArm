@@ -1,0 +1,83 @@
+[0.035s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description -- -j8 -l8
+[0.683s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description -- -j8 -l8
+[0.781s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description
+[1.476s] -- Install configuration: ""
+[1.477s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/config
+[1.477s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/config/roarm_description.rviz
+[1.478s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/config/joint_names_roarm.yaml
+[1.478s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/launch
+[1.478s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/launch/display.launch.py
+[1.479s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes
+[1.479s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/base_link.STL
+[1.479s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/link2.STL
+[1.479s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/link1.STL
+[1.479s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/gripper_link.STL
+[1.479s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/meshes/link3.STL
+[1.480s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/urdf
+[1.480s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/urdf/roarm_description_web_app.urdf
+[1.480s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/urdf/roarm_description.urdf
+[1.480s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/urdf/roarm_description.csv
+[1.480s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/ament_index/resource_index/package_run_dependencies/roarm_description
+[1.480s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/ament_index/resource_index/parent_prefix_path/roarm_description
+[1.481s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/environment/ament_prefix_path.sh
+[1.481s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/environment/ament_prefix_path.dsv
+[1.481s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/environment/path.sh
+[1.481s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/environment/path.dsv
+[1.481s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/local_setup.bash
+[1.481s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/local_setup.sh
+[1.482s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/local_setup.zsh
+[1.482s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/local_setup.dsv
+[1.482s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/package.dsv
+[1.482s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/ament_index/resource_index/packages/roarm_description
+[1.482s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/cmake/roarm_descriptionConfig.cmake
+[1.482s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/cmake/roarm_descriptionConfig-version.cmake
+[1.483s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description/share/roarm_description/package.xml
+[1.498s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description

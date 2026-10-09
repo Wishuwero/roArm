@@ -1,0 +1,227 @@
+running develop
+Removing /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web-app.egg-link (link to .)
+running egg_info
+writing ../../../../build/ros2web_app/ros2web_app.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2web_app/ros2web_app.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2web_app/ros2web_app.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2web_app/ros2web_app.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2web_app/ros2web_app.egg-info/top_level.txt
+reading manifest file '../../../../build/ros2web_app/ros2web_app.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2web_app/ros2web_app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+copying ros2web_app/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+copying ros2web_app/app.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+copying ros2web_app/handler/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+copying ros2web_app/handler/app.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+copying ros2web_app/handler/web_rtc.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+copying ros2web_app/api/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+copying ros2web_app/api/app_base.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+copying ros2web_app/api/state.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+copying ros2web_app/verb/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+copying ros2web_app/verb/create.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+copying ros2web_app/boilerplate/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+copying ros2web_app/boilerplate/template.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+copying ros2web_app/utilities/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+copying ros2web_app/utilities/yaml.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+copying ros2web_app/utilities/ros_node.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+copying ros2web_app/handler/track/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+copying ros2web_app/handler/track/image.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+copying ros2web_app/utilities/ros/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+copying ros2web_app/utilities/ros/param.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+copying ros2web_app/utilities/ros/service.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data
+copying ros2web_app/data/config.yml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python
+copying ros2web_app/data/template/python/resource_file.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python
+copying ros2web_app/data/template/python/setup.py.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python
+copying ros2web_app/data/template/python/__init__.py.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python
+copying ros2web_app/data/template/python/app.py.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python
+copying ros2web_app/data/template/python/setup.cfg.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python
+copying ros2web_app/data/template/python/config.yml.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python
+copying ros2web_app/data/template/python/package.xml.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public
+copying ros2web_app/data/public/index.html -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-500-normal-4bc088e9.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-greek-300-normal-455c2c1a.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-greek-700-normal-3f1a5012.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-500-normal-b0195382.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-ext-400-normal-c2b94086.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-400-normal-b7ef2cd1.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-700-normal-f5aebdfe.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-400-normal-adba67d2.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-ext-700-normal-fc66f942.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-greek-400-normal-daf51ab5.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-vietnamese-700-normal-4ec57f2a.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-ext-400-normal-3c23eb02.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-greek-400-normal-076b9dc1.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-vietnamese-500-normal-0948409a.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-300-normal-ddb5c61d.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-vietnamese-400-normal-77b24796.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-300-normal-c07952fe.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-ext-300-normal-b076e863.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-400-normal-f6734f81.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-700-normal-6a84eeee.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-500-normal-3ac31048.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-300-normal-47aa3bfa.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-500-normal-aeed0e51.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-vietnamese-700-normal-d986b503.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-vietnamese-400-normal-d2390f1a.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-ext-300-normal-35da7ccd.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-700-normal-d89bc0fc.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-ext-500-normal-7f1c829b.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-400-normal-495d38d4.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-500-normal-57138788.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-greek-700-normal-1c9cc76f.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-ext-700-normal-3d1cbacf.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-vietnamese-500-normal-7899e6a5.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-400-normal-0a32035a.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-700-normal-3c505383.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-greek-300-normal-6bb1ef10.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-ext-500-normal-a303676a.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-300-normal-f7591131.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-300-normal-435e4b7f.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/index-c02a5ffd.css -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-700-normal-6f82c5e2.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-greek-500-normal-93181eb7.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-700-normal-8ea7934f.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-vietnamese-300-normal-51f3f418.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-latin-400-normal-a9fdbefa.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-vietnamese-300-normal-7747ef64.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-500-normal-3728fbdd.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-greek-500-normal-713780d8.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+copying ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-300-normal-5e06c977.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/js
+copying ros2web_app/data/public/plugin/app/js/index-00242007.js -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/js
+running install
+running install_lib
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler/track
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler/track
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track/image.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler/track
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/app.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/web_rtc.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/api
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/api
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/app_base.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/api
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/state.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/api
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/verb
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/verb
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb/create.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/verb
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/boilerplate
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/boilerplate
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate/template.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/boilerplate
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template/python
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python/resource_file.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template/python
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python/setup.py.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template/python
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python/__init__.py.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template/python
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python/app.py.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template/python
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python/setup.cfg.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template/python
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python/config.yml.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template/python
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/template/python/package.xml.em -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/template/python
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-500-normal-4bc088e9.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-greek-300-normal-455c2c1a.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-greek-700-normal-3f1a5012.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-500-normal-b0195382.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-ext-400-normal-c2b94086.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-400-normal-b7ef2cd1.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-700-normal-f5aebdfe.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-400-normal-adba67d2.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-ext-700-normal-fc66f942.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-greek-400-normal-daf51ab5.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app/js
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/js/index-00242007.js -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app/js
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-vietnamese-700-normal-4ec57f2a.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-ext-400-normal-3c23eb02.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-greek-400-normal-076b9dc1.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-vietnamese-500-normal-0948409a.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-300-normal-ddb5c61d.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-vietnamese-400-normal-77b24796.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-300-normal-c07952fe.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-ext-300-normal-b076e863.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-400-normal-f6734f81.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-700-normal-6a84eeee.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-500-normal-3ac31048.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-300-normal-47aa3bfa.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-500-normal-aeed0e51.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-vietnamese-700-normal-d986b503.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-vietnamese-400-normal-d2390f1a.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-ext-300-normal-35da7ccd.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-700-normal-d89bc0fc.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-ext-500-normal-7f1c829b.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-400-normal-495d38d4.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-500-normal-57138788.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-greek-700-normal-1c9cc76f.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-ext-700-normal-3d1cbacf.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-vietnamese-500-normal-7899e6a5.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-400-normal-0a32035a.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-700-normal-3c505383.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-greek-300-normal-6bb1ef10.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-ext-500-normal-a303676a.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-300-normal-f7591131.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-300-normal-435e4b7f.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/index-c02a5ffd.css -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-700-normal-6f82c5e2.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-greek-500-normal-93181eb7.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-700-normal-8ea7934f.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-vietnamese-300-normal-51f3f418.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-latin-400-normal-a9fdbefa.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-vietnamese-300-normal-7747ef64.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-500-normal-3728fbdd.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-greek-500-normal-713780d8.woff2 -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/plugin/app/roboto-cyrillic-ext-300-normal-5e06c977.woff -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public/plugin/app
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/index.html -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data/public
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/config.yml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/data
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/app.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/yaml.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities
+creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/ros
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/ros
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/param.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/ros
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/service.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/ros
+copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros_node.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler/track/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler/track/image.py to image.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler/app.py to app.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/handler/web_rtc.py to web_rtc.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/api/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/api/app_base.py to app_base.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/api/state.py to state.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/verb/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/verb/create.py to create.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/boilerplate/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/boilerplate/template.py to template.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/app.py to app.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/yaml.py to yaml.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/ros/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/ros/param.py to param.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/ros/service.py to service.cpython-314.pyc
+byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app/utilities/ros_node.py to ros_node.cpython-314.pyc
+running install_data
+copying resource/ros2web_app -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/share/ament_index/resource_index/packages
+copying package.xml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/share/ros2web_app
+running install_egg_info
+Copying ../../../../build/ros2web_app/ros2web_app.egg-info to /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_app/lib/python3.14/site-packages/ros2web_app-0.0.0-py3.14.egg-info
+running install_scripts
+writing list of installed files to '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_app/install.log'

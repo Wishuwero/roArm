@@ -1,0 +1,128 @@
+[0.041s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo -- -j8 -l8
+[0.688s] [  9%] Built target moveit_servo_lib_parameters
+[0.688s] [ 15%] Built target gtest_main
+[0.689s] [ 21%] Built target gtest
+[0.689s] [ 27%] Built target fake_command_publisher
+[0.689s] [ 45%] Built target moveit_servo_lib
+[0.689s] [ 57%] Built target test_servo_integration
+[0.689s] [ 57%] Built target test_servo_collision
+[0.689s] [ 63%] Built target servo_controller_input
+[0.690s] [ 69%] Built target pose_tracking
+[0.690s] [ 75%] Built target servo_node
+[0.690s] [ 81%] Built target servo_calcs_unit_tests
+[0.707s] [ 87%] Built target servo_pose_tracking_demo
+[0.709s] [ 93%] Built target test_servo_pose_tracking
+[0.718s] [100%] Built target servo_node_main
+[1.292s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo -- -j8 -l8
+[1.301s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo': CMAKE_PREFIX_PATH=/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo
+[1.396s] -- Install configuration: "Release"
+[1.401s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5
+[1.403s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5" to ""
+[1.403s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib.so
+[1.404s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5
+[1.405s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5" to ""
+[1.405s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so
+[1.406s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libpose_tracking.so
+[1.408s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libpose_tracking.so" to ""
+[1.409s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libservo_node.so
+[1.410s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libservo_node.so" to ""
+[1.411s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libservo_controller_input.so
+[1.415s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/libservo_controller_input.so" to ""
+[1.415s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/servo_node_main
+[1.418s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/servo_node_main" to ""
+[1.422s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo
+[1.422s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo" to ""
+[1.422s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/fake_command_publisher
+[1.423s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/lib/moveit_servo/fake_command_publisher" to ""
+[1.423s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include
+[1.423s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo
+[1.423s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/status_codes.h
+[1.424s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo.h
+[1.424s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/pose_tracking.h
+[1.424s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/parameter_descriptor_builder.hpp
+[1.424s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_calcs.h
+[1.424s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/collision_check.h
+[1.424s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_node.h
+[1.425s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/utilities.h
+[1.425s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_server.h
+[1.425s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/make_shared_from_pool.h
+[1.425s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/servo_parameters.h
+[1.425s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/include/moveit_servo/enforce_limits.hpp
+[1.426s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/launch
+[1.426s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/launch/demo.launch.py
+[1.426s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/launch/servo_control.launch.py
+[1.426s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config
+[1.426s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/roarm_simulated_config.yaml
+[1.426s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/demo.rviz
+[1.426s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/config/servo_control.rviz
+[1.427s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+[1.427s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+[1.427s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+[1.427s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+[1.427s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.sh
+[1.427s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+[1.427s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/path.sh
+[1.428s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/environment/path.dsv
+[1.428s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.bash
+[1.428s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.sh
+[1.428s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.zsh
+[1.428s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/local_setup.dsv
+[1.428s] -- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.dsv
+[1.429s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+[1.429s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+[1.429s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport.cmake
+[1.429s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport-release.cmake
+[1.431s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_targets-extras.cmake
+[1.431s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.432s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+[1.432s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+[1.432s] -- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo/share/moveit_servo/package.xml
+[1.452s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo' returned '0': CMAKE_PREFIX_PATH=/nix/store/v8hbrb9fzrjspisni8w1j6c95mwy6bpy-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo

@@ -1,0 +1,91 @@
+[2.626s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/launch_api': NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages:${PYTHONPATH} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_api build --build-base /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build install --record /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/install.log --install-scripts $base/lib/launch_api --single-version-externally-managed install_data
+[3.104s] /nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.104s]   warnings.warn(msg)
+[3.353s] running egg_info
+[3.389s] creating ../../../build/launch_api/launch_api.egg-info
+[3.389s] writing ../../../build/launch_api/launch_api.egg-info/PKG-INFO
+[3.389s] writing dependency_links to ../../../build/launch_api/launch_api.egg-info/dependency_links.txt
+[3.390s] writing requirements to ../../../build/launch_api/launch_api.egg-info/requires.txt
+[3.391s] writing top-level names to ../../../build/launch_api/launch_api.egg-info/top_level.txt
+[3.392s] writing manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+[3.472s] reading manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+[3.473s] adding license file 'LICENSE'
+[3.474s] writing manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+[3.475s] running build
+[3.476s] running build_py
+[3.476s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api
+[3.477s] copying launch_api/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api
+[3.477s] copying launch_api/service.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api
+[3.477s] copying launch_api/process_proxy.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api
+[3.479s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/events
+[3.479s] copying launch_api/events/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/events
+[3.479s] copying launch_api/events/execution_process.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/events
+[3.480s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions
+[3.480s] copying launch_api/actions/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions
+[3.484s] copying launch_api/actions/process.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions
+[3.484s] copying launch_api/actions/process_manager.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions
+[3.484s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities
+[3.484s] copying launch_api/utilities/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities
+[3.485s] copying launch_api/utilities/node_wrapper.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities
+[3.485s] copying launch_api/utilities/logger.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities
+[3.485s] running install
+[3.503s] running install_lib
+[3.542s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api
+[3.544s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api
+[3.544s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/events
+[3.544s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/events/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/events
+[3.545s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/events/execution_process.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/events
+[3.546s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/actions
+[3.547s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/actions
+[3.547s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions/process.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/actions
+[3.548s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions/process_manager.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/actions
+[3.549s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/utilities
+[3.549s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/utilities
+[3.551s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities/node_wrapper.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/utilities
+[3.551s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities/logger.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/utilities
+[3.551s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/service.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api
+[3.552s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build/lib/launch_api/process_proxy.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api
+[3.554s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/__init__.py to __init__.cpython-314.pyc
+[3.554s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/events/__init__.py to __init__.cpython-314.pyc
+[3.555s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/events/execution_process.py to execution_process.cpython-314.pyc
+[3.556s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/actions/__init__.py to __init__.cpython-314.pyc
+[3.558s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/actions/process.py to process.cpython-314.pyc
+[3.561s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/actions/process_manager.py to process_manager.cpython-314.pyc
+[3.563s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/utilities/__init__.py to __init__.cpython-314.pyc
+[3.564s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/utilities/node_wrapper.py to node_wrapper.cpython-314.pyc
+[3.565s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/utilities/logger.py to logger.cpython-314.pyc
+[3.565s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/service.py to service.cpython-314.pyc
+[3.570s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api/process_proxy.py to process_proxy.cpython-314.pyc
+[3.572s] running install_data
+[3.573s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/share/ament_index/resource_index/packages
+[3.573s] copying resource/launch_api -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/share/ament_index/resource_index/packages
+[3.574s] copying package.xml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/share/launch_api
+[3.574s] running install_egg_info
+[3.613s] Copying ../../../build/launch_api/launch_api.egg-info to /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages/launch_api-0.0.0-py3.14.egg-info
+[3.615s] running install_scripts
+[3.813s] writing list of installed files to '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/install.log'
+[3.913s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/launch_api' returned '0': NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/launch_api/lib/python3.14/site-packages:${PYTHONPATH} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_api build --build-base /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/build install --record /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/launch_api/install.log --install-scripts $base/lib/launch_api --single-version-externally-managed install_data

@@ -1,0 +1,122 @@
+[1.635s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build
+[2.060s] /nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.060s]   warnings.warn(msg)
+[2.282s] running develop
+[2.535s] Removing /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web.egg-link (link to .)
+[2.610s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web' returned '0': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build
+[2.613s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web build --build-base /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build install --record /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/install.log --install-scripts $base/lib/ros2web --single-version-externally-managed install_data --force
+[2.997s] /nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.997s]   warnings.warn(msg)
+[3.192s] running egg_info
+[3.222s] writing ../../../../build/ros2web/ros2web.egg-info/PKG-INFO
+[3.223s] writing dependency_links to ../../../../build/ros2web/ros2web.egg-info/dependency_links.txt
+[3.223s] writing entry points to ../../../../build/ros2web/ros2web.egg-info/entry_points.txt
+[3.223s] writing requirements to ../../../../build/ros2web/ros2web.egg-info/requires.txt
+[3.224s] writing top-level names to ../../../../build/ros2web/ros2web.egg-info/top_level.txt
+[3.289s] reading manifest file '../../../../build/ros2web/ros2web.egg-info/SOURCES.txt'
+[3.291s] writing manifest file '../../../../build/ros2web/ros2web.egg-info/SOURCES.txt'
+[3.291s] running build
+[3.291s] running build_py
+[3.292s] copying ros2web/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web
+[3.292s] copying ros2web/handler/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/handler
+[3.292s] copying ros2web/api/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/api
+[3.293s] copying ros2web/api/handler.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/api
+[3.293s] copying ros2web/api/ros_executor.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/api
+[3.293s] copying ros2web/api/ws_client.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/api
+[3.294s] copying ros2web/verb/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/verb
+[3.294s] copying ros2web/verb/server.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/verb
+[3.295s] copying ros2web/command/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/command
+[3.295s] copying ros2web/command/web.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/command
+[3.295s] copying ros2web/utilities/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities
+[3.295s] copying ros2web/utilities/socket.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities
+[3.296s] copying ros2web/utilities/msg.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities
+[3.297s] running install
+[3.309s] running install_lib
+[3.340s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web
+[3.340s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web
+[3.341s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/handler
+[3.341s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/handler/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/handler
+[3.341s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api
+[3.341s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/api/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api
+[3.342s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/api/handler.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api
+[3.342s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/api/ros_executor.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api
+[3.342s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/api/ws_client.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api
+[3.342s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/verb
+[3.342s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/verb/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/verb
+[3.342s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/verb/server.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/verb
+[3.342s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/command
+[3.343s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/command/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/command
+[3.343s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/command/web.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/command
+[3.343s] creating /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/utilities
+[3.343s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities/__init__.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/utilities
+[3.343s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities/socket.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/utilities
+[3.344s] copying /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities/msg.py -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/utilities
+[3.345s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/__init__.py to __init__.cpython-314.pyc
+[3.346s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/handler/__init__.py to __init__.cpython-314.pyc
+[3.347s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api/__init__.py to __init__.cpython-314.pyc
+[3.347s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api/handler.py to handler.cpython-314.pyc
+[3.353s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api/ros_executor.py to ros_executor.cpython-314.pyc
+[3.354s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/api/ws_client.py to ws_client.cpython-314.pyc
+[3.357s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/verb/__init__.py to __init__.cpython-314.pyc
+[3.358s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/verb/server.py to server.cpython-314.pyc
+[3.362s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/command/__init__.py to __init__.cpython-314.pyc
+[3.363s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/command/web.py to web.cpython-314.pyc
+[3.363s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/utilities/__init__.py to __init__.cpython-314.pyc
+[3.364s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/utilities/socket.py to socket.cpython-314.pyc
+[3.364s] byte-compiling /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web/utilities/msg.py to msg.cpython-314.pyc
+[3.365s] running install_data
+[3.366s] copying resource/ros2web -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/share/ament_index/resource_index/packages
+[3.366s] copying package.xml -> /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/share/ros2web
+[3.366s] running install_egg_info
+[3.397s] Copying ../../../../build/ros2web/ros2web.egg-info to /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web-0.0.1-py3.14.egg-info
+[3.398s] running install_scripts
+[3.567s] writing list of installed files to '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/install.log'
+[3.649s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web' returned '0': AMENT_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib:${LD_LIBRARY_PATH} NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages:/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2web build --build-base /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/build install --record /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web/install.log --install-scripts $base/lib/ros2web --single-version-externally-managed install_data --force

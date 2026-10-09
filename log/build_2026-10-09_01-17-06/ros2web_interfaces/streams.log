@@ -1,0 +1,126 @@
+[0.034s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces -- -j8 -l8
+[0.692s] [  1%] [1m[34mGenerating C code for ROS interfaces[0m
+[0.693s] [  2%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[4.580s] [  2%] Built target ros2web_interfaces__cpp
+[4.601s] [  3%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/body_part__functions.c.o[0m
+[4.601s] [  4%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/content_type__functions.c.o[0m
+[4.603s] [  5%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/http_status_code__functions.c.o[0m
+[4.844s] [  6%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/ws_msg_data__functions.c.o[0m
+[4.856s] [  7%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/ws_msg_type__functions.c.o[0m
+[4.878s] [  9%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/msg/detail/ws_msg__functions.c.o[0m
+[5.073s] [ 10%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/srv/detail/http__functions.c.o[0m
+[5.459s] [ 11%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2web_interfaces/srv/detail/ws__functions.c.o[0m
+[5.767s] [ 12%] [1m[32mLinking C shared library libros2web_interfaces__rosidl_generator_c.so[0m
+[6.258s] [ 12%] Built target ros2web_interfaces__rosidl_generator_c
+[6.279s] [ 13%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[8.676s] [ 14%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/body_part__type_support.cpp.o[0m
+[9.564s] [ 15%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/content_type__type_support.cpp.o[0m
+[10.266s] [ 17%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/http_status_code__type_support.cpp.o[0m
+[10.870s] [ 18%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/ws_msg_data__type_support.cpp.o[0m
+[11.523s] [ 19%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/ws_msg_type__type_support.cpp.o[0m
+[12.140s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/msg/detail/ws_msg__type_support.cpp.o[0m
+[12.759s] [ 21%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/srv/detail/http__type_support.cpp.o[0m
+[13.898s] [ 22%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2web_interfaces/srv/detail/ws__type_support.cpp.o[0m
+[14.616s] [ 23%] [1m[32mLinking CXX shared library libros2web_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[15.024s] [ 23%] Built target ros2web_interfaces__rosidl_typesupport_introspection_cpp
+[15.042s] [ 25%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[15.043s] [ 26%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[17.137s] [ 28%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/body_part__type_support.cpp.o[0m
+[17.137s] [ 28%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/content_type__type_support.cpp.o[0m
+[17.227s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/http_status_code__type_support.cpp.o[0m
+[17.242s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/ws_msg_data__type_support.cpp.o[0m
+[17.304s] [ 31%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/ws_msg_type__type_support.cpp.o[0m
+[17.377s] [ 32%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/msg/ws_msg__type_support.cpp.o[0m
+[17.389s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/srv/http__type_support.cpp.o[0m
+[17.473s] [ 35%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2web_interfaces/srv/ws__type_support.cpp.o[0m
+[17.519s] [ 36%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/body_part__type_support_c.cpp.o[0m
+[17.522s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/content_type__type_support_c.cpp.o[0m
+[17.556s] [ 38%] [1m[32mLinking CXX shared library libros2web_interfaces__rosidl_typesupport_c.so[0m
+[18.030s] [ 38%] Built target ros2web_interfaces__rosidl_typesupport_c
+[18.048s] [ 39%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/http_status_code__type_support_c.cpp.o[0m
+[18.054s] [ 40%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[18.757s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/ws_msg_type__type_support_c.cpp.o[0m
+[18.758s] [ 43%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/ws_msg_data__type_support_c.cpp.o[0m
+[18.759s] [ 44%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/msg/detail/ws_msg__type_support_c.cpp.o[0m
+[19.544s] [ 45%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/srv/detail/http__type_support_c.cpp.o[0m
+[20.205s] [ 46%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/content_type__type_support.c.o[0m
+[20.207s] [ 47%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/body_part__type_support.c.o[0m
+[20.308s] [ 48%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/http_status_code__type_support.c.o[0m
+[20.357s] [ 50%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/ws_msg_data__type_support.c.o[0m
+[20.419s] [ 51%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/ws_msg_type__type_support.c.o[0m
+[20.480s] [ 52%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/msg/detail/ws_msg__type_support.c.o[0m
+[20.532s] [ 53%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/srv/detail/http__type_support.c.o[0m
+[20.582s] [ 54%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2web_interfaces/srv/detail/ws__type_support.c.o[0m
+[20.621s] [ 55%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2web_interfaces/srv/detail/ws__type_support_c.cpp.o[0m
+[20.724s] [ 56%] [1m[32mLinking C shared library libros2web_interfaces__rosidl_typesupport_introspection_c.so[0m
+[21.071s] [ 56%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c
+[21.093s] [ 59%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.094s] [ 59%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.129s] [ 59%] Built target ament_cmake_python_copy_ros2web_interfaces
+[21.660s] [ 60%] [1m[32mLinking CXX shared library libros2web_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[22.125s] [ 60%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c
+[22.162s] [ 61%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[22.622s] running egg_info
+[22.658s] creating ros2web_interfaces.egg-info
+[22.658s] writing ros2web_interfaces.egg-info/PKG-INFO
+[22.659s] writing dependency_links to ros2web_interfaces.egg-info/dependency_links.txt
+[22.659s] writing top-level names to ros2web_interfaces.egg-info/top_level.txt
+[22.659s] writing manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[22.760s] reading manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[22.762s] writing manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[22.848s] [ 61%] Built target ament_cmake_python_build_ros2web_interfaces_egg
+[22.868s] [ 62%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/content_type__type_support.cpp.o[0m
+[22.870s] [ 63%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/body_part__type_support.cpp.o[0m
+[22.871s] [ 64%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/http_status_code__type_support.cpp.o[0m
+[22.875s] [ 65%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/ws_msg_data__type_support.cpp.o[0m
+[23.631s] [ 67%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/srv/http__type_support.cpp.o[0m
+[23.644s] [ 68%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/body_part__type_support.cpp.o[0m
+[23.668s] [ 69%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/content_type__type_support.cpp.o[0m
+[24.025s] [ 69%] Built target ros2web_interfaces__rs
+[24.041s] [ 70%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/http_status_code__type_support.cpp.o[0m
+[24.045s] [ 71%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/ws_msg_data__type_support.cpp.o[0m
+[24.201s] [ 72%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/srv/ws__type_support.cpp.o[0m
+[24.752s] [ 75%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/srv/detail/dds_fastrtps/http__type_support.cpp.o[0m
+[24.752s] [ 75%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/ws_msg__type_support.cpp.o[0m
+[24.754s] [ 76%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2web_interfaces/msg/ws_msg_type__type_support.cpp.o[0m
+[24.994s] [ 77%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/srv/detail/dds_fastrtps/ws__type_support.cpp.o[0m
+[24.996s] [ 78%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/ws_msg__type_support.cpp.o[0m
+[25.213s] [ 79%] [32mBuilding CXX object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2web_interfaces/msg/detail/dds_fastrtps/ws_msg_type__type_support.cpp.o[0m
+[25.415s] [ 80%] [1m[32mLinking CXX shared library libros2web_interfaces__rosidl_typesupport_cpp.so[0m
+[26.006s] [ 80%] Built target ros2web_interfaces__rosidl_typesupport_cpp
+[26.256s] [ 81%] [1m[32mLinking CXX shared library libros2web_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.650s] [ 81%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_cpp
+[26.684s] [ 81%] Built target ros2web_interfaces
+[26.716s] [ 82%] [1m[34mGenerating Python code for ROS interfaces[0m
+[29.770s] [ 82%] Built target ros2web_interfaces__py
+[29.806s] [ 85%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_http_status_code_s.c.o[0m
+[29.806s] [ 85%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_body_part_s.c.o[0m
+[29.806s] [ 89%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_content_type_s.c.o[0m
+[29.806s] [ 89%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_ws_msg_type_s.c.o[0m
+[29.807s] [ 89%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_ws_msg_s.c.o[0m
+[29.807s] [ 89%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/msg/_ws_msg_data_s.c.o[0m
+[29.808s] [ 90%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/srv/_http_s.c.o[0m
+[30.217s] [ 92%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros2web_interfaces/srv/_ws_s.c.o[0m
+[30.693s] [ 93%] [1m[32mLinking C shared library rosidl_generator_py/ros2web_interfaces/libros2web_interfaces__rosidl_generator_py.so[0m
+[31.002s] [ 93%] Built target ros2web_interfaces__rosidl_generator_py
+[31.035s] [ 94%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.037s] [ 96%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[31.037s] [ 96%] [32mBuilding C object CMakeFiles/ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2web_interfaces/_ros2web_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.453s] [ 97%] [1m[32mLinking C shared library rosidl_generator_py/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_c.cpython-314-x86_64-linux-gnu.so[0m
+[31.463s] [ 98%] [1m[32mLinking C shared library rosidl_generator_py/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_introspection_c.cpython-314-x86_64-linux-gnu.so[0m
+[31.469s] [100%] [1m[32mLinking C shared library rosidl_generator_py/ros2web_interfaces/ros2web_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-314-x86_64-linux-gnu.so[0m
+[31.800s] [100%] Built target ros2web_interfaces__rosidl_typesupport_c__pyext
+[31.809s] [100%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c__pyext
+[31.814s] [100%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext

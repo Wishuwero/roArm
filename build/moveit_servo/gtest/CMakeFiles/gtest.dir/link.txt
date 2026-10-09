@@ -1,0 +1,2 @@
+/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/ar qc libgtest.a "CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/ranlib libgtest.a

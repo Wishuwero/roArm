@@ -1,0 +1,289 @@
+[  2%] [1m[34mGenerating C code for ROS interfaces[0m
+[  6%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/move_circle_cmd__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/move_point_cmd__functions.c.o[0m
+[ 10%] [1m[32mLinking C shared library libroarm_moveit__rosidl_generator_c.so[0m
+[ 10%] Built target roarm_moveit__rosidl_generator_c
+[ 12%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[ 14%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[ 16%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[ 16%] Built target ament_cmake_python_copy_roarm_moveit
+[ 20%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roarm_moveit/srv/detail/move_point_cmd__type_support_c.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roarm_moveit/srv/detail/get_pose_cmd__type_support_c.cpp.o[0m
+[ 20%] Built target roarm_moveit__rs
+[ 20%] Built target roarm_moveit__cpp
+[ 22%] [1m[34mGenerating C introspection for ROS interfaces[0m
+running egg_info
+creating roarm_moveit.egg-info
+writing roarm_moveit.egg-info/PKG-INFO
+writing dependency_links to roarm_moveit.egg-info/dependency_links.txt
+writing top-level names to roarm_moveit.egg-info/top_level.txt
+writing manifest file 'roarm_moveit.egg-info/SOURCES.txt'
+[ 25%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[ 27%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+reading manifest file 'roarm_moveit.egg-info/SOURCES.txt'
+writing manifest file 'roarm_moveit.egg-info/SOURCES.txt'
+[ 29%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roarm_moveit/srv/detail/move_circle_cmd__type_support_c.cpp.o[0m
+[ 29%] Built target ament_cmake_python_build_roarm_moveit_egg
+[ 31%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roarm_moveit/srv/detail/get_pose_cmd__type_support.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roarm_moveit/srv/detail/move_circle_cmd__type_support.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roarm_moveit/srv/detail/move_point_cmd__type_support.c.o[0m
+[ 37%] [1m[32mLinking C shared library libroarm_moveit__rosidl_typesupport_introspection_c.so[0m
+[ 39%] [1m[32mLinking CXX shared library libroarm_moveit__rosidl_typesupport_fastrtps_c.so[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roarm_moveit/srv/detail/get_pose_cmd__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o[0m
+[ 43%] Built target roarm_moveit__rosidl_typesupport_introspection_c
+[ 45%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roarm_moveit/srv/move_point_cmd__type_support.cpp.o[0m
+[ 45%] Built target roarm_moveit__rosidl_typesupport_fastrtps_c
+[ 47%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o[0m
+[ 50%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roarm_moveit/srv/detail/move_circle_cmd__type_support.cpp.o[0m
+[ 54%] [1m[32mLinking CXX shared library libroarm_moveit__rosidl_typesupport_cpp.so[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roarm_moveit/srv/detail/dds_fastrtps/get_pose_cmd__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roarm_moveit/srv/detail/dds_fastrtps/move_point_cmd__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roarm_moveit/srv/detail/move_point_cmd__type_support.cpp.o[0m
+[ 60%] Built target roarm_moveit__rosidl_typesupport_cpp
+[ 62%] [1m[32mLinking CXX shared library libroarm_moveit__rosidl_typesupport_introspection_cpp.so[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roarm_moveit/srv/detail/dds_fastrtps/move_circle_cmd__type_support.cpp.o[0m
+[ 64%] Built target roarm_moveit__rosidl_typesupport_introspection_cpp
+[ 66%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[ 68%] [1m[32mLinking CXX shared library libroarm_moveit__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o[0m
+[ 77%] [1m[32mLinking CXX shared library libroarm_moveit__rosidl_typesupport_c.so[0m
+[ 77%] Built target roarm_moveit__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target roarm_moveit__rosidl_typesupport_c
+[ 77%] Built target roarm_moveit
+[ 79%] [1m[34mGenerating Python code for ROS interfaces[0m
+[ 79%] Built target roarm_moveit__py
+[ 83%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_generator_py.dir/rosidl_generator_py/roarm_moveit/srv/_get_pose_cmd_s.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_generator_py.dir/rosidl_generator_py/roarm_moveit/srv/_move_point_cmd_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_generator_py.dir/rosidl_generator_py/roarm_moveit/srv/_move_circle_cmd_s.c.o[0m
+[ 87%] [1m[32mLinking C shared library rosidl_generator_py/roarm_moveit/libroarm_moveit__rosidl_generator_py.so[0m
+[ 87%] Built target roarm_moveit__rosidl_generator_py
+[ 91%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 95%] [1m[32mLinking C shared library rosidl_generator_py/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-314-x86_64-linux-gnu.so[0m
+[ 97%] [1m[32mLinking C shared library rosidl_generator_py/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-314-x86_64-linux-gnu.so[0m
+[100%] [1m[32mLinking C shared library rosidl_generator_py/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-314-x86_64-linux-gnu.so[0m
+[100%] Built target roarm_moveit__rosidl_typesupport_c__pyext
+[100%] Built target roarm_moveit__rosidl_typesupport_introspection_c__pyext
+[100%] Built target roarm_moveit__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/ament_index/resource_index/rosidl_interfaces/roarm_moveit
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_circle_cmd.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/get_pose_cmd.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_point_cmd.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__struct.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__functions.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__functions.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/library_path.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/library_path.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_c.so
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_c.h
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_circle_cmd.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/move_point_cmd.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/get_pose_cmd.hpp
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__builder.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__traits.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__struct.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.hpp
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/dds_fastrtps
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv
+-- Up-to-date: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_circle_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/move_point_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/include/roarm_moveit/roarm_moveit/srv/detail/get_pose_cmd__type_support.cpp
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_introspection_cpp.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_typesupport_cpp.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/pythonpath.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/pythonpath.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit-0.3.0-py3.14.egg-info
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit-0.3.0-py3.14.egg-info/PKG-INFO
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit-0.3.0-py3.14.egg-info/dependency_links.txt
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit-0.3.0-py3.14.egg-info/SOURCES.txt
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit-0.3.0-py3.14.egg-info/top_level.txt
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/__init__.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/libroarm_moveit__rosidl_generator_py.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-314-x86_64-linux-gnu.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-314-x86_64-linux-gnu.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-314-x86_64-linux-gnu.so
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/_roarm_moveit_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/__init__.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_move_point_cmd_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_get_pose_cmd.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_move_circle_cmd_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_move_point_cmd.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_get_pose_cmd_s.c
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_move_circle_cmd.py
+Listing '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/__init__.py'...
+Listing '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/__init__.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_get_pose_cmd.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_move_circle_cmd.py'...
+Compiling '/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/srv/_move_point_cmd.py'...
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-314-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_fastrtps_c.cpython-314-x86_64-linux-gnu.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-314-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_introspection_c.cpython-314-x86_64-linux-gnu.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-314-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/python3.14/site-packages/roarm_moveit/roarm_moveit_s__rosidl_typesupport_c.cpython-314-x86_64-linux-gnu.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/lib/libroarm_moveit__rosidl_generator_py.so" to ""
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/rust
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/rust/build.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/rust/src
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/rust/src/srv.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/rust/src/lib.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/rust/src/srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/rust/src/srv/rmw.rs
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/rust/Cargo.toml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd.idl
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd.srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd_Request.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/GetPoseCmd_Response.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd.srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd_Request.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MovePointCmd_Response.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd.srv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd_Request.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/srv/MoveCircleCmd_Response.msg
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/ament_index/resource_index/package_run_dependencies/roarm_moveit
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/ament_index/resource_index/parent_prefix_path/roarm_moveit
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/ament_prefix_path.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/ament_prefix_path.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/path.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/environment/path.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/local_setup.bash
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/local_setup.sh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/local_setup.zsh
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/local_setup.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.dsv
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/ament_index/resource_index/packages/roarm_moveit
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_cppExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveit__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_pyExport.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/export_roarm_moveit__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveitConfig.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/cmake/roarm_moveitConfig-version.cmake
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/package.xml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/rsp.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/moveit_rviz.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/setup_assistant.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/warehouse_db.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/demo.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/interact_moveit_rviz.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/spawn_controllers.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/interact.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/move_group.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/launch/command_control_moveit_rviz.launch.py
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/initial_positions.yaml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/ros2_controllers.yaml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/pilz_cartesian_limits.yaml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/moveit_controllers.yaml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/moveit.rviz
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/kinematics.yaml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/sensors_3d.yaml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/roarm_description.ros2_control.xacro
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/roarm_description.urdf.xacro
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/interact.rviz
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/roarm_description.srdf
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/config/joint_limits.yaml
+-- Installing: /home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_moveit/share/roarm_moveit/.setup_assistant

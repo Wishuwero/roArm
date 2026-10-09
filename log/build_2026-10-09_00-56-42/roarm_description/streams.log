@@ -1,0 +1,70 @@
+[0.033s] Invoking command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description': CMAKE_PREFIX_PATH=/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description
+[0.623s] -- The C compiler identification is GNU 15.3.0
+[0.623s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.623s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.623s]   CMake.
+[0.623s] 
+[0.624s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.624s]   to tell CMake that the project requires at least <min> but has been updated
+[0.624s]   to work with policies introduced by <max> or earlier.
+[0.624s] 
+[0.624s] [0m
+[1.217s] -- The CXX compiler identification is GNU 15.3.0
+[1.261s] -- Detecting C compiler ABI info
+[1.856s] -- Detecting C compiler ABI info - done
+[2.335s] -- Check for working C compiler: /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/gcc - skipped
+[2.336s] -- Detecting C compile features
+[2.336s] -- Detecting C compile features - done
+[3.435s] -- Detecting CXX compiler ABI info
+[4.088s] -- Detecting CXX compiler ABI info - done
+[4.459s] -- Check for working CXX compiler: /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ - skipped
+[4.459s] -- Detecting CXX compile features
+[4.461s] -- Detecting CXX compile features - done
+[5.071s] -- Found ament_cmake: 1.3.14 (/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake)
+[5.108s] [31mCMake Error at /nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package):
+[5.108s]   By not providing "Findament_cmake_core.cmake" in CMAKE_MODULE_PATH this
+[5.108s]   project has asked CMake to find a package configuration file provided by
+[5.108s]   "ament_cmake_core", but CMake did not find one.
+[5.108s] 
+[5.109s]   Could not find a package configuration file provided by "ament_cmake_core"
+[5.109s]   with any of the following names:
+[5.109s] 
+[5.109s]     ament_cmake_core.cps
+[5.109s]     ament_cmake_coreConfig.cmake
+[5.109s]     ament_cmake_core-config.cmake
+[5.109s] 
+[5.110s]   Add the installation prefix of "ament_cmake_core" to CMAKE_PREFIX_PATH or
+[5.110s]   set "ament_cmake_core_DIR" to a directory containing one of the above
+[5.110s]   files.  If "ament_cmake_core" provides a separate development package or
+[5.110s]   SDK, be sure it has been installed.
+[5.110s] Call Stack (most recent call first):
+[5.110s]   /nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[5.110s]   CMakeLists.txt:9 (find_package)
+[5.111s] 
+[5.111s] [0m
+[5.112s] -- Configuring incomplete, errors occurred!
+[5.134s] Invoked command in '/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description' returned '1': CMAKE_PREFIX_PATH=/nix/store/3rn7chf7vkfi5qy2rmpfmp24kbkn7kii-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} XML_CATALOG_FILES= _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description -DCMAKE_INSTALL_PREFIX=/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description
