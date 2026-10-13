@@ -53,10 +53,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description
 
 # Utility rule file for roarm_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/roarm_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/roarm_description_uninstall.dir/progress.make
 
 CMakeFiles/roarm_description_uninstall:
-	/nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -P /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -P /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/roarm_description_uninstall.dir/codegen:
 .PHONY : CMakeFiles/roarm_description_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/roarm_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/roarm_description_uninstall.dir/clean
 
 CMakeFiles/roarm_description_uninstall.dir/depend:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/CMakeFiles/roarm_description_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" roarm_description_uninstall
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/CMakeFiles/roarm_description_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" roarm_description_uninstall
 .PHONY : CMakeFiles/roarm_description_uninstall.dir/depend
 

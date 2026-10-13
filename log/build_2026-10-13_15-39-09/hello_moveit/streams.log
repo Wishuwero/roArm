@@ -1,0 +1,39 @@
+[0.504s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/bnz7wnd6hi2rhx92dnjf6ly52336k6vk-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit -- -j8 -l8
+[0.902s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[1.030s] In file included from [01m[K/nix/store/bnz7wnd6hi2rhx92dnjf6ly52336k6vk-ros-env/include/moveit/robot_state/robot_state.h:40[m[K,
+[1.030s]                  from [01m[K/nix/store/bnz7wnd6hi2rhx92dnjf6ly52336k6vk-ros-env/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[1.031s]                  from [01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/hello_moveit/src/hello_moveit.cpp:3[m[K:
+[1.031s] [01m[K/nix/store/bnz7wnd6hi2rhx92dnjf6ly52336k6vk-ros-env/include/moveit/robot_model/robot_model.h:42:10:[m[K [01;31m[Kfatal error: [m[Ksrdfdom/model.h: No such file or directory
+[1.031s]    42 | #include [01;31m[K<srdfdom/model.h>[m[K
+[1.031s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.031s] compilation terminated.
+[1.037s] make[2]: *** [CMakeFiles/hello_moveit.dir/build.make:79: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+[1.038s] make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/hello_moveit.dir/all] Error 2
+[1.042s] make: *** [Makefile:146: all] Error 2
+[1.071s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/bnz7wnd6hi2rhx92dnjf6ly52336k6vk-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit -- -j8 -l8

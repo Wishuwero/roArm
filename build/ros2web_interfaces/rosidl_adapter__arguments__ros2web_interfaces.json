@@ -1,13 +1,13 @@
 {
   "package_name": "ros2web_interfaces",
   "non_idl_tuples": [
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/BodyPart.msg",
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/ContentType.msg",
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/HTTPStatusCode.msg",
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsgData.msg",
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsgType.msg",
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsg.msg",
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:srv/HTTP.srv",
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:srv/WS.srv"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/BodyPart.msg",
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/ContentType.msg",
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/HTTPStatusCode.msg",
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsgData.msg",
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsgType.msg",
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsg.msg",
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:srv/HTTP.srv",
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:srv/WS.srv"
   ]
 }

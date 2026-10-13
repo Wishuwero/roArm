@@ -1,0 +1,108 @@
+[0mroarm_moveit_cmd: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[33mCMake Warning (dev) at CMakeLists.txt:9 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+  CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/ompl/cmake/omplConfig.cmake:30 (find_dependency)
+  CMakeLists.txt:29 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:10[m[K:
+[01m[K/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:6[m[K:
+[01m[K/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K handle_service[m[K(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >, std::shared_ptr<RobotPosePublisher>)[m[K’:
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_tf2.cpp:59:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   59 | void handle_service([01;35m[Kconst std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request[m[K,
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K handle_service[m[K(std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MoveCircleCmd_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:93:94:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing moveit::planning_interface::MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   93 |     bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                              [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:8[m[K:
+[01m[K/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movecirclecmd.cpp:42:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wno-unused-variable-Wunused-variable]8;;[m[K]
+   42 |   double [01;35m[Kcenter_z[m[K = request->z;
+      |          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K handle_service[m[K(std::shared_ptr<roarm_moveit::srv::MovePointCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::MovePointCmd_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:35:92:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing moveit::planning_interface::MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   35 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:4[m[K:
+[01m[K/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K handle_service[m[K(std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Request_<std::allocator<void> > >, std::shared_ptr<roarm_moveit::srv::GetPoseCmd_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/getposecmd_moveit2.cpp:14:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   14 | void handle_service([01;35m[Kconst std::shared_ptr<roarm_moveit::srv::GetPoseCmd::Request> request[m[K,
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

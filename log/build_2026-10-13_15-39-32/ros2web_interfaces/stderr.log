@@ -1,0 +1,57 @@
+Traceback (most recent call last):
+  File [35m"/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ament_cmake_python/ros2web_interfaces/setup.py"[0m, line [35m4[0m, in [35m<module>[0m
+    [31msetup[0m[1;31m([0m
+    [31m~~~~~[0m[1;31m^[0m
+        [1;31mname='ros2web_interfaces',[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    ...<2 lines>...
+            [1;31minclude=('ros2web_interfaces', 'ros2web_interfaces.*')),[0m
+            [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/__init__.py"[0m, line [35m116[0m, in [35msetup[0m
+    [31m_install_setup_requires[0m[1;31m(attrs)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^[0m
+  File [35m"/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/__init__.py"[0m, line [35m84[0m, in [35m_install_setup_requires[0m
+    dist = MinimalDistribution(attrs)
+  File [35m"/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/__init__.py"[0m, line [35m66[0m, in [35m__init__[0m
+    [31msuper().__init__[0m[1;31m(filtered)[0m
+    [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^[0m
+  File [35m"/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/dist.py"[0m, line [35m317[0m, in [35m__init__[0m
+    for ep in [31mmetadata.entry_points[0m[1;31m(group='distutils.setup_keywords')[0m:
+              [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/importlib/metadata/__init__.py"[0m, line [35m1011[0m, in [35mentry_points[0m
+    return [31mEntryPoints(eps).select[0m[1;31m(**params)[0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/importlib/metadata/__init__.py"[0m, line [35m278[0m, in [35mselect[0m
+    return EntryPoints(ep for ep in self if ep.matches(**params))
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/importlib/metadata/__init__.py"[0m, line [35m278[0m, in [35m<genexpr>[0m
+    return EntryPoints(ep for ep in self if [31mep.matches[0m[1;31m(**params)[0m)
+                                            [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^[0m
+[1;35mKeyboardInterrupt[0m
+Traceback (most recent call last):
+  File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/.cmake-wrapped"[0m, line [35m9[0m, in [35m<module>[0m
+    sys.exit([31mcmake[0m[1;31m()[0m)
+             [31m~~~~~[0m[1;31m^^[0m
+  File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/lib/python3.14/site-packages/cmake/__init__.py"[0m, line [35m13[0m, in [35mcmake[0m
+    raise SystemExit([31m_program[0m[1;31m('cmake', sys.argv[1:])[0m)
+                     [31m~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/lib/python3.14/site-packages/cmake/__init__.py"[0m, line [35m10[0m, in [35m_program[0m
+    return [31msubprocess.call[0m[1;31m([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)[0m
+           [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m398[0m, in [35mcall[0m
+    return [31mp.wait[0m[1;31m(timeout=timeout)[0m
+           [31m~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m1279[0m, in [35mwait[0m
+    return [31mself._wait[0m[1;31m(timeout=timeout)[0m
+           [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m2084[0m, in [35m_wait[0m
+    (pid, sts) = [31mself._try_wait[0m[1;31m(0)[0m
+                 [31m~~~~~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m2042[0m, in [35m_try_wait[0m
+    (pid, sts) = [31mos.waitpid[0m[1;31m(self.pid, wait_flags)[0m
+                 [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mKeyboardInterrupt[0m
+make[2]: *** [CMakeFiles/ament_cmake_python_build_ros2web_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ros2web_interfaces_egg] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:571: CMakeFiles/ament_cmake_python_build_ros2web_interfaces_egg.dir/all] Interrupt
+make: *** [Makefile:146: all] Interrupt

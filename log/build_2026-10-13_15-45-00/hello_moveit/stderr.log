@@ -1,0 +1,12 @@
+In file included from [01m[K/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/include/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/hello_moveit/src/hello_moveit.cpp:3[m[K:
+[01m[K/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/include/moveit/robot_model/joint_model.h:44:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_msgs/msg/joint_limits.hpp: No such file or directory
+   44 | #include [01;31m[K<moveit_msgs/msg/joint_limits.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/hello_moveit.dir/build.make:79: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/hello_moveit.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

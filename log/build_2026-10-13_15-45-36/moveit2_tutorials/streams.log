@@ -1,0 +1,153 @@
+[0.030s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit2_tutorials': CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_cmd:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit/lib:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/opt/rviz_ogre_vendor/lib:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/lib NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit2_tutorials -- -j8 -l8
+[0.253s] [  7%] Built target mtc_tutorial
+[0.288s] [ 15%] Built target planning_scene_ros_api_tutorial
+[0.353s] [ 23%] Built target robot_model_and_robot_state_tutorial
+[0.376s] [ 30%] Built target moveit_cpp_tutorial
+[0.429s] [ 38%] Built target planning_scene_tutorial
+[0.433s] [ 46%] Built target servo_keyboard_input
+[0.505s] [ 53%] Built target servo_cpp_interface_demo
+[0.523s] [ 61%] Built target ompl_constrained_planning
+[0.587s] [ 69%] Built target pilz_mtc
+[0.629s] [ 76%] Built target pilz_move_group
+[0.716s] [ 84%] Built target move_group_interface_tutorial
+[0.817s] [ 92%] Built target motion_planning_api_tutorial
+[0.888s] [100%] Built target minimal_mtc_tutorial
+[0.920s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit2_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_cmd:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit/lib:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/opt/rviz_ogre_vendor/lib:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/lib NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit2_tutorials -- -j8 -l8
+[0.926s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit2_tutorials': CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_cmd:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit/lib:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/opt/rviz_ogre_vendor/lib:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/lib NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit2_tutorials
+[0.988s] -- Install configuration: "Release"
+[0.988s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials
+[0.988s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials
+[0.988s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh
+[0.989s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv
+[0.989s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh
+[0.989s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv
+[0.989s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash
+[0.989s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh
+[0.989s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh
+[0.989s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv
+[0.990s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv
+[0.990s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials
+[0.990s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.990s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.990s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake
+[0.990s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake
+[0.990s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/package.xml
+[0.991s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.991s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_hello_moveit.rviz
+[0.991s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz
+[0.991s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py
+[0.991s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz
+[0.992s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/mtc_tutorial
+[1.000s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/mtc_tutorial" to ""
+[1.003s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/minimal_mtc_tutorial
+[1.011s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/minimal_mtc_tutorial" to ""
+[1.011s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.011s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo_minimal.launch.py
+[1.011s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/pick_place_demo.launch.py
+[1.011s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc.rviz
+[1.011s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo.launch.py
+[1.012s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial
+[1.013s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial" to ""
+[1.013s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.014s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py
+[1.015s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial
+[1.015s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial" to ""
+[1.015s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.016s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py
+[1.016s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py
+[1.016s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz
+[1.016s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group
+[1.018s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group" to ""
+[1.018s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc
+[1.019s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc" to ""
+[1.019s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.019s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/pilz_mtc.launch.py
+[1.020s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial
+[1.021s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial" to ""
+[1.021s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.022s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py
+[1.022s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial
+[1.023s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial" to ""
+[1.024s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.024s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py
+[1.024s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial
+[1.026s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial" to ""
+[1.026s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.026s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py
+[1.027s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial
+[1.028s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial" to ""
+[1.028s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.028s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz
+[1.028s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py
+[1.028s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/config
+[1.028s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml
+[1.029s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input
+[1.030s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input" to ""
+[1.031s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo
+[1.032s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo" to ""
+[1.033s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.033s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py
+[1.033s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/config
+[1.033s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz
+[1.033s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.033s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/chomp_demo.launch.py
+[1.034s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/config
+[1.034s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_chomp.rviz
+[1.034s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/ompl_constrained_planning
+[1.035s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/lib/moveit2_tutorials/ompl_constrained_planning" to ""
+[1.036s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[1.036s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.rviz
+[1.036s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.launch.py
+[1.050s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit2_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_cmd:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit2_tutorials:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env LD_LIBRARY_PATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit/lib:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/opt/rviz_ogre_vendor/lib:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/lib NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit2_tutorials

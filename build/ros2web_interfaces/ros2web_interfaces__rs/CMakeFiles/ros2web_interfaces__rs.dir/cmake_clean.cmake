@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_rs/ros2web_interfaces/rust/Cargo.toml"
-  "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_rs/ros2web_interfaces/rust/build.rs"
-  "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs"
+  "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_rs/ros2web_interfaces/rust/Cargo.toml"
+  "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_rs/ros2web_interfaces/rust/build.rs"
+  "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs"
   "CMakeFiles/ros2web_interfaces__rs"
 )
 

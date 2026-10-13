@@ -1,8 +1,8 @@
-# Install script for directory: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/src/gtest_vendor
+# Install script for directory: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/src/gtest_vendor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo")
+  set(CMAKE_INSTALL_PREFIX "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/gtest/install_local_manifest.txt"
+  file(WRITE "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/gtest/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

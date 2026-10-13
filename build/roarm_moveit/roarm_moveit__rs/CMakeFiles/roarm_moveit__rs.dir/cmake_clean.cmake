@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_generator_rs/roarm_moveit/rust/Cargo.toml"
-  "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_generator_rs/roarm_moveit/rust/build.rs"
-  "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_generator_rs/roarm_moveit/rust/src/lib.rs"
+  "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_generator_rs/roarm_moveit/rust/Cargo.toml"
+  "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_generator_rs/roarm_moveit/rust/build.rs"
+  "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_generator_rs/roarm_moveit/rust/src/lib.rs"
   "CMakeFiles/roarm_moveit__rs"
 )
 

@@ -53,10 +53,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces
 
 # Utility rule file for ros2web_interfaces.
 
@@ -66,16 +66,16 @@ include CMakeFiles/ros2web_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/ros2web_interfaces.dir/progress.make
 
-CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/BodyPart.msg
-CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/ContentType.msg
-CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/HTTPStatusCode.msg
-CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/WSMsgData.msg
-CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/WSMsgType.msg
-CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/WSMsg.msg
-CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/srv/HTTP.srv
+CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/BodyPart.msg
+CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/ContentType.msg
+CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/HTTPStatusCode.msg
+CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/WSMsgData.msg
+CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/WSMsgType.msg
+CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/msg/WSMsg.msg
+CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/srv/HTTP.srv
 CMakeFiles/ros2web_interfaces: rosidl_cmake/srv/HTTP_Request.msg
 CMakeFiles/ros2web_interfaces: rosidl_cmake/srv/HTTP_Response.msg
-CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/srv/WS.srv
+CMakeFiles/ros2web_interfaces: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces/srv/WS.srv
 CMakeFiles/ros2web_interfaces: rosidl_cmake/srv/WS_Request.msg
 CMakeFiles/ros2web_interfaces: rosidl_cmake/srv/WS_Response.msg
 
@@ -95,6 +95,6 @@ CMakeFiles/ros2web_interfaces.dir/clean:
 .PHONY : CMakeFiles/ros2web_interfaces.dir/clean
 
 CMakeFiles/ros2web_interfaces.dir/depend:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles/ros2web_interfaces.dir/DependInfo.cmake "--color=$(COLOR)" ros2web_interfaces
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles/ros2web_interfaces.dir/DependInfo.cmake "--color=$(COLOR)" ros2web_interfaces
 .PHONY : CMakeFiles/ros2web_interfaces.dir/depend
 

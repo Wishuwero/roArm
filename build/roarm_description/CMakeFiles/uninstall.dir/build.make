@@ -53,10 +53,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description
 
 # Utility rule file for uninstall.
 
@@ -81,6 +81,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
 .PHONY : CMakeFiles/uninstall.dir/depend
 

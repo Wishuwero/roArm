@@ -1,0 +1,53 @@
+[2.320s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_driver': NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/build install --record /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/install.log --install-scripts $base/lib/roarm_driver --single-version-externally-managed install_data
+[2.692s] /nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.692s]   warnings.warn(msg)
+[2.844s] running egg_info
+[2.868s] writing ../../../build/roarm_driver/roarm_driver.egg-info/PKG-INFO
+[2.868s] writing dependency_links to ../../../build/roarm_driver/roarm_driver.egg-info/dependency_links.txt
+[2.869s] writing entry points to ../../../build/roarm_driver/roarm_driver.egg-info/entry_points.txt
+[2.869s] writing requirements to ../../../build/roarm_driver/roarm_driver.egg-info/requires.txt
+[2.869s] writing top-level names to ../../../build/roarm_driver/roarm_driver.egg-info/top_level.txt
+[2.923s] reading manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[2.925s] writing manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[2.926s] running build
+[2.926s] running build_py
+[2.926s] copying roarm_driver/__init__.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+[2.926s] copying roarm_driver/roarm_driver.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+[2.927s] running install
+[2.935s] running install_lib
+[2.963s] running install_data
+[2.963s] copying resource/roarm_driver -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver/share/ament_index/resource_index/packages
+[2.963s] copying package.xml -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver/share/roarm_driver
+[2.964s] running install_egg_info
+[2.999s] removing '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver/lib/python3.14/site-packages/roarm_driver-0.0.0-py3.14.egg-info' (and everything under it)
+[2.999s] Copying ../../../build/roarm_driver/roarm_driver.egg-info to /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver/lib/python3.14/site-packages/roarm_driver-0.0.0-py3.14.egg-info
+[2.999s] running install_scripts
+[3.126s] Installing roarm_driver script to /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver/lib/roarm_driver
+[3.126s] writing list of installed files to '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/install.log'
+[3.234s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_driver' returned '0': NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} PYTHONPATH=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/prefix_override:/nix/store/hhj245579gwkwwzqh9c9rk8k052cr45h-python3.14-colcon-core-0.21.3/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver/lib/python3.14/site-packages:${PYTHONPATH} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/bin/python3.14 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/build install --record /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_driver/install.log --install-scripts $base/lib/roarm_driver --single-version-externally-managed install_data

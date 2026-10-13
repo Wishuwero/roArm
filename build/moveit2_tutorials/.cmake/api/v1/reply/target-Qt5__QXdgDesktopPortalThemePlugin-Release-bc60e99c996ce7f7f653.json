@@ -1,0 +1,140 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "/nix/store/l8c6y3zkz7vck8krn5w3190a9mckd6cz-qtbase-5.15.19-bin/lib/qt-5.15.19/plugins/platformthemes/libqxdgdesktopportal.so"
+		}
+	],
+	"backtrace" : 17,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/nix/store/15f8ds1lbxyrimwmhaa2lk920zkri8ig-qtbase-5.15.19-dev/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+			"/nix/store/15f8ds1lbxyrimwmhaa2lk920zkri8ig-qtbase-5.15.19-dev/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+			"/nix/store/15f8ds1lbxyrimwmhaa2lk920zkri8ig-qtbase-5.15.19-dev/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+			"/nix/store/15f8ds1lbxyrimwmhaa2lk920zkri8ig-qtbase-5.15.19-dev/lib/cmake/Qt5/Qt5Config.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_common/cmake/rviz_common-extras.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_common/cmake/rviz_commonConfig.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"file" : 6,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"file" : 5,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 30,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 28,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 97,
+				"parent" : 12
+			},
+			{
+				"file" : 1,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 225,
+				"parent" : 14
+			},
+			{
+				"file" : 0,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 16
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "Qt5::QXdgDesktopPortalThemePlugin::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"local" : true,
+	"name" : "Qt5::QXdgDesktopPortalThemePlugin",
+	"nameOnDisk" : "libqxdgdesktopportal.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "MODULE_LIBRARY"
+}

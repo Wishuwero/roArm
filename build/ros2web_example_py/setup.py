@@ -1,1 +1,0 @@
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/examples/ros2web_example_py/setup.py

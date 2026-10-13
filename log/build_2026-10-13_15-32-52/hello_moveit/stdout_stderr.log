@@ -1,0 +1,139 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 15.3.0
+-- The CXX compiler identification is GNU 15.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/ament_cmake/cmake)
+-- Found Python3: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/bin/python3 (found version "3.14.6") found components: Interpreter
+-- Found moveit_ros_planning_interface: 2.5.10 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake)
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: date_time filesystem program_options thread
+-- Found rosidl_generator_c: 3.1.9 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: chrono date_time filesystem iostreams program_options regex serialization thread
+-- Found rclcpp: 16.0.21 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.4 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /nix/store/39jzpf9ray7mxjnlmqbrxlyz0dsz0448-openssl-3.6.3/lib/libcrypto.so (found version "3.6.3")
+-- Found FastRTPS: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE
+-- Found tcb_span: 1.3.2 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/tcb_span/cmake)
+-- Found rclcpp_lifecycle: 16.0.21 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rclcpp_lifecycle/cmake)
+-- Found parameter_traits: 0.7.6 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/parameter_traits/cmake)
+-- library: /nix/store/9gg2kw74rag1sjl2jl6qaddaisllpdip-curl-8.21.0/lib/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.1")
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time program_options thread chrono
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: thread filesystem regex date_time program_options
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time program_options thread
+-- Found ament_lint_auto: 0.12.15 (/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/hello_moveit/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (11.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[100%] [1m[32mLinking CXX executable hello_moveit[0m
+[100%] Built target hello_moveit
+-- Install configuration: ""
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/lib/hello_moveit/hello_moveit
+-- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+-- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/path.sh
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/path.dsv
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.bash
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.sh
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.zsh
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.dsv
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/package.dsv
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+-- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+-- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/package.xml

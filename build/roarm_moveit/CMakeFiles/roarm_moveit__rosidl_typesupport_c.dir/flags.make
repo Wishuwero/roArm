@@ -4,7 +4,7 @@
 # compile CXX with /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++
 CXX_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_roarm_moveit -DROS_PACKAGE_NAME=\"roarm_moveit\"
 
-CXX_INCLUDES = -I/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_generator_c -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_typesupport_interface -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_typesupport_c
+CXX_INCLUDES = -I/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_generator_c -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_typesupport_interface -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_typesupport_c
 
 CXX_FLAGS = -std=gnu++14 -fPIC -Wall
 

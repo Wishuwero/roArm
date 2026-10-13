@@ -1,0 +1,83 @@
+[1.096s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_ikfast_plugins -- -j8 -l8
+[1.298s] [100%] Built target roarm_description_hand_moveit_ikfast_plugin
+[1.334s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_ikfast_plugins -- -j8 -l8
+[1.338s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_ikfast_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_ikfast_plugins
+[1.441s] -- Install configuration: ""
+[1.442s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib/libroarm_description_hand_moveit_ikfast_plugin.so
+[1.442s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib/libroarm_description_hand_moveit_ikfast_plugin.so" to ""
+[1.442s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/roarm_description_hand_moveit_ikfast_plugin_description.xml
+[1.442s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/library_path.sh
+[1.442s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/library_path.dsv
+[1.442s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_ikfast_plugins
+[1.442s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_ikfast_plugins
+[1.442s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/ament_prefix_path.sh
+[1.443s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/ament_prefix_path.dsv
+[1.443s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/path.sh
+[1.443s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/environment/path.dsv
+[1.443s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/local_setup.bash
+[1.443s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/local_setup.sh
+[1.443s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/local_setup.zsh
+[1.443s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/local_setup.dsv
+[1.443s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.dsv
+[1.443s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/ament_index/resource_index/packages/roarm_moveit_ikfast_plugins
+[1.444s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/ament_index/resource_index/moveit_core__pluginlib__plugin/roarm_moveit_ikfast_plugins
+[1.444s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/export_roarm_moveit_ikfast_pluginsExport.cmake
+[1.444s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/export_roarm_moveit_ikfast_pluginsExport-noconfig.cmake
+[1.444s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[1.444s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.444s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/roarm_moveit_ikfast_pluginsConfig.cmake
+[1.444s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/roarm_moveit_ikfast_pluginsConfig-version.cmake
+[1.444s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/package.xml
+[1.493s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_ikfast_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_ikfast_plugins

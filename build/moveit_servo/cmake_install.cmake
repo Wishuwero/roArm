@@ -1,8 +1,8 @@
-# Install script for directory: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo
+# Install script for directory: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/moveit_servo")
+  set(CMAKE_INSTALL_PREFIX "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib.so.2.5.5"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/libmoveit_servo_lib.so.2.5.5")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/libmoveit_servo_lib.so.2.5.5")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib.so.2.5.5" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib.so.2.5.5")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib.so.2.5.5"
-         OLD_RPATH "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo:/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib:"
+         OLD_RPATH "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib.so.2.5.5")
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/libmoveit_servo_lib.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/libmoveit_servo_lib.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,12 +73,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib_parameters.so.2.5.5"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/libmoveit_servo_lib_parameters.so.2.5.5")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/libmoveit_servo_lib_parameters.so.2.5.5")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib_parameters.so.2.5.5" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib_parameters.so.2.5.5")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib_parameters.so.2.5.5"
-         OLD_RPATH "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib:"
+         OLD_RPATH "/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_servo_lib_parameters.so.2.5.5")
@@ -87,7 +87,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/libmoveit_servo_lib_parameters.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/libmoveit_servo_lib_parameters.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -97,12 +97,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpose_tracking.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/libpose_tracking.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/libpose_tracking.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpose_tracking.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpose_tracking.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpose_tracking.so"
-         OLD_RPATH "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo:/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib:"
+         OLD_RPATH "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpose_tracking.so")
@@ -120,12 +120,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_node.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/libservo_node.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/libservo_node.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_node.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_node.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_node.so"
-         OLD_RPATH "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo:/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib:"
+         OLD_RPATH "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_node.so")
@@ -143,12 +143,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_controller_input.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/libservo_controller_input.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/libservo_controller_input.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_controller_input.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_controller_input.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_controller_input.so"
-         OLD_RPATH "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib:"
+         OLD_RPATH "/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservo_controller_input.so")
@@ -166,12 +166,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_node_main"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_servo" TYPE EXECUTABLE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/servo_node_main")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_servo" TYPE EXECUTABLE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/servo_node_main")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_node_main" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_node_main")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_node_main"
-         OLD_RPATH "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo:/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib:"
+         OLD_RPATH "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_node_main")
@@ -186,12 +186,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_pose_tracking_demo"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_servo" TYPE EXECUTABLE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/servo_pose_tracking_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_servo" TYPE EXECUTABLE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/servo_pose_tracking_demo")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_pose_tracking_demo" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_pose_tracking_demo")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_pose_tracking_demo"
-         OLD_RPATH "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo:/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib:"
+         OLD_RPATH "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo:/nix/store/vh4zz766pz9snsj0lrqq0rkrc901mzal-ros-humble-ruckig-0.9.2-r1/lib:/nix/store/45mkycn8k5x2xz4pkg9x32lfikb9458z-ros-humble-urdfdom-3.0.2-r2/lib:/nix/store/zav01gzjnf2dhwsh059dn15d1pghr0h5-ros-humble-octomap-1.9.8-r1/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/servo_pose_tracking_demo")
@@ -206,13 +206,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/fake_command_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_servo" TYPE EXECUTABLE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/fake_command_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_servo" TYPE EXECUTABLE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/fake_command_publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/fake_command_publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/fake_command_publisher")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/fake_command_publisher"
-         OLD_RPATH "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib:/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib:"
-         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_servo/fake_command_publisher")
     endif()
@@ -220,87 +216,87 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE DIRECTORY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE DIRECTORY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo/launch")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE DIRECTORY FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE DIRECTORY FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo/config")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/python3.14/site-packages/ament_package/template/environment_hook/library_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/python3.14/site-packages/ament_package/template/environment_hook/library_path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/gtest/cmake_install.cmake")
+  include("/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/gtest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/moveit_servo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/moveit_servo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/moveit_servo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/moveit_servo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/environment" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_index/share/ament_index/resource_index/packages/moveit_servo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_index/share/ament_index/resource_index/packages/moveit_servo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/moveit_servo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/moveit_servo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake/export_moveit_servoExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake/export_moveit_servoExport.cmake"
-         "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles/Export/f74ada81756c01b91732ea95ea0c868b/export_moveit_servoExport.cmake")
+         "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles/Export/f74ada81756c01b91732ea95ea0c868b/export_moveit_servoExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake/export_moveit_servoExport-*.cmake")
       if(_cmake_old_config_files)
@@ -313,35 +309,35 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles/Export/f74ada81756c01b91732ea95ea0c868b/export_moveit_servoExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles/Export/f74ada81756c01b91732ea95ea0c868b/export_moveit_servoExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles/Export/f74ada81756c01b91732ea95ea0c868b/export_moveit_servoExport-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles/Export/f74ada81756c01b91732ea95ea0c868b/export_moveit_servoExport-release.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo/cmake" TYPE FILE FILES
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_core/moveit_servoConfig.cmake"
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_core/moveit_servoConfig-version.cmake"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_core/moveit_servoConfig.cmake"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_core/moveit_servoConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_servo" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo/package.xml")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/install_local_manifest.txt"
+  file(WRITE "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -357,6 +353,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

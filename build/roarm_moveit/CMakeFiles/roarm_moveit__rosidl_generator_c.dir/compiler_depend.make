@@ -63,12 +63,12 @@ CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/cdefs.h \
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/select.h \
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/types.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/allocator.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/macros.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/types/rcutils_ret.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/visibility_control.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/visibility_control_macros.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/allocator.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/macros.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/types/rcutils_ret.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/visibility_control.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/visibility_control_macros.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stdbool.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stddef.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stdint.h
@@ -135,15 +135,15 @@ CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/cdefs.h \
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/select.h \
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/types.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/allocator.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/macros.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/types/rcutils_ret.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/visibility_control.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/visibility_control_macros.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/allocator.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/macros.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/types/rcutils_ret.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/visibility_control.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/visibility_control_macros.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stdbool.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stddef.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stdint.h
@@ -210,21 +210,21 @@ CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/cdefs.h \
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/select.h \
   /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/types.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/allocator.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/macros.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/types/rcutils_ret.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/visibility_control.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/visibility_control_macros.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/allocator.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/macros.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/types/rcutils_ret.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/visibility_control.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/visibility_control_macros.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stdbool.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stddef.h \
   /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stdint.h
 
-libroarm_moveit__rosidl_generator_c.so: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/librcutils.so \
-  /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/librosidl_runtime_c.so \
+libroarm_moveit__rosidl_generator_c.so: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/librcutils.so \
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/librosidl_runtime_c.so \
   /nix/store/qqiqd3ah10x8hzsif4j1y4xc1miw23nx-glibc-2.42-67/lib/crti.o \
   /nix/store/qqiqd3ah10x8hzsif4j1y4xc1miw23nx-glibc-2.42-67/lib/crtn.o \
   /nix/store/qqiqd3ah10x8hzsif4j1y4xc1miw23nx-glibc-2.42-67/lib/ld-linux-x86-64.so.2 \
@@ -247,13 +247,15 @@ CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/
 
 CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/move_circle_cmd__functions.c.o:
 
+CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.c.o:
+
 /nix/store/w2nk3f7prwzpm6h13rfxh8lh46yfdysj-gcc-15.3.0-lib/lib/libgcc_s.so.1:
 
 /nix/store/w2nk3f7prwzpm6h13rfxh8lh46yfdysj-gcc-15.3.0-lib/lib/libatomic.so:
 
-/nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/libgcc.a:
-
 /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o:
+
+/nix/store/qqiqd3ah10x8hzsif4j1y4xc1miw23nx-glibc-2.42-67/lib/libdl.so:
 
 /nix/store/qqiqd3ah10x8hzsif4j1y4xc1miw23nx-glibc-2.42-67/lib/libc_nonshared.a:
 
@@ -261,19 +263,17 @@ CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/
 
 /nix/store/qqiqd3ah10x8hzsif4j1y4xc1miw23nx-glibc-2.42-67/lib/crtn.o:
 
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/librcutils.so:
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/librcutils.so:
 
 rosidl_generator_c/roarm_moveit/srv/detail/move_point_cmd__struct.h:
 
 rosidl_generator_c/roarm_moveit/srv/detail/move_point_cmd__functions.h:
 
-/nix/store/qqiqd3ah10x8hzsif4j1y4xc1miw23nx-glibc-2.42-67/lib/libdl.so:
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
+/nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/libgcc.a:
 
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 rosidl_generator_c/roarm_moveit/srv/detail/move_circle_cmd__struct.h:
 
@@ -283,9 +283,15 @@ rosidl_generator_c/roarm_moveit/srv/detail/move_circle_cmd__functions.h:
 
 /nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/include/stdbool.h:
 
-CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.c.o:
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/librosidl_runtime_c.so:
 
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/types/rcutils_ret.h:
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/visibility_control_macros.h:
+
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/visibility_control.h:
+
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/allocator.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/types.h:
 
@@ -294,8 +300,6 @@ CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/stdlib-bsearch.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/thread-shared-types.h:
-
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/visibility_control.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/stdint-least.h:
 
@@ -313,8 +317,6 @@ CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rosidl_generator_c/roarm_moveit/
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/long-double.h:
 
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
-
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/stdint-uintn.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/endian.h:
@@ -329,8 +331,6 @@ rosidl_generator_c/roarm_moveit/srv/detail/move_circle_cmd__functions.c:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/types/struct_timespec.h:
 
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/visibility_control_macros.h:
-
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/types/time_t.h:
 
 rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.c:
@@ -341,7 +341,11 @@ rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.c:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/select-decl.h:
 
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/macros.h:
+
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/stdlib-float.h:
+
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils/rcutils/types/rcutils_ret.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/libc-header-start.h:
 
@@ -349,13 +353,9 @@ rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/atomic_wide_counter.h:
 
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/librosidl_runtime_c.so:
-
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/sys/select.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/alloca.h:
-
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/allocator.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/assert.h:
 
@@ -371,9 +371,9 @@ rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/string_fortified.h:
 
-/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils/rcutils/macros.h:
-
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/types/sigset_t.h:
+
+/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/bits/types/locale_t.h:
 

@@ -57,10 +57,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs//CMakeFiles/progress.marks
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs//CMakeFiles/progress.marks
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/clean
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,31 +158,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/preinstall
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/preinstall
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule
-.PHONY : /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule
+/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule:
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule
+.PHONY : /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule
 
 # Convenience name for target.
-roarm_moveit__rs: /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule
+roarm_moveit__rs: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule
 .PHONY : roarm_moveit__rs
 
 # fast build rule for target.
 roarm_moveit__rs/fast:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build
 .PHONY : roarm_moveit__rs/fast
 
 # Help Target
@@ -210,6 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

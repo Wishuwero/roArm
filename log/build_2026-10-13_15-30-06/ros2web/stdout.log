@@ -1,0 +1,33 @@
+running egg_info
+writing ../../../../build/ros2web/ros2web.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2web/ros2web.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2web/ros2web.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2web/ros2web.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2web/ros2web.egg-info/top_level.txt
+reading manifest file '../../../../build/ros2web/ros2web.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2web/ros2web.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2web/__init__.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web
+copying ros2web/handler/__init__.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/handler
+copying ros2web/api/__init__.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/api
+copying ros2web/api/handler.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/api
+copying ros2web/api/ros_executor.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/api
+copying ros2web/api/ws_client.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/api
+copying ros2web/verb/__init__.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/verb
+copying ros2web/verb/server.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/verb
+copying ros2web/command/__init__.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/command
+copying ros2web/command/web.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/command
+copying ros2web/utilities/__init__.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities
+copying ros2web/utilities/socket.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities
+copying ros2web/utilities/msg.py -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/build/lib/ros2web/utilities
+running install
+running install_lib
+running install_data
+copying resource/ros2web -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web/share/ament_index/resource_index/packages
+copying package.xml -> /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web/share/ros2web
+running install_egg_info
+removing '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web-0.0.1-py3.14.egg-info' (and everything under it)
+Copying ../../../../build/ros2web/ros2web.egg-info to /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web/lib/python3.14/site-packages/ros2web-0.0.1-py3.14.egg-info
+running install_scripts
+writing list of installed files to '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web/install.log'

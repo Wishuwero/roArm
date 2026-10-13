@@ -53,10 +53,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces
 
 # Utility rule file for ament_cmake_python_copy_ros2web_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/compiler_depen
 include CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_ros2web_interfaces:
-	/nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E copy_directory /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_py/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ament_cmake_python/ros2web_interfaces/ros2web_interfaces
+	/nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E copy_directory /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_py/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ament_cmake_python/ros2web_interfaces/ros2web_interfaces
 
 CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/codegen:
 .PHONY : CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/depend:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/DependInfo.cmake "--color=$(COLOR)" ament_cmake_python_copy_ros2web_interfaces
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/DependInfo.cmake "--color=$(COLOR)" ament_cmake_python_copy_ros2web_interfaces
 .PHONY : CMakeFiles/ament_cmake_python_copy_ros2web_interfaces.dir/depend
 

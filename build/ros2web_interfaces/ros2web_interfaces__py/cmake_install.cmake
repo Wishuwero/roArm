@@ -1,8 +1,8 @@
-# Install script for directory: /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py
+# Install script for directory: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/ros2web_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py/install_local_manifest.txt"
+  file(WRITE "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

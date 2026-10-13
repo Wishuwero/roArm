@@ -1,8 +1,8 @@
-# Install script for directory: /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description
+# Install script for directory: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/omar/Documents/UTD/ros2/roarm_ws_em0/install/roarm_description")
+  set(CMAKE_INSTALL_PREFIX "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,76 +44,76 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE DIRECTORY FILES
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description/config"
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description/launch"
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description/meshes"
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description/urdf"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description/config"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description/launch"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description/meshes"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description/urdf"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/roarm_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/roarm_description")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/roarm_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/roarm_description")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/environment" TYPE FILE FILES "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/environment" TYPE FILE FILES "/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/environment" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/environment" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/environment" TYPE FILE FILES "/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/environment" TYPE FILE FILES "/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/environment" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/environment" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_index/share/ament_index/resource_index/packages/roarm_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_index/share/ament_index/resource_index/packages/roarm_description")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description/cmake" TYPE FILE FILES
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_core/roarm_descriptionConfig.cmake"
-    "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/ament_cmake_core/roarm_descriptionConfig-version.cmake"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_core/roarm_descriptionConfig.cmake"
+    "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/ament_cmake_core/roarm_descriptionConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm_description" TYPE FILE FILES "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_description/package.xml")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/install_local_manifest.txt"
+  file(WRITE "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,6 +129,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_description/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

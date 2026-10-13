@@ -1,0 +1,37 @@
+[0.059s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces -- -j8 -l8
+[0.245s] [  1%] Built target ros2web_interfaces__rs
+[0.292s] [  2%] Built target ros2web_interfaces__cpp
+[0.299s] [ 13%] Built target ros2web_interfaces__rosidl_generator_c
+[0.333s] [ 13%] Built target ament_cmake_python_copy_ros2web_interfaces
+[0.352s] [ 25%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.361s] [ 36%] Built target ros2web_interfaces__rosidl_typesupport_cpp
+[0.364s] [ 47%] Built target ros2web_interfaces__rosidl_typesupport_introspection_cpp
+[0.386s] [ 59%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c
+[0.400s] [ 70%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c
+[0.416s] [ 81%] Built target ros2web_interfaces__rosidl_typesupport_c
+[0.468s] [ 81%] Built target ros2web_interfaces
+[0.521s] [ 82%] Built target ros2web_interfaces__py
+[0.823s] running egg_info
+[0.846s] writing ros2web_interfaces.egg-info/PKG-INFO
+[0.847s] writing dependency_links to ros2web_interfaces.egg-info/dependency_links.txt
+[0.847s] writing top-level names to ros2web_interfaces.egg-info/top_level.txt
+[0.929s] reading manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[0.930s] writing manifest file 'ros2web_interfaces.egg-info/SOURCES.txt'
+[1.015s] [ 82%] Built target ament_cmake_python_build_ros2web_interfaces_egg
+[1.057s] [ 93%] Built target ros2web_interfaces__rosidl_generator_py
+[1.102s] [ 97%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.102s] [ 97%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.106s] [100%] Built target ros2web_interfaces__rosidl_typesupport_c__pyext

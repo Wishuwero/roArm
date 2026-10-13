@@ -54,10 +54,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -170,14 +170,14 @@ roarm_moveit__rs/clean: roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/roarm_moveit_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ uninstall: CMakeFiles/uninstall.dir/rule
 # codegen rule for target.
 CMakeFiles/uninstall.dir/codegen: CMakeFiles/roarm_moveit_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/codegen
 
 # clean rule for target.
@@ -202,14 +202,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/roarm_moveit_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit_uninstall.dir/build.make CMakeFiles/roarm_moveit_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit_uninstall.dir/build.make CMakeFiles/roarm_moveit_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target roarm_moveit_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target roarm_moveit_uninstall"
 .PHONY : CMakeFiles/roarm_moveit_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit_uninstall.dir/rule
 
 # Convenience name for target.
@@ -219,7 +219,7 @@ roarm_moveit_uninstall: CMakeFiles/roarm_moveit_uninstall.dir/rule
 # codegen rule for target.
 CMakeFiles/roarm_moveit_uninstall.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit_uninstall.dir/build.make CMakeFiles/roarm_moveit_uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target roarm_moveit_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target roarm_moveit_uninstall"
 .PHONY : CMakeFiles/roarm_moveit_uninstall.dir/codegen
 
 # clean rule for target.
@@ -231,25 +231,25 @@ CMakeFiles/roarm_moveit_uninstall.dir/clean:
 # Target rules for target CMakeFiles/roarm_moveit.dir
 
 # All Build rule for target.
-CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/all
-CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
-CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all
-CMakeFiles/roarm_moveit.dir/all: roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/all
-CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__cpp.dir/all
-CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/all
-CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/all
-CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
+CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/all
+CMakeFiles/roarm_moveit.dir/all: roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/all
+CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
+CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/all
+CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/all
+CMakeFiles/roarm_moveit.dir/all: CMakeFiles/roarm_moveit__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit.dir/build.make CMakeFiles/roarm_moveit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit.dir/build.make CMakeFiles/roarm_moveit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target roarm_moveit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target roarm_moveit"
 .PHONY : CMakeFiles/roarm_moveit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit.dir/rule
 
 # Convenience name for target.
@@ -257,16 +257,16 @@ roarm_moveit: CMakeFiles/roarm_moveit.dir/rule
 .PHONY : roarm_moveit
 
 # codegen rule for target.
-CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/all
-CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
-CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all
-CMakeFiles/roarm_moveit.dir/codegen: roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/all
-CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/all
-CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/all
-CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
+CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/all
+CMakeFiles/roarm_moveit.dir/codegen: roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/all
+CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
+CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/all
+CMakeFiles/roarm_moveit.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit.dir/build.make CMakeFiles/roarm_moveit.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target roarm_moveit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target roarm_moveit"
 .PHONY : CMakeFiles/roarm_moveit.dir/codegen
 
 # clean rule for target.
@@ -281,14 +281,14 @@ CMakeFiles/roarm_moveit.dir/clean:
 CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_generator_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_generator_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_generator_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_generator_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=3,4,5,6,7 "Built target roarm_moveit__rosidl_generator_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=3,4,5,6,7 "Built target roarm_moveit__rosidl_generator_c"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_generator_c.dir/rule
 
 # Convenience name for target.
@@ -298,7 +298,7 @@ roarm_moveit__rosidl_generator_c: CMakeFiles/roarm_moveit__rosidl_generator_c.di
 # codegen rule for target.
 CMakeFiles/roarm_moveit__rosidl_generator_c.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_generator_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_generator_c.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=3,4,5,6,7 "Finished codegen for target roarm_moveit__rosidl_generator_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=3,4,5,6,7 "Finished codegen for target roarm_moveit__rosidl_generator_c"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_generator_c.dir/codegen
 
 # clean rule for target.
@@ -313,14 +313,14 @@ CMakeFiles/roarm_moveit__rosidl_generator_c.dir/clean:
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=24,25,26,27,28 "Built target roarm_moveit__rosidl_typesupport_fastrtps_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=24,25,26,27,28 "Built target roarm_moveit__rosidl_typesupport_fastrtps_c"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/rule
 
 # Convenience name for target.
@@ -330,7 +330,7 @@ roarm_moveit__rosidl_typesupport_fastrtps_c: CMakeFiles/roarm_moveit__rosidl_typ
 # codegen rule for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=24,25,26,27,28 "Finished codegen for target roarm_moveit__rosidl_typesupport_fastrtps_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=24,25,26,27,28 "Finished codegen for target roarm_moveit__rosidl_typesupport_fastrtps_c"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/codegen
 
 # clean rule for target.
@@ -345,14 +345,14 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/clean:
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=36,37,38,39,40 "Built target roarm_moveit__rosidl_typesupport_introspection_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=36,37,38,39,40 "Built target roarm_moveit__rosidl_typesupport_introspection_c"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/rule
 
 # Convenience name for target.
@@ -362,7 +362,7 @@ roarm_moveit__rosidl_typesupport_introspection_c: CMakeFiles/roarm_moveit__rosid
 # codegen rule for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=36,37,38,39,40 "Finished codegen for target roarm_moveit__rosidl_typesupport_introspection_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=36,37,38,39,40 "Finished codegen for target roarm_moveit__rosidl_typesupport_introspection_c"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/codegen
 
 # clean rule for target.
@@ -377,14 +377,14 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/clean:
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=12,13,14,15,16 "Built target roarm_moveit__rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=12,13,14,15,16 "Built target roarm_moveit__rosidl_typesupport_c"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rule
 
 # Convenience name for target.
@@ -394,7 +394,7 @@ roarm_moveit__rosidl_typesupport_c: CMakeFiles/roarm_moveit__rosidl_typesupport_
 # codegen rule for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=12,13,14,15,16 "Finished codegen for target roarm_moveit__rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=12,13,14,15,16 "Finished codegen for target roarm_moveit__rosidl_typesupport_c"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/codegen
 
 # clean rule for target.
@@ -409,14 +409,14 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/clean:
 CMakeFiles/roarm_moveit__cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__cpp.dir/build.make CMakeFiles/roarm_moveit__cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__cpp.dir/build.make CMakeFiles/roarm_moveit__cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=1 "Built target roarm_moveit__cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=1 "Built target roarm_moveit__cpp"
 .PHONY : CMakeFiles/roarm_moveit__cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__cpp.dir/rule
 
 # Convenience name for target.
@@ -426,7 +426,7 @@ roarm_moveit__cpp: CMakeFiles/roarm_moveit__cpp.dir/rule
 # codegen rule for target.
 CMakeFiles/roarm_moveit__cpp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__cpp.dir/build.make CMakeFiles/roarm_moveit__cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=1 "Finished codegen for target roarm_moveit__cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=1 "Finished codegen for target roarm_moveit__cpp"
 .PHONY : CMakeFiles/roarm_moveit__cpp.dir/codegen
 
 # clean rule for target.
@@ -441,14 +441,14 @@ CMakeFiles/roarm_moveit__cpp.dir/clean:
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/roarm_moveit__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=31,32,33,34,35 "Built target roarm_moveit__rosidl_typesupport_fastrtps_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=31,32,33,34,35 "Built target roarm_moveit__rosidl_typesupport_fastrtps_cpp"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/rule
 
 # Convenience name for target.
@@ -458,7 +458,7 @@ roarm_moveit__rosidl_typesupport_fastrtps_cpp: CMakeFiles/roarm_moveit__rosidl_t
 # codegen rule for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=31,32,33,34,35 "Finished codegen for target roarm_moveit__rosidl_typesupport_fastrtps_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=31,32,33,34,35 "Finished codegen for target roarm_moveit__rosidl_typesupport_fastrtps_cpp"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/codegen
 
 # clean rule for target.
@@ -473,14 +473,14 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_cpp.dir/clean:
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/roarm_moveit__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=43,44,45,46,47 "Built target roarm_moveit__rosidl_typesupport_introspection_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=43,44,45,46,47 "Built target roarm_moveit__rosidl_typesupport_introspection_cpp"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/rule
 
 # Convenience name for target.
@@ -490,7 +490,7 @@ roarm_moveit__rosidl_typesupport_introspection_cpp: CMakeFiles/roarm_moveit__ros
 # codegen rule for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=43,44,45,46,47 "Finished codegen for target roarm_moveit__rosidl_typesupport_introspection_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=43,44,45,46,47 "Finished codegen for target roarm_moveit__rosidl_typesupport_introspection_cpp"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/codegen
 
 # clean rule for target.
@@ -505,14 +505,14 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_cpp.dir/clean:
 CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/all: CMakeFiles/roarm_moveit__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=19,20,21,22,23 "Built target roarm_moveit__rosidl_typesupport_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=19,20,21,22,23 "Built target roarm_moveit__rosidl_typesupport_cpp"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/rule
 
 # Convenience name for target.
@@ -522,7 +522,7 @@ roarm_moveit__rosidl_typesupport_cpp: CMakeFiles/roarm_moveit__rosidl_typesuppor
 # codegen rule for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=19,20,21,22,23 "Finished codegen for target roarm_moveit__rosidl_typesupport_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=19,20,21,22,23 "Finished codegen for target roarm_moveit__rosidl_typesupport_cpp"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/codegen
 
 # clean rule for target.
@@ -537,14 +537,14 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_cpp.dir/clean:
 CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/build.make CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/build.make CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_roarm_moveit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_roarm_moveit"
 .PHONY : CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/rule
 
 # Convenience name for target.
@@ -554,7 +554,7 @@ ament_cmake_python_copy_roarm_moveit: CMakeFiles/ament_cmake_python_copy_roarm_m
 # codegen rule for target.
 CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/build.make CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target ament_cmake_python_copy_roarm_moveit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target ament_cmake_python_copy_roarm_moveit"
 .PHONY : CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/codegen
 
 # clean rule for target.
@@ -569,14 +569,14 @@ CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/clean:
 CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/all: CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/build.make CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/build.make CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target ament_cmake_python_build_roarm_moveit_egg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Built target ament_cmake_python_build_roarm_moveit_egg"
 .PHONY : CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/rule
 
 # Convenience name for target.
@@ -586,7 +586,7 @@ ament_cmake_python_build_roarm_moveit_egg: CMakeFiles/ament_cmake_python_build_r
 # codegen rule for target.
 CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/codegen: CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/build.make CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target ament_cmake_python_build_roarm_moveit_egg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num= "Finished codegen for target ament_cmake_python_build_roarm_moveit_egg"
 .PHONY : CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/codegen
 
 # clean rule for target.
@@ -598,19 +598,19 @@ CMakeFiles/ament_cmake_python_build_roarm_moveit_egg.dir/clean:
 # Target rules for target CMakeFiles/roarm_moveit__rosidl_generator_py.dir
 
 # All Build rule for target.
-CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
-CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
 CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
+CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
+CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_generator_py.dir/build.make CMakeFiles/roarm_moveit__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_generator_py.dir/build.make CMakeFiles/roarm_moveit__rosidl_generator_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=8,9,10,11 "Built target roarm_moveit__rosidl_generator_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=8,9,10,11 "Built target roarm_moveit__rosidl_generator_py"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_generator_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_generator_py.dir/rule
 
 # Convenience name for target.
@@ -618,10 +618,10 @@ roarm_moveit__rosidl_generator_py: CMakeFiles/roarm_moveit__rosidl_generator_py.
 .PHONY : roarm_moveit__rosidl_generator_py
 
 # codegen rule for target.
-CMakeFiles/roarm_moveit__rosidl_generator_py.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 CMakeFiles/roarm_moveit__rosidl_generator_py.dir/codegen: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
+CMakeFiles/roarm_moveit__rosidl_generator_py.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_generator_py.dir/build.make CMakeFiles/roarm_moveit__rosidl_generator_py.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=8,9,10,11 "Finished codegen for target roarm_moveit__rosidl_generator_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=8,9,10,11 "Finished codegen for target roarm_moveit__rosidl_generator_py"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_generator_py.dir/codegen
 
 # clean rule for target.
@@ -633,21 +633,21 @@ CMakeFiles/roarm_moveit__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all
-CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
-CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
-CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=29,30 "Built target roarm_moveit__rosidl_typesupport_fastrtps_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=29,30 "Built target roarm_moveit__rosidl_typesupport_fastrtps_c__pyext"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/rule
 
 # Convenience name for target.
@@ -655,11 +655,11 @@ roarm_moveit__rosidl_typesupport_fastrtps_c__pyext: CMakeFiles/roarm_moveit__ros
 .PHONY : roarm_moveit__rosidl_typesupport_fastrtps_c__pyext
 
 # codegen rule for target.
-CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/codegen: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=29,30 "Finished codegen for target roarm_moveit__rosidl_typesupport_fastrtps_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=29,30 "Finished codegen for target roarm_moveit__rosidl_typesupport_fastrtps_c__pyext"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/codegen
 
 # clean rule for target.
@@ -671,21 +671,21 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all
-CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
-CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=41,42 "Built target roarm_moveit__rosidl_typesupport_introspection_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=41,42 "Built target roarm_moveit__rosidl_typesupport_introspection_c__pyext"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/rule
 
 # Convenience name for target.
@@ -693,11 +693,11 @@ roarm_moveit__rosidl_typesupport_introspection_c__pyext: CMakeFiles/roarm_moveit
 .PHONY : roarm_moveit__rosidl_typesupport_introspection_c__pyext
 
 # codegen rule for target.
-CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/codegen: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=41,42 "Finished codegen for target roarm_moveit__rosidl_typesupport_introspection_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=41,42 "Finished codegen for target roarm_moveit__rosidl_typesupport_introspection_c__pyext"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/codegen
 
 # clean rule for target.
@@ -709,20 +709,20 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_introspection_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir
 
 # All Build rule for target.
+CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/all: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_py.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
-CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/all: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
-CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/roarm_moveit__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=17,18 "Built target roarm_moveit__rosidl_typesupport_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=17,18 "Built target roarm_moveit__rosidl_typesupport_c__pyext"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/rule
 
 # Convenience name for target.
@@ -730,10 +730,10 @@ roarm_moveit__rosidl_typesupport_c__pyext: CMakeFiles/roarm_moveit__rosidl_types
 .PHONY : roarm_moveit__rosidl_typesupport_c__pyext
 
 # codegen rule for target.
-CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/codegen: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
+CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/codegen: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=17,18 "Finished codegen for target roarm_moveit__rosidl_typesupport_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=17,18 "Finished codegen for target roarm_moveit__rosidl_typesupport_c__pyext"
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/codegen
 
 # clean rule for target.
@@ -742,20 +742,20 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/clean:
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_c__pyext.dir/clean
 
 #=============================================================================
-# Target rules for target /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir
+# Target rules for target /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir
 
 # All Build rule for target.
 roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all: CMakeFiles/roarm_moveit.dir/all
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/depend
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=2 "Built target roarm_moveit__py"
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/depend
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=2 "Built target roarm_moveit__py"
 .PHONY : roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
 
 # Build rule for subdir invocation for target.
 roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 38
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 38
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/rule
 
 # Convenience name for target.
@@ -764,30 +764,30 @@ roarm_moveit__py: roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/rule
 
 # codegen rule for target.
 roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/codegen: CMakeFiles/roarm_moveit.dir/all
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=2 "Finished codegen for target roarm_moveit__py"
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=2 "Finished codegen for target roarm_moveit__py"
 .PHONY : roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/codegen
 
 # clean rule for target.
 roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/clean
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/clean
 .PHONY : roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/clean
 
 #=============================================================================
-# Target rules for target /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir
+# Target rules for target /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir
 
 # All Build rule for target.
 roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/all:
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/depend
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=48 "Built target roarm_moveit__rs"
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/depend
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=48 "Built target roarm_moveit__rs"
 .PHONY : roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/all
 
 # Build rule for subdir invocation for target.
 roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule
 
 # Convenience name for target.
@@ -796,13 +796,13 @@ roarm_moveit__rs: roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/rule
 
 # codegen rule for target.
 roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=48 "Finished codegen for target roarm_moveit__rs"
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=48 "Finished codegen for target roarm_moveit__rs"
 .PHONY : roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/codegen
 
 # clean rule for target.
 roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/clean:
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/clean
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/clean
 .PHONY : roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/clean
 
 #=============================================================================

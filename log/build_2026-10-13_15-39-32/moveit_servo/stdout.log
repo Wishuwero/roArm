@@ -1,0 +1,14 @@
+[  6%] Built target servo_controller_input
+[ 15%] Built target moveit_servo_lib_parameters
+[ 21%] Built target gtest
+[ 27%] Built target gtest_main
+[ 45%] Built target moveit_servo_lib
+[ 51%] Built target test_servo_collision
+[ 57%] Built target test_servo_integration
+[ 63%] Built target fake_command_publisher
+[ 69%] Built target pose_tracking
+[ 75%] Built target servo_calcs_unit_tests
+[ 81%] Built target servo_node
+[ 93%] Built target test_servo_pose_tracking
+[ 93%] Built target servo_node_main
+[100%] Built target servo_pose_tracking_demo

@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/cmake_install.cmake",
-		"/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/gtest/cmake_install.cmake"
+		"/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/cmake_install.cmake",
+		"/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/gtest/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

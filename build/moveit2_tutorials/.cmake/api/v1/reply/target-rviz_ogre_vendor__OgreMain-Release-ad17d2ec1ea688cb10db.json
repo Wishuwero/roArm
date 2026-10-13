@@ -1,0 +1,195 @@
+{
+	"abstract" : true,
+	"backtrace" : 17,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_ogre_vendor/cmake/rviz_ogre_vendor-extras.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_ogre_vendor/cmake/rviz_ogre_vendorConfig.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_rendering/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_rendering/cmake/rviz_renderingConfig.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_common/cmake/rviz_commonConfig.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"file" : 6,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"file" : 5,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"file" : 1,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 14
+			},
+			{
+				"file" : 0,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 16
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "rviz_ogre_vendor::OgreMain::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/m3fklrivqli4arqqc600m4iv6ialc091-freetype-2.14.3/lib/libfreetype.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/fkcbg2c1w29jr5yp9awai9w3v1wvxdk9-zlib-1.3.2/lib/libz.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/bcm3mwyfja8rd2y995vcnzq06b341nnz-libglvnd-1.7.0/lib/libOpenGL.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/bcm3mwyfja8rd2y995vcnzq06b341nnz-libglvnd-1.7.0/lib/libGLX.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/w5ad04x91cc4rgn0dbx11biqjffz3giz-glu-9.0.3/lib/libGLU.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "dl"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/c199wi5zfgqq83ky3ynmfndknl2ak3cn-libsm-1.2.6/lib/libSM.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/ym0dx7risfllmhx732s2i8lxb2i420n3-libice-1.1.2/lib/libICE.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/6f2h1w0lr8kvj442cj3m756dgh323h06-libx11-1.8.13/lib/libX11.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/kv43m4wf4wiw63pgvfz4cawg1aazlpqf-libxext-1.3.7/lib/libXext.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/5jrvrxsdzmlx2z7n9hwkw798img0iks1-libxt-1.3.1/lib/libXt.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/hcn3biyg529b5wq9mqhlhdr5awiiwyc7-libxrandr-1.5.5/lib/libXrandr.so"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "/nix/store/y0k7bzqp9vcpvg3ml1blar1hljxghlkh-libxaw-1.0.16/lib/libXaw.so"
+		}
+	],
+	"local" : true,
+	"name" : "rviz_ogre_vendor::OgreMain",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

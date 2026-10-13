@@ -4,7 +4,7 @@
 # compile CXX with /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo/include -I/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/src/gtest_vendor/. -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/src/gtest_vendor/include
+CXX_INCLUDES = -I/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo/include -I/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/src/gtest_vendor/. -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/src/gtest_vendor/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=c++17 -fPIC -Wno-missing-field-initializers -Wall -Wextra -Wwrite-strings -Wunreachable-code -Wpointer-arith -Wredundant-decls -Wcast-qual -Wno-maybe-uninitialized -Wno-null-dereference
 

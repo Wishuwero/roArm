@@ -53,38 +53,38 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces
 
 # Utility rule file for ros2web_interfaces__rs.
 
 # Include any custom commands dependencies for this target.
-include /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/compiler_depend.make
+include /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/progress.make
+include /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/progress.make
 
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/build.rs
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/Cargo.toml
+/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs
+/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/build.rs
+/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/Cargo.toml
 
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/rosidl_generator_rs/rosidl_generator_rs
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/python3.14/site-packages/rosidl_generator_rs/__init__.py
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/action.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/action/rmw.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/build.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/Cargo.toml.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/lib.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/msg.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/msg/rmw.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/srv.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/srv/rmw.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/templates/msg_idiomatic.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
-rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/rosidl_generator_rs/rosidl_generator_rs
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/python3.14/site-packages/rosidl_generator_rs/__init__.py
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/action.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/action/rmw.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/build.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/Cargo.toml.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/lib.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/msg.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/msg/rmw.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/srv.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/srv/rmw.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/templates/msg_idiomatic.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
+rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: rosidl_adapter/ros2web_interfaces/msg/BodyPart.idl
 rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: rosidl_adapter/ros2web_interfaces/msg/ContentType.idl
 rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: rosidl_adapter/ros2web_interfaces/msg/HTTPStatusCode.idl
@@ -93,8 +93,8 @@ rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: rosidl_adapter/ros2web_i
 rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: rosidl_adapter/ros2web_interfaces/msg/WSMsg.idl
 rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: rosidl_adapter/ros2web_interfaces/srv/HTTP.idl
 rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs: rosidl_adapter/ros2web_interfaces/srv/WS.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs && /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/bin/python3 /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs && /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/bin/python3 /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_rs/ros2web_interfaces/rust/build.rs: rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/ros2web_interfaces/rust/build.rs
@@ -102,25 +102,25 @@ rosidl_generator_rs/ros2web_interfaces/rust/build.rs: rosidl_generator_rs/ros2we
 rosidl_generator_rs/ros2web_interfaces/rust/Cargo.toml: rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/ros2web_interfaces/rust/Cargo.toml
 
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/codegen:
-.PHONY : /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/codegen
+/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/codegen:
+.PHONY : /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/codegen
 
-ros2web_interfaces__rs: /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs
+ros2web_interfaces__rs: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs
 ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/Cargo.toml
 ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/build.rs
 ros2web_interfaces__rs: rosidl_generator_rs/ros2web_interfaces/rust/src/lib.rs
-ros2web_interfaces__rs: /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build.make
+ros2web_interfaces__rs: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build.make
 .PHONY : ros2web_interfaces__rs
 
 # Rule to build all files generated by this target.
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build: ros2web_interfaces__rs
-.PHONY : /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build
+/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build: ros2web_interfaces__rs
+.PHONY : /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build
 
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/clean:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs && $(CMAKE_COMMAND) -P CMakeFiles/ros2web_interfaces__rs.dir/cmake_clean.cmake
-.PHONY : /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/clean
+/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/clean:
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs && $(CMAKE_COMMAND) -P CMakeFiles/ros2web_interfaces__rs.dir/cmake_clean.cmake
+.PHONY : /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/clean
 
-/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/depend:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/DependInfo.cmake "--color=$(COLOR)" ros2web_interfaces__rs
-.PHONY : /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/depend
+/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/depend:
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/DependInfo.cmake "--color=$(COLOR)" ros2web_interfaces__rs
+.PHONY : /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/depend
 

@@ -54,10 +54,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -105,14 +105,14 @@ clean: CMakeFiles/setgrippercmd.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/roarm_moveit_cmd_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ uninstall: CMakeFiles/uninstall.dir/rule
 # codegen rule for target.
 CMakeFiles/uninstall.dir/codegen: CMakeFiles/roarm_moveit_cmd_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num= "Finished codegen for target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num= "Finished codegen for target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/codegen
 
 # clean rule for target.
@@ -137,14 +137,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/roarm_moveit_cmd_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit_cmd_uninstall.dir/build.make CMakeFiles/roarm_moveit_cmd_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit_cmd_uninstall.dir/build.make CMakeFiles/roarm_moveit_cmd_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num= "Built target roarm_moveit_cmd_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num= "Built target roarm_moveit_cmd_uninstall"
 .PHONY : CMakeFiles/roarm_moveit_cmd_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roarm_moveit_cmd_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roarm_moveit_cmd_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/roarm_moveit_cmd_uninstall.dir/rule
 
 # Convenience name for target.
@@ -154,7 +154,7 @@ roarm_moveit_cmd_uninstall: CMakeFiles/roarm_moveit_cmd_uninstall.dir/rule
 # codegen rule for target.
 CMakeFiles/roarm_moveit_cmd_uninstall.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roarm_moveit_cmd_uninstall.dir/build.make CMakeFiles/roarm_moveit_cmd_uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num= "Finished codegen for target roarm_moveit_cmd_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num= "Finished codegen for target roarm_moveit_cmd_uninstall"
 .PHONY : CMakeFiles/roarm_moveit_cmd_uninstall.dir/codegen
 
 # clean rule for target.
@@ -169,14 +169,14 @@ CMakeFiles/roarm_moveit_cmd_uninstall.dir/clean:
 CMakeFiles/getposecmd_tf2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getposecmd_tf2.dir/build.make CMakeFiles/getposecmd_tf2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getposecmd_tf2.dir/build.make CMakeFiles/getposecmd_tf2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=3,4 "Built target getposecmd_tf2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=3,4 "Built target getposecmd_tf2"
 .PHONY : CMakeFiles/getposecmd_tf2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/getposecmd_tf2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/getposecmd_tf2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/getposecmd_tf2.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ getposecmd_tf2: CMakeFiles/getposecmd_tf2.dir/rule
 # codegen rule for target.
 CMakeFiles/getposecmd_tf2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getposecmd_tf2.dir/build.make CMakeFiles/getposecmd_tf2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=3,4 "Finished codegen for target getposecmd_tf2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=3,4 "Finished codegen for target getposecmd_tf2"
 .PHONY : CMakeFiles/getposecmd_tf2.dir/codegen
 
 # clean rule for target.
@@ -201,14 +201,14 @@ CMakeFiles/getposecmd_tf2.dir/clean:
 CMakeFiles/getposecmd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getposecmd.dir/build.make CMakeFiles/getposecmd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getposecmd.dir/build.make CMakeFiles/getposecmd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=1,2 "Built target getposecmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=1,2 "Built target getposecmd"
 .PHONY : CMakeFiles/getposecmd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/getposecmd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/getposecmd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/getposecmd.dir/rule
 
 # Convenience name for target.
@@ -218,7 +218,7 @@ getposecmd: CMakeFiles/getposecmd.dir/rule
 # codegen rule for target.
 CMakeFiles/getposecmd.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getposecmd.dir/build.make CMakeFiles/getposecmd.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=1,2 "Finished codegen for target getposecmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=1,2 "Finished codegen for target getposecmd"
 .PHONY : CMakeFiles/getposecmd.dir/codegen
 
 # clean rule for target.
@@ -233,14 +233,14 @@ CMakeFiles/getposecmd.dir/clean:
 CMakeFiles/keyboardcontrol.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboardcontrol.dir/build.make CMakeFiles/keyboardcontrol.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboardcontrol.dir/build.make CMakeFiles/keyboardcontrol.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=5,6 "Built target keyboardcontrol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=5,6 "Built target keyboardcontrol"
 .PHONY : CMakeFiles/keyboardcontrol.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/keyboardcontrol.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/keyboardcontrol.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/keyboardcontrol.dir/rule
 
 # Convenience name for target.
@@ -250,7 +250,7 @@ keyboardcontrol: CMakeFiles/keyboardcontrol.dir/rule
 # codegen rule for target.
 CMakeFiles/keyboardcontrol.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboardcontrol.dir/build.make CMakeFiles/keyboardcontrol.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=5,6 "Finished codegen for target keyboardcontrol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=5,6 "Finished codegen for target keyboardcontrol"
 .PHONY : CMakeFiles/keyboardcontrol.dir/codegen
 
 # clean rule for target.
@@ -265,14 +265,14 @@ CMakeFiles/keyboardcontrol.dir/clean:
 CMakeFiles/movepointcmd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movepointcmd.dir/build.make CMakeFiles/movepointcmd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movepointcmd.dir/build.make CMakeFiles/movepointcmd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=9,10 "Built target movepointcmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=9,10 "Built target movepointcmd"
 .PHONY : CMakeFiles/movepointcmd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/movepointcmd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/movepointcmd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/movepointcmd.dir/rule
 
 # Convenience name for target.
@@ -282,7 +282,7 @@ movepointcmd: CMakeFiles/movepointcmd.dir/rule
 # codegen rule for target.
 CMakeFiles/movepointcmd.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movepointcmd.dir/build.make CMakeFiles/movepointcmd.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=9,10 "Finished codegen for target movepointcmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=9,10 "Finished codegen for target movepointcmd"
 .PHONY : CMakeFiles/movepointcmd.dir/codegen
 
 # clean rule for target.
@@ -297,14 +297,14 @@ CMakeFiles/movepointcmd.dir/clean:
 CMakeFiles/movecirclecmd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movecirclecmd.dir/build.make CMakeFiles/movecirclecmd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movecirclecmd.dir/build.make CMakeFiles/movecirclecmd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=7,8 "Built target movecirclecmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=7,8 "Built target movecirclecmd"
 .PHONY : CMakeFiles/movecirclecmd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/movecirclecmd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/movecirclecmd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/movecirclecmd.dir/rule
 
 # Convenience name for target.
@@ -314,7 +314,7 @@ movecirclecmd: CMakeFiles/movecirclecmd.dir/rule
 # codegen rule for target.
 CMakeFiles/movecirclecmd.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movecirclecmd.dir/build.make CMakeFiles/movecirclecmd.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=7,8 "Finished codegen for target movecirclecmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=7,8 "Finished codegen for target movecirclecmd"
 .PHONY : CMakeFiles/movecirclecmd.dir/codegen
 
 # clean rule for target.
@@ -329,14 +329,14 @@ CMakeFiles/movecirclecmd.dir/clean:
 CMakeFiles/webappcontrol.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webappcontrol.dir/build.make CMakeFiles/webappcontrol.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webappcontrol.dir/build.make CMakeFiles/webappcontrol.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=13,14 "Built target webappcontrol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=13,14 "Built target webappcontrol"
 .PHONY : CMakeFiles/webappcontrol.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/webappcontrol.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/webappcontrol.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/webappcontrol.dir/rule
 
 # Convenience name for target.
@@ -346,7 +346,7 @@ webappcontrol: CMakeFiles/webappcontrol.dir/rule
 # codegen rule for target.
 CMakeFiles/webappcontrol.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webappcontrol.dir/build.make CMakeFiles/webappcontrol.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=13,14 "Finished codegen for target webappcontrol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=13,14 "Finished codegen for target webappcontrol"
 .PHONY : CMakeFiles/webappcontrol.dir/codegen
 
 # clean rule for target.
@@ -361,14 +361,14 @@ CMakeFiles/webappcontrol.dir/clean:
 CMakeFiles/setgrippercmd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/setgrippercmd.dir/build.make CMakeFiles/setgrippercmd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/setgrippercmd.dir/build.make CMakeFiles/setgrippercmd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=11,12 "Built target setgrippercmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=11,12 "Built target setgrippercmd"
 .PHONY : CMakeFiles/setgrippercmd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/setgrippercmd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/setgrippercmd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles 0
 .PHONY : CMakeFiles/setgrippercmd.dir/rule
 
 # Convenience name for target.
@@ -378,7 +378,7 @@ setgrippercmd: CMakeFiles/setgrippercmd.dir/rule
 # codegen rule for target.
 CMakeFiles/setgrippercmd.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/setgrippercmd.dir/build.make CMakeFiles/setgrippercmd.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=11,12 "Finished codegen for target setgrippercmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit_cmd/CMakeFiles --progress-num=11,12 "Finished codegen for target setgrippercmd"
 .PHONY : CMakeFiles/setgrippercmd.dir/codegen
 
 # clean rule for target.

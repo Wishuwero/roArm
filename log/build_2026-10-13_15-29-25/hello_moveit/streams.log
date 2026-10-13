@@ -1,0 +1,77 @@
+[0.037s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit -- -j8 -l8
+[0.550s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[9.248s] [100%] [1m[32mLinking CXX executable hello_moveit[0m
+[11.195s] [100%] Built target hello_moveit
+[11.218s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit -- -j8 -l8
+[11.221s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit
+[11.277s] -- Install configuration: ""
+[11.277s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/lib/hello_moveit/hello_moveit
+[11.278s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+[11.278s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[11.278s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[11.278s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[11.278s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[11.278s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/path.sh
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.bash
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.sh
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[11.279s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/package.dsv
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[11.279s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/package.xml
+[11.288s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit

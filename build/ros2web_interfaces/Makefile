@@ -57,10 +57,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -402,7 +402,7 @@ ros2web_interfaces__py: cmake_check_build_system
 
 # fast build rule for target.
 ros2web_interfaces__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py/CMakeFiles/ros2web_interfaces__py.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py/CMakeFiles/ros2web_interfaces__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py/CMakeFiles/ros2web_interfaces__py.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__py/CMakeFiles/ros2web_interfaces__py.dir/build
 .PHONY : ros2web_interfaces__py/fast
 
 #=============================================================================
@@ -415,7 +415,7 @@ ros2web_interfaces__rs: cmake_check_build_system
 
 # fast build rule for target.
 ros2web_interfaces__rs/fast:
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ros2web_interfaces__rs/CMakeFiles/ros2web_interfaces__rs.dir/build
 .PHONY : ros2web_interfaces__rs/fast
 
 rosidl_generator_c/ros2web_interfaces/msg/detail/body_part__functions.o: rosidl_generator_c/ros2web_interfaces/msg/detail/body_part__functions.c.o

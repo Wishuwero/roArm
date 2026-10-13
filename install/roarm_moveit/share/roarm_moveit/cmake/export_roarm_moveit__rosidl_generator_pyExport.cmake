@@ -59,7 +59,7 @@ endif()
 add_library(roarm_moveit::roarm_moveit__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(roarm_moveit::roarm_moveit__rosidl_generator_py PROPERTIES
-  INTERFACE_LINK_LIBRARIES "roarm_moveit::roarm_moveit__rosidl_generator_c;/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/lib/libpython3.14.so;roarm_moveit::roarm_moveit__rosidl_typesupport_c"
+  INTERFACE_LINK_LIBRARIES "roarm_moveit::roarm_moveit__rosidl_generator_c;/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/libpython3.14.so;roarm_moveit::roarm_moveit__rosidl_typesupport_c"
 )
 
 # Load information for each installed configuration.

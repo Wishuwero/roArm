@@ -54,10 +54,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -143,14 +143,14 @@ gtest/clean: gtest/CMakeFiles/gtest_main.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/moveit_servo_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -160,7 +160,7 @@ uninstall: CMakeFiles/uninstall.dir/rule
 # codegen rule for target.
 CMakeFiles/uninstall.dir/codegen: CMakeFiles/moveit_servo_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num= "Finished codegen for target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num= "Finished codegen for target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/codegen
 
 # clean rule for target.
@@ -175,14 +175,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/moveit_servo_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_uninstall.dir/build.make CMakeFiles/moveit_servo_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_uninstall.dir/build.make CMakeFiles/moveit_servo_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num= "Built target moveit_servo_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num= "Built target moveit_servo_uninstall"
 .PHONY : CMakeFiles/moveit_servo_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/moveit_servo_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moveit_servo_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/moveit_servo_uninstall.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ moveit_servo_uninstall: CMakeFiles/moveit_servo_uninstall.dir/rule
 # codegen rule for target.
 CMakeFiles/moveit_servo_uninstall.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_uninstall.dir/build.make CMakeFiles/moveit_servo_uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num= "Finished codegen for target moveit_servo_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num= "Finished codegen for target moveit_servo_uninstall"
 .PHONY : CMakeFiles/moveit_servo_uninstall.dir/codegen
 
 # clean rule for target.
@@ -207,14 +207,14 @@ CMakeFiles/moveit_servo_uninstall.dir/clean:
 CMakeFiles/moveit_servo_lib_parameters.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_lib_parameters.dir/build.make CMakeFiles/moveit_servo_lib_parameters.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_lib_parameters.dir/build.make CMakeFiles/moveit_servo_lib_parameters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=13,14,15 "Built target moveit_servo_lib_parameters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=13,14,15 "Built target moveit_servo_lib_parameters"
 .PHONY : CMakeFiles/moveit_servo_lib_parameters.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/moveit_servo_lib_parameters.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moveit_servo_lib_parameters.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/moveit_servo_lib_parameters.dir/rule
 
 # Convenience name for target.
@@ -224,7 +224,7 @@ moveit_servo_lib_parameters: CMakeFiles/moveit_servo_lib_parameters.dir/rule
 # codegen rule for target.
 CMakeFiles/moveit_servo_lib_parameters.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_lib_parameters.dir/build.make CMakeFiles/moveit_servo_lib_parameters.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=13,14,15 "Finished codegen for target moveit_servo_lib_parameters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=13,14,15 "Finished codegen for target moveit_servo_lib_parameters"
 .PHONY : CMakeFiles/moveit_servo_lib_parameters.dir/codegen
 
 # clean rule for target.
@@ -239,14 +239,14 @@ CMakeFiles/moveit_servo_lib_parameters.dir/clean:
 CMakeFiles/moveit_servo_lib.dir/all: CMakeFiles/moveit_servo_lib_parameters.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_lib.dir/build.make CMakeFiles/moveit_servo_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_lib.dir/build.make CMakeFiles/moveit_servo_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target moveit_servo_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target moveit_servo_lib"
 .PHONY : CMakeFiles/moveit_servo_lib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/moveit_servo_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moveit_servo_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/moveit_servo_lib.dir/rule
 
 # Convenience name for target.
@@ -256,7 +256,7 @@ moveit_servo_lib: CMakeFiles/moveit_servo_lib.dir/rule
 # codegen rule for target.
 CMakeFiles/moveit_servo_lib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_servo_lib.dir/build.make CMakeFiles/moveit_servo_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=7,8,9,10,11,12 "Finished codegen for target moveit_servo_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=7,8,9,10,11,12 "Finished codegen for target moveit_servo_lib"
 .PHONY : CMakeFiles/moveit_servo_lib.dir/codegen
 
 # clean rule for target.
@@ -272,14 +272,14 @@ CMakeFiles/pose_tracking.dir/all: CMakeFiles/moveit_servo_lib_parameters.dir/all
 CMakeFiles/pose_tracking.dir/all: CMakeFiles/moveit_servo_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_tracking.dir/build.make CMakeFiles/pose_tracking.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_tracking.dir/build.make CMakeFiles/pose_tracking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=16,17 "Built target pose_tracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=16,17 "Built target pose_tracking"
 .PHONY : CMakeFiles/pose_tracking.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pose_tracking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pose_tracking.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/pose_tracking.dir/rule
 
 # Convenience name for target.
@@ -289,7 +289,7 @@ pose_tracking: CMakeFiles/pose_tracking.dir/rule
 # codegen rule for target.
 CMakeFiles/pose_tracking.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_tracking.dir/build.make CMakeFiles/pose_tracking.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=16,17 "Finished codegen for target pose_tracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=16,17 "Finished codegen for target pose_tracking"
 .PHONY : CMakeFiles/pose_tracking.dir/codegen
 
 # clean rule for target.
@@ -305,14 +305,14 @@ CMakeFiles/servo_node.dir/all: CMakeFiles/moveit_servo_lib_parameters.dir/all
 CMakeFiles/servo_node.dir/all: CMakeFiles/moveit_servo_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_node.dir/build.make CMakeFiles/servo_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_node.dir/build.make CMakeFiles/servo_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=22,23 "Built target servo_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=22,23 "Built target servo_node"
 .PHONY : CMakeFiles/servo_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/servo_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/servo_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/servo_node.dir/rule
 
 # Convenience name for target.
@@ -322,7 +322,7 @@ servo_node: CMakeFiles/servo_node.dir/rule
 # codegen rule for target.
 CMakeFiles/servo_node.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_node.dir/build.make CMakeFiles/servo_node.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=22,23 "Finished codegen for target servo_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=22,23 "Finished codegen for target servo_node"
 .PHONY : CMakeFiles/servo_node.dir/codegen
 
 # clean rule for target.
@@ -337,14 +337,14 @@ CMakeFiles/servo_node.dir/clean:
 CMakeFiles/servo_controller_input.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_controller_input.dir/build.make CMakeFiles/servo_controller_input.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_controller_input.dir/build.make CMakeFiles/servo_controller_input.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=20,21 "Built target servo_controller_input"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=20,21 "Built target servo_controller_input"
 .PHONY : CMakeFiles/servo_controller_input.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/servo_controller_input.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/servo_controller_input.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/servo_controller_input.dir/rule
 
 # Convenience name for target.
@@ -354,7 +354,7 @@ servo_controller_input: CMakeFiles/servo_controller_input.dir/rule
 # codegen rule for target.
 CMakeFiles/servo_controller_input.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_controller_input.dir/build.make CMakeFiles/servo_controller_input.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=20,21 "Finished codegen for target servo_controller_input"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=20,21 "Finished codegen for target servo_controller_input"
 .PHONY : CMakeFiles/servo_controller_input.dir/codegen
 
 # clean rule for target.
@@ -371,14 +371,14 @@ CMakeFiles/servo_node_main.dir/all: CMakeFiles/moveit_servo_lib.dir/all
 CMakeFiles/servo_node_main.dir/all: CMakeFiles/servo_node.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_node_main.dir/build.make CMakeFiles/servo_node_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_node_main.dir/build.make CMakeFiles/servo_node_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=24,25 "Built target servo_node_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=24,25 "Built target servo_node_main"
 .PHONY : CMakeFiles/servo_node_main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/servo_node_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/servo_node_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/servo_node_main.dir/rule
 
 # Convenience name for target.
@@ -388,7 +388,7 @@ servo_node_main: CMakeFiles/servo_node_main.dir/rule
 # codegen rule for target.
 CMakeFiles/servo_node_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_node_main.dir/build.make CMakeFiles/servo_node_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=24,25 "Finished codegen for target servo_node_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=24,25 "Finished codegen for target servo_node_main"
 .PHONY : CMakeFiles/servo_node_main.dir/codegen
 
 # clean rule for target.
@@ -405,14 +405,14 @@ CMakeFiles/servo_pose_tracking_demo.dir/all: CMakeFiles/moveit_servo_lib.dir/all
 CMakeFiles/servo_pose_tracking_demo.dir/all: CMakeFiles/pose_tracking.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_pose_tracking_demo.dir/build.make CMakeFiles/servo_pose_tracking_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_pose_tracking_demo.dir/build.make CMakeFiles/servo_pose_tracking_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=26,27 "Built target servo_pose_tracking_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=26,27 "Built target servo_pose_tracking_demo"
 .PHONY : CMakeFiles/servo_pose_tracking_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/servo_pose_tracking_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/servo_pose_tracking_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/servo_pose_tracking_demo.dir/rule
 
 # Convenience name for target.
@@ -422,7 +422,7 @@ servo_pose_tracking_demo: CMakeFiles/servo_pose_tracking_demo.dir/rule
 # codegen rule for target.
 CMakeFiles/servo_pose_tracking_demo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_pose_tracking_demo.dir/build.make CMakeFiles/servo_pose_tracking_demo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=26,27 "Finished codegen for target servo_pose_tracking_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=26,27 "Finished codegen for target servo_pose_tracking_demo"
 .PHONY : CMakeFiles/servo_pose_tracking_demo.dir/codegen
 
 # clean rule for target.
@@ -437,14 +437,14 @@ CMakeFiles/servo_pose_tracking_demo.dir/clean:
 CMakeFiles/fake_command_publisher.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_command_publisher.dir/build.make CMakeFiles/fake_command_publisher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_command_publisher.dir/build.make CMakeFiles/fake_command_publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=1,2 "Built target fake_command_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=1,2 "Built target fake_command_publisher"
 .PHONY : CMakeFiles/fake_command_publisher.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fake_command_publisher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fake_command_publisher.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/fake_command_publisher.dir/rule
 
 # Convenience name for target.
@@ -454,7 +454,7 @@ fake_command_publisher: CMakeFiles/fake_command_publisher.dir/rule
 # codegen rule for target.
 CMakeFiles/fake_command_publisher.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fake_command_publisher.dir/build.make CMakeFiles/fake_command_publisher.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=1,2 "Finished codegen for target fake_command_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=1,2 "Finished codegen for target fake_command_publisher"
 .PHONY : CMakeFiles/fake_command_publisher.dir/codegen
 
 # clean rule for target.
@@ -471,14 +471,14 @@ CMakeFiles/test_servo_integration.dir/all: gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/test_servo_integration.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_integration.dir/build.make CMakeFiles/test_servo_integration.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_integration.dir/build.make CMakeFiles/test_servo_integration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=30,31 "Built target test_servo_integration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=30,31 "Built target test_servo_integration"
 .PHONY : CMakeFiles/test_servo_integration.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_servo_integration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_servo_integration.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/test_servo_integration.dir/rule
 
 # Convenience name for target.
@@ -488,7 +488,7 @@ test_servo_integration: CMakeFiles/test_servo_integration.dir/rule
 # codegen rule for target.
 CMakeFiles/test_servo_integration.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_integration.dir/build.make CMakeFiles/test_servo_integration.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=30,31 "Finished codegen for target test_servo_integration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=30,31 "Finished codegen for target test_servo_integration"
 .PHONY : CMakeFiles/test_servo_integration.dir/codegen
 
 # clean rule for target.
@@ -505,14 +505,14 @@ CMakeFiles/test_servo_collision.dir/all: gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/test_servo_collision.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_collision.dir/build.make CMakeFiles/test_servo_collision.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_collision.dir/build.make CMakeFiles/test_servo_collision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=28,29 "Built target test_servo_collision"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=28,29 "Built target test_servo_collision"
 .PHONY : CMakeFiles/test_servo_collision.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_servo_collision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_servo_collision.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/test_servo_collision.dir/rule
 
 # Convenience name for target.
@@ -522,7 +522,7 @@ test_servo_collision: CMakeFiles/test_servo_collision.dir/rule
 # codegen rule for target.
 CMakeFiles/test_servo_collision.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_collision.dir/build.make CMakeFiles/test_servo_collision.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=28,29 "Finished codegen for target test_servo_collision"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=28,29 "Finished codegen for target test_servo_collision"
 .PHONY : CMakeFiles/test_servo_collision.dir/codegen
 
 # clean rule for target.
@@ -541,14 +541,14 @@ CMakeFiles/test_servo_pose_tracking.dir/all: gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/test_servo_pose_tracking.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_pose_tracking.dir/build.make CMakeFiles/test_servo_pose_tracking.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_pose_tracking.dir/build.make CMakeFiles/test_servo_pose_tracking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=32,33 "Built target test_servo_pose_tracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=32,33 "Built target test_servo_pose_tracking"
 .PHONY : CMakeFiles/test_servo_pose_tracking.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_servo_pose_tracking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_servo_pose_tracking.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/test_servo_pose_tracking.dir/rule
 
 # Convenience name for target.
@@ -558,7 +558,7 @@ test_servo_pose_tracking: CMakeFiles/test_servo_pose_tracking.dir/rule
 # codegen rule for target.
 CMakeFiles/test_servo_pose_tracking.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_servo_pose_tracking.dir/build.make CMakeFiles/test_servo_pose_tracking.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=32,33 "Finished codegen for target test_servo_pose_tracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=32,33 "Finished codegen for target test_servo_pose_tracking"
 .PHONY : CMakeFiles/test_servo_pose_tracking.dir/codegen
 
 # clean rule for target.
@@ -576,14 +576,14 @@ CMakeFiles/servo_calcs_unit_tests.dir/all: gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/servo_calcs_unit_tests.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_calcs_unit_tests.dir/build.make CMakeFiles/servo_calcs_unit_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_calcs_unit_tests.dir/build.make CMakeFiles/servo_calcs_unit_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=18,19 "Built target servo_calcs_unit_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=18,19 "Built target servo_calcs_unit_tests"
 .PHONY : CMakeFiles/servo_calcs_unit_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/servo_calcs_unit_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/servo_calcs_unit_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : CMakeFiles/servo_calcs_unit_tests.dir/rule
 
 # Convenience name for target.
@@ -593,7 +593,7 @@ servo_calcs_unit_tests: CMakeFiles/servo_calcs_unit_tests.dir/rule
 # codegen rule for target.
 CMakeFiles/servo_calcs_unit_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/servo_calcs_unit_tests.dir/build.make CMakeFiles/servo_calcs_unit_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=18,19 "Finished codegen for target servo_calcs_unit_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=18,19 "Finished codegen for target servo_calcs_unit_tests"
 .PHONY : CMakeFiles/servo_calcs_unit_tests.dir/codegen
 
 # clean rule for target.
@@ -608,14 +608,14 @@ CMakeFiles/servo_calcs_unit_tests.dir/clean:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=3,4 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=3,4 "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -625,7 +625,7 @@ gtest: gtest/CMakeFiles/gtest.dir/rule
 # codegen rule for target.
 gtest/CMakeFiles/gtest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=3,4 "Finished codegen for target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=3,4 "Finished codegen for target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/codegen
 
 # clean rule for target.
@@ -640,14 +640,14 @@ gtest/CMakeFiles/gtest.dir/clean:
 gtest/CMakeFiles/gtest_main.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=5,6 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=5,6 "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -657,7 +657,7 @@ gtest_main: gtest/CMakeFiles/gtest_main.dir/rule
 # codegen rule for target.
 gtest/CMakeFiles/gtest_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=5,6 "Finished codegen for target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles --progress-num=5,6 "Finished codegen for target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/codegen
 
 # clean rule for target.

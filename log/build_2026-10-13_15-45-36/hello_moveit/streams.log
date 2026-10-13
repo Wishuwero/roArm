@@ -1,0 +1,178 @@
+[0.872s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit -- -j8 -l8
+[0.957s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.957s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.957s]   CMake.
+[0.957s] 
+[0.957s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.957s]   to tell CMake that the project requires at least <min> but has been updated
+[0.957s]   to work with policies introduced by <max> or earlier.
+[0.958s] 
+[0.958s] [0m
+[0.965s] -- Found ament_cmake: 1.3.14 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/ament_cmake/cmake)
+[1.685s] -- Found moveit_ros_planning_interface: 2.5.10 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake)
+[1.685s] [33mCMake Warning (dev) at /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+[1.686s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.686s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.686s]   set the policy and suppress this warning.
+[1.686s] 
+[1.688s] Call Stack (most recent call first):
+[1.689s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[1.689s]   CMakeLists.txt:10 (find_package)
+[1.689s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.689s] [0m
+[1.709s] -- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: date_time filesystem program_options thread
+[1.779s] -- Found rosidl_generator_c: 3.1.9 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/rosidl_generator_c/cmake)
+[1.784s] -- Found rosidl_adapter: 3.1.9 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/rosidl_adapter/cmake)
+[1.796s] -- Found rosidl_generator_cpp: 3.1.9 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/rosidl_generator_cpp/cmake)
+[1.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.253s] [33mCMake Warning (dev) at /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+[2.253s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.253s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.253s]   set the policy and suppress this warning.
+[2.253s] 
+[2.254s] Call Stack (most recent call first):
+[2.254s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[2.254s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.254s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[2.254s]   CMakeLists.txt:10 (find_package)
+[2.254s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.254s] [0m
+[2.268s] -- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: chrono date_time filesystem iostreams program_options regex serialization thread
+[2.403s] -- Found rclcpp: 16.0.21 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/rclcpp/cmake)
+[2.461s] -- Found rmw_implementation_cmake: 6.1.4 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/rmw_implementation_cmake/cmake)
+[2.464s] -- Found rmw_fastrtps_cpp: 6.2.10 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/rmw_fastrtps_cpp/cmake)
+[2.649s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.747s] -- Found tcb_span: 1.3.2 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/tcb_span/cmake)
+[2.754s] -- Found rclcpp_lifecycle: 16.0.21 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/rclcpp_lifecycle/cmake)
+[2.802s] -- Found parameter_traits: 0.7.6 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/parameter_traits/cmake)
+[2.943s] -- library: /nix/store/9gg2kw74rag1sjl2jl6qaddaisllpdip-curl-8.21.0/lib/libcurl.so
+[3.018s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.244s] [33mCMake Warning (dev) at /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+[3.244s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.244s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.244s]   set the policy and suppress this warning.
+[3.244s] 
+[3.244s] Call Stack (most recent call first):
+[3.244s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+[3.245s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.245s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[3.245s]   CMakeLists.txt:10 (find_package)
+[3.245s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.245s] [0m
+[3.251s] -- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time program_options thread chrono
+[3.314s] [33mCMake Warning (dev) at /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+[3.314s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.314s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.314s]   set the policy and suppress this warning.
+[3.314s] 
+[3.314s] Call Stack (most recent call first):
+[3.314s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+[3.314s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.315s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[3.315s]   CMakeLists.txt:10 (find_package)
+[3.315s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.315s] [0m
+[3.321s] -- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: thread filesystem regex date_time program_options
+[3.349s] [33mCMake Warning (dev) at /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+[3.349s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.349s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.349s]   set the policy and suppress this warning.
+[3.349s] 
+[3.349s] Call Stack (most recent call first):
+[3.349s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+[3.350s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.350s]   /nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[3.350s]   CMakeLists.txt:10 (find_package)
+[3.350s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.350s] [0m
+[3.355s] -- Found Boost: /nix/store/hl9mnablabykyx4q5dw7a9cdp2m1pclh-boost-1.89.0-dev/lib/cmake/Boost-1.89.0/BoostConfig.cmake (found version "1.89.0") found components: filesystem date_time program_options thread
+[3.410s] -- Found ament_lint_auto: 0.12.15 (/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env/share/ament_lint_auto/cmake)
+[3.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.646s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/hello_moveit/include>
+[3.646s] -- Configured cppcheck exclude dirs and/or files: 
+[3.650s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.658s] -- Added test 'lint_cmake' to check CMake code style
+[3.662s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.691s] -- Added test 'uncrustify' to check C / C++ code style
+[3.691s] -- Configured uncrustify additional arguments: 
+[3.695s] -- Added test 'xmllint' to check XML markup files
+[3.696s] -- Configuring done (2.7s)
+[3.755s] -- Generating done (0.1s)
+[3.847s] -- Build files have been written to: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit
+[3.916s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[12.382s] [100%] [1m[32mLinking CXX executable hello_moveit[0m
+[14.374s] [100%] Built target hello_moveit
+[14.397s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit -- -j8 -l8
+[14.400s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit
+[14.456s] -- Install configuration: ""
+[14.456s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/lib/hello_moveit/hello_moveit
+[14.457s] -- Set non-toolchain portion of runtime path of "/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+[14.457s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[14.457s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[14.457s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[14.457s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[14.458s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/path.sh
+[14.458s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[14.458s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.bash
+[14.458s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.sh
+[14.458s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[14.458s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[14.458s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/package.dsv
+[14.459s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[14.459s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[14.459s] -- Installing: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[14.459s] -- Up-to-date: /home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/hello_moveit/share/hello_moveit/package.xml
+[14.468s] Invoked command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/wd49nyvjfa3439dkzg0bzzic24ximy4v-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --install /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/hello_moveit

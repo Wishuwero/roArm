@@ -1,0 +1,96 @@
+[0mmoveit2_tutorials: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[33mCMake Warning (dev) at CMakeLists.txt:9 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+  CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_perception/cmake/ConfigExtras.cmake:3 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig.cmake:41 (include)
+  CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu/bits/os_defines.h:39[m[K,
+                 from [01m[K/nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu/bits/c++config.h:727[m[K,
+                 from [01m[K/nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/include/c++/15.3.0/csignal:46[m[K,
+                 from [01m[K/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+                 from [01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/moveit2_tutorials/doc/tutorials/pick_and_place_with_moveit_task_constructor/src/mtc_node.cpp:1[m[K:
+[01m[K/nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/features.h:435:4:[m[K [01;35m[Kwarning: [m[K#warning _FORTIFY_SOURCE requires compiling with optimization (-O) [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+  435 | #  [01;35m[Kwarning[m[K _FORTIFY_SOURCE requires compiling with optimization (-O)
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu/bits/os_defines.h:39[m[K,
+                 from [01m[K/nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu/bits/c++config.h:727[m[K,
+                 from [01m[K/nix/store/qrn789mrv652j7f5bcjp367npzpcyvdi-gcc-15.3.0/include/c++/15.3.0/csignal:46[m[K,
+                 from [01m[K/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rclcpp/rclcpp/rclcpp.hpp:152[m[K,
+                 from [01m[K/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/moveit2_tutorials/doc/tutorials/pick_and_place_with_moveit_task_constructor/src/minimal.cpp:1[m[K:
+[01m[K/nix/store/29isvm6vfq10c528i31igdiy3fnvjcm3-glibc-2.42-67-dev/include/features.h:435:4:[m[K [01;35m[Kwarning: [m[K#warning _FORTIFY_SOURCE requires compiling with optimization (-O) [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.3.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+  435 | #  [01;35m[Kwarning[m[K _FORTIFY_SOURCE requires compiling with optimization (-O)
+      |    [01;35m[K^~~~~~~[m[K

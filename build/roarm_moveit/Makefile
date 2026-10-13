@@ -57,10 +57,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -402,7 +402,7 @@ roarm_moveit__py: cmake_check_build_system
 
 # fast build rule for target.
 roarm_moveit__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py/CMakeFiles/roarm_moveit__py.dir/build
 .PHONY : roarm_moveit__py/fast
 
 #=============================================================================
@@ -415,7 +415,7 @@ roarm_moveit__rs: cmake_check_build_system
 
 # fast build rule for target.
 roarm_moveit__rs/fast:
-	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build.make /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/roarm_moveit__rs/CMakeFiles/roarm_moveit__rs.dir/build
 .PHONY : roarm_moveit__rs/fast
 
 rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.o: rosidl_generator_c/roarm_moveit/srv/detail/get_pose_cmd__functions.c.o

@@ -1,0 +1,1058 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/libmoveit_semantic_world.so.2.5.10"
+		}
+	],
+	"backtrace" : 7,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_perception/cmake/export_moveit_ros_perceptionExport.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_perception/cmake/ament_cmake_export_targets-extras.cmake",
+			"/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/moveit_ros_perception/cmake/moveit_ros_perceptionConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 4
+			},
+			{
+				"file" : 0,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 6
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "moveit_ros_perception::moveit_semantic_world::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "rclcpp::rclcpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::collision_detector_bullet_plugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_butterworth_filter::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_butterworth_parameters::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_collision_distance_field::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_collision_detection::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_collision_detection_fcl::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_collision_detection_bullet::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_dynamics_solver::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_constraint_samplers::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_distance_field::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_exceptions::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_kinematics_base::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_kinematic_constraints::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_kinematics_metrics::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_planning_interface::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_planning_scene::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_planning_request_adapter::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_robot_model::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_robot_state::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_robot_trajectory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_smoothing_base::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_test_utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_trajectory_processing::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_transforms::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometric_shapes::geometric_shapes::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "tf2_eigen::tf2_eigen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Boost::thread::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "rclcpp::rclcpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::collision_detector_bullet_plugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_butterworth_filter::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_butterworth_parameters::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_collision_distance_field::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_collision_detection::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_collision_detection_fcl::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_collision_detection_bullet::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_dynamics_solver::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_constraint_samplers::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_distance_field::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_exceptions::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_kinematics_base::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_kinematic_constraints::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_kinematics_metrics::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_planning_interface::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_planning_scene::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_planning_request_adapter::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_robot_model::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_robot_state::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_robot_trajectory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_smoothing_base::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_test_utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_trajectory_processing::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_transforms::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_core::moveit_utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "object_recognition_msgs::object_recognition_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "visualization_msgs::visualization_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometry_msgs::geometry_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "geometric_shapes::geometric_shapes::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_generator_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "moveit_msgs::moveit_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "tf2_eigen::tf2_eigen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Boost::thread::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_calib3d"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_core"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_dnn"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_features2d"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_flann"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_gapi"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_highgui"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_imgcodecs"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_imgproc"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_ml"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_objdetect"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_photo"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_stitching"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_video"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_videoio"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_alphamat"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_aruco"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_bgsegm"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_bioinspired"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_ccalib"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_datasets"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_dnn_objdetect"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_dnn_superres"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_dpm"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_face"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_fuzzy"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_hdf"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_hfs"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_img_hash"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_intensity_transform"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_line_descriptor"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_mcc"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_optflow"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_phase_unwrapping"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_plot"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_quality"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_rapid"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_reg"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_rgbd"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_saliency"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_sfm"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_shape"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_signal"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_stereo"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_structured_light"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_superres"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_surface_matching"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_text"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_tracking"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_videostab"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_wechat_qrcode"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_xfeatures2d"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_ximgproc"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_xobjdetect"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_xphoto"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_calib3d"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_core"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_dnn"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_features2d"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_flann"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_gapi"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_highgui"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_imgcodecs"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_imgproc"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_ml"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_objdetect"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_photo"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_stitching"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_video"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_videoio"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_alphamat"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_aruco"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_bgsegm"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_bioinspired"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_ccalib"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_datasets"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_dnn_objdetect"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_dnn_superres"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_dpm"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_face"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_fuzzy"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_hdf"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_hfs"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_img_hash"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_intensity_transform"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_line_descriptor"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_mcc"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_optflow"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_phase_unwrapping"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_plot"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_quality"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_rapid"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_reg"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_rgbd"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_saliency"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_sfm"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_shape"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_signal"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_stereo"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_structured_light"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_superres"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_surface_matching"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_text"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_tracking"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_videostab"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_wechat_qrcode"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_xfeatures2d"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_ximgproc"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_xobjdetect"
+		},
+		{
+			"backtrace" : 8,
+			"fragment" : "opencv_xphoto"
+		}
+	],
+	"local" : true,
+	"name" : "moveit_ros_perception::moveit_semantic_world",
+	"nameOnDisk" : "libmoveit_semantic_world.so.2.5.10",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "SHARED_LIBRARY"
+}

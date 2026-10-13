@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/hello_moveit/build/hello_moveit/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

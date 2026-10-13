@@ -53,10 +53,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit
 
 # Utility rule file for ament_cmake_python_copy_roarm_moveit.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_roarm_moveit:
-	/nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E copy_directory /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_generator_py/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/ament_cmake_python/roarm_moveit/roarm_moveit
+	/nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E copy_directory /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_generator_py/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/ament_cmake_python/roarm_moveit/roarm_moveit
 
 CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/codegen:
 .PHONY : CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/depend:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/DependInfo.cmake "--color=$(COLOR)" ament_cmake_python_copy_roarm_moveit
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/DependInfo.cmake "--color=$(COLOR)" ament_cmake_python_copy_roarm_moveit
 .PHONY : CMakeFiles/ament_cmake_python_copy_roarm_moveit.dir/depend
 

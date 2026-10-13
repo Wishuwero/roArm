@@ -1,0 +1,87 @@
+[0.037s] Invoking command in '/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_widgets:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_example_py:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_app:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/ros2web_interfaces:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_driver:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/roarm_description:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/moveit_servo:/home/omar/Documents/UTD/RIDE/roarm_ws_em0/install/launch_api:/nix/store/bnz7wnd6hi2rhx92dnjf6ly52336k6vk-ros-env NB_DEFAULT_TEMPLATE=/* #{{title}}\n
+ * {{tags}}\n
+ * 
+ */ 
+\= {{title}}
+{{content}} _=/nix/store/di26b1kkbammy0sj70nq5qzvfrh78wxl-coreutils-9.11/bin/env buildPhase={ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out" shellHook=#Not working??
+         alias gl="nix run --impure github:nix-community/nixGL --" /nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/cmake --build /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces -- -j8 -l8
+[0.547s] [  1%] Built target ros2web_interfaces__rs
+[0.548s] [  2%] Built target ros2web_interfaces__cpp
+[0.548s] [ 13%] Built target ros2web_interfaces__rosidl_generator_c
+[0.548s] [ 25%] Built target ros2web_interfaces__rosidl_typesupport_introspection_cpp
+[0.548s] [ 36%] Built target ros2web_interfaces__rosidl_typesupport_c
+[0.548s] [ 37%] Built target ament_cmake_python_copy_ros2web_interfaces
+[0.549s] [ 47%] Built target ros2web_interfaces__rosidl_typesupport_cpp
+[0.549s] [ 59%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.549s] [ 70%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c
+[0.549s] [ 81%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c
+[0.549s] [ 81%] Built target ros2web_interfaces
+[0.549s] [ 82%] Built target ros2web_interfaces__py
+[0.549s] [ 93%] Built target ros2web_interfaces__rosidl_generator_py
+[0.549s] [ 95%] Built target ros2web_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.549s] [ 97%] Built target ros2web_interfaces__rosidl_typesupport_c__pyext
+[0.549s] [100%] Built target ros2web_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.610s] Traceback (most recent call last):
+[0.611s]   File [35m"/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/ament_cmake_python/ros2web_interfaces/setup.py"[0m, line [35m4[0m, in [35m<module>[0m
+[0.611s]     [31msetup[0m[1;31m([0m
+[0.611s]     [31m~~~~~[0m[1;31m^[0m
+[0.611s]         [1;31mname='ros2web_interfaces',[0m
+[0.611s]         [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0.611s]     ...<2 lines>...
+[0.611s]             [1;31minclude=('ros2web_interfaces', 'ros2web_interfaces.*')),[0m
+[0.611s]             [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0.612s]     [1;31m)[0m
+[0.612s]     [1;31m^[0m
+[0.612s]   File [35m"/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/__init__.py"[0m, line [35m116[0m, in [35msetup[0m
+[0.612s]     [31m_install_setup_requires[0m[1;31m(attrs)[0m
+[0.612s]     [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^[0m
+[0.612s]   File [35m"/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/__init__.py"[0m, line [35m84[0m, in [35m_install_setup_requires[0m
+[0.612s]     dist = MinimalDistribution(attrs)
+[0.612s]   File [35m"/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/__init__.py"[0m, line [35m66[0m, in [35m__init__[0m
+[0.612s]     [31msuper().__init__[0m[1;31m(filtered)[0m
+[0.612s]     [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^[0m
+[0.612s]   File [35m"/nix/store/dclnr9wgjv8rp1hx8dy50rh6zai03jf4-python3.14-setuptools-79.0.1/lib/python3.14/site-packages/setuptools/dist.py"[0m, line [35m317[0m, in [35m__init__[0m
+[0.613s]     for ep in [31mmetadata.entry_points[0m[1;31m(group='distutils.setup_keywords')[0m:
+[0.613s]               [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0.613s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/importlib/metadata/__init__.py"[0m, line [35m1011[0m, in [35mentry_points[0m
+[0.613s]     return [31mEntryPoints(eps).select[0m[1;31m(**params)[0m
+[0.613s]            [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^[0m
+[0.613s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/importlib/metadata/__init__.py"[0m, line [35m278[0m, in [35mselect[0m
+[0.613s]     return EntryPoints(ep for ep in self if ep.matches(**params))
+[0.613s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/importlib/metadata/__init__.py"[0m, line [35m278[0m, in [35m<genexpr>[0m
+[0.613s]     return EntryPoints(ep for ep in self if [31mep.matches[0m[1;31m(**params)[0m)
+[0.613s]                                             [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^[0m
+[0.614s] [1;35mKeyboardInterrupt[0m
+[0.644s] Traceback (most recent call last):
+[0.645s]   File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/bin/.cmake-wrapped"[0m, line [35m9[0m, in [35m<module>[0m
+[0.645s]     sys.exit([31mcmake[0m[1;31m()[0m)
+[0.645s]              [31m~~~~~[0m[1;31m^^[0m
+[0.645s]   File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/lib/python3.14/site-packages/cmake/__init__.py"[0m, line [35m13[0m, in [35mcmake[0m
+[0.645s]     raise SystemExit([31m_program[0m[1;31m('cmake', sys.argv[1:])[0m)
+[0.646s]                      [31m~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0.646s]   File [35m"/nix/store/a57lawpn9c3ir4lcpi39133d4s3i287c-python3.14-cmake-4.3.4/lib/python3.14/site-packages/cmake/__init__.py"[0m, line [35m10[0m, in [35m_program[0m
+[0.646s]     return [31msubprocess.call[0m[1;31m([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)[0m
+[0.646s]            [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0.646s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m398[0m, in [35mcall[0m
+[0.646s]     return [31mp.wait[0m[1;31m(timeout=timeout)[0m
+[0.646s]            [31m~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+[0.646s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m1279[0m, in [35mwait[0m
+[0.646s]     return [31mself._wait[0m[1;31m(timeout=timeout)[0m
+[0.646s]            [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+[0.646s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m2084[0m, in [35m_wait[0m
+[0.646s]     (pid, sts) = [31mself._try_wait[0m[1;31m(0)[0m
+[0.647s]                  [31m~~~~~~~~~~~~~~[0m[1;31m^^^[0m
+[0.647s]   File [35m"/nix/store/gxzhl7aaiid7zp3y47jqqiq7zg5mqpwp-python3-3.14.6/lib/python3.14/subprocess.py"[0m, line [35m2042[0m, in [35m_try_wait[0m
+[0.647s]     (pid, sts) = [31mos.waitpid[0m[1;31m(self.pid, wait_flags)[0m
+[0.647s]                  [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+[0.647s] [1;35mKeyboardInterrupt[0m
+[0.664s] make[2]: *** [CMakeFiles/ament_cmake_python_build_ros2web_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ros2web_interfaces_egg] Interrupt
+[0.664s] make[1]: *** [CMakeFiles/Makefile2:571: CMakeFiles/ament_cmake_python_build_ros2web_interfaces_egg.dir/all] Interrupt
+[0.665s] make: *** [Makefile:146: all] Interrupt

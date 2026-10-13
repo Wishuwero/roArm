@@ -53,10 +53,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit
 
 # Include any dependencies generated for this target.
 include CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/depend.make
@@ -69,17 +69,17 @@ include CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/flags.make
 
-rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/rosidl_typesupport_c/rosidl_typesupport_c
-rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/python3.14/site-packages/rosidl_typesupport_c/__init__.py
-rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_c/resource/action__type_support.c.em
-rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em
-rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
-rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
+rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/rosidl_typesupport_c/rosidl_typesupport_c
+rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/python3.14/site-packages/rosidl_typesupport_c/__init__.py
+rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_typesupport_c/resource/action__type_support.c.em
+rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em
+rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
+rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: rosidl_adapter/roarm_moveit/srv/GetPoseCmd.idl
 rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: rosidl_adapter/roarm_moveit/srv/MovePointCmd.idl
 rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp: rosidl_adapter/roarm_moveit/srv/MoveCircleCmd.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/bin/python3 /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
+	/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/bin/python3 /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp: rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp
@@ -93,44 +93,44 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/codegen:
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o: rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o -MF CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o.d -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o -c /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o"
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o -MF CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o.d -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.o -c /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp
 
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.i"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp > CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.i
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp > CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.i
 
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.s"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.s
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp.s
 
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o: rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o -MF CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o.d -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o -c /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o"
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o -MF CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o.d -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.o -c /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp
 
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.i"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp > CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.i
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp > CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.i
 
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.s"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.s
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp.s
 
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o: rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o -MF CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o.d -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o -c /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o"
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o -MF CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o.d -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.o -c /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp
 
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.i"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp > CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.i
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp > CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.i
 
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.s"
-	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.s
+	/nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp -o CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp.s
 
 # Object files for target roarm_moveit__rosidl_typesupport_c
 roarm_moveit__rosidl_typesupport_c_OBJECTS = \
@@ -147,11 +147,11 @@ libroarm_moveit__rosidl_typesupport_c.so: CMakeFiles/roarm_moveit__rosidl_typesu
 libroarm_moveit__rosidl_typesupport_c.so: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/build.make
 libroarm_moveit__rosidl_typesupport_c.so: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/compiler_depend.ts
 libroarm_moveit__rosidl_typesupport_c.so: libroarm_moveit__rosidl_generator_c.so
-libroarm_moveit__rosidl_typesupport_c.so: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/librosidl_typesupport_c.so
-libroarm_moveit__rosidl_typesupport_c.so: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/librosidl_runtime_c.so
-libroarm_moveit__rosidl_typesupport_c.so: /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/lib/librcutils.so
+libroarm_moveit__rosidl_typesupport_c.so: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/librosidl_typesupport_c.so
+libroarm_moveit__rosidl_typesupport_c.so: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/librosidl_runtime_c.so
+libroarm_moveit__rosidl_typesupport_c.so: /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/lib/librcutils.so
 libroarm_moveit__rosidl_typesupport_c.so: CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libroarm_moveit__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libroarm_moveit__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -165,6 +165,6 @@ CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/clean:
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/roarm_moveit/srv/get_pose_cmd__type_support.cpp
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/roarm_moveit/srv/move_circle_cmd__type_support.cpp
 CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/roarm_moveit/srv/move_point_cmd__type_support.cpp
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/roarm_moveit/CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)" roarm_moveit__rosidl_typesupport_c
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/roarm_moveit/CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)" roarm_moveit__rosidl_typesupport_c
 .PHONY : CMakeFiles/roarm_moveit__rosidl_typesupport_c.dir/depend
 

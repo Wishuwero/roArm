@@ -4,7 +4,7 @@
 # compile C with /nix/store/l5qkpzsr4gxvksh45b3nhxbkyr5cviar-gcc-wrapper-15.3.0/bin/gcc
 C_DEFINES = -DROS_PACKAGE_NAME=\"ros2web_interfaces\" -Dros2web_interfaces__rosidl_typesupport_c__pyext_EXPORTS
 
-C_INCLUDES = -I/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_c -I/home/omar/Documents/UTD/ros2/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_py -I/nix/store/nfdpbd906fz8xvpvij718j2jafninnqm-ros-env/include/python3.14 -I/nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rmw -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_runtime_c -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_typesupport_c -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rosidl_typesupport_interface -isystem /nix/store/b0m0c8pnjnbgwbkz06va6yn260q3v42m-ros-env/include/rcutils
+C_INCLUDES = -I/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_c -I/home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/ros2web_interfaces/rosidl_generator_py -I/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/python3.14 -I/nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rmw -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_runtime_c -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_typesupport_c -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rosidl_typesupport_interface -isystem /nix/store/dgrnlns5dcdm0hdjagc3f1z0nvai4q0y-ros-env/include/rcutils
 
 C_FLAGS = -fPIC -Wall -Wextra
 

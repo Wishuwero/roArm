@@ -13,15 +13,35 @@
         inherit system;
         overlays = [nix-ros-overlay.overlays.default];
       };
+      gl = pkgs.writeShellScriptBin "gl" ''
+        exec nix run --impure github:nix-community/nixGL -- "$@"
+      '';
+
+      moveit-task-constructor-core-new =
+        pkgs.rosPackages.humble.moveit-task-constructor-core.overrideAttrs
+        (finalAttrs: previousAttrs: {
+          postFixup =
+            (previousAttrs.postFixup or "")
+            + ''
+              rm -f $out/share/pkgconfig/pybind11.pc
+            '';
+        });
     in {
+      packages = {
+        inherit moveit-task-constructor-core-new;
+        default = moveit-task-constructor-core-new;
+      };
+
       devShells.default = pkgs.mkShell {
         name = "ROS2 RIDE";
         packages = [
+          gl
           #non ROS packages
           (pkgs.python3.withPackages (ps:
             with ps; [
               pip
 
+              numpy
               aiohttp
               ujson
               aiortc
@@ -32,6 +52,7 @@
 
           pkgs.blas
           pkgs.cmake
+          pkgs.gdb
           pkgs.boost
           pkgs.colcon
           pkgs.net-tools
@@ -48,10 +69,20 @@
                 joint-state-publisher-gui
                 rviz2
 
+                moveit-task-constructor-core-new
+
                 #moveit
                 moveit-core
+                moveit-servo
+                moveit-ros-planning-interface
+                moveit-resources-panda-moveit-config
+                moveit-ros-visualization
+                #moveit-ros-perception
+                moveit-resources-pr2-description
                 moveit-visual-tools
                 moveit-common
+
+                foxglove-bridge
                 ompl
                 #               moveit-hybrid-planning
                 #               moveit-kinematics
@@ -62,12 +93,12 @@
                 #               moveit-resources
                 #               moveit-resources-fanuc-description
                 #               moveit-resources-fanuc-moveit-config
-
-                foxglove-bridge
-                moveit-servo
               ];
             })
         ];
+        shellHook = ''          #Not working??
+                   alias gl="nix run --impure github:nix-community/nixGL --"
+        '';
       };
     });
   nixConfig = {

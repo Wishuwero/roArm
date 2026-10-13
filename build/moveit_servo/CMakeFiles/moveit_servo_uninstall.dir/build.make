@@ -53,10 +53,10 @@ RM = /nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo
+CMAKE_SOURCE_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo
+CMAKE_BINARY_DIR = /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo
 
 # Utility rule file for moveit_servo_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/moveit_servo_uninstall.dir/compiler_depend.make
 include CMakeFiles/moveit_servo_uninstall.dir/progress.make
 
 CMakeFiles/moveit_servo_uninstall:
-	/nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -P /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/nix/store/jfdn7bk2k40afmmaqv85b8v043jrigm5-cmake-4.3.4/bin/cmake -P /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/moveit_servo_uninstall.dir/codegen:
 .PHONY : CMakeFiles/moveit_servo_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/moveit_servo_uninstall.dir/clean:
 .PHONY : CMakeFiles/moveit_servo_uninstall.dir/clean
 
 CMakeFiles/moveit_servo_uninstall.dir/depend:
-	cd /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo /home/omar/Documents/UTD/ros2/roarm_ws_em0/src/roarm_main/moveit_servo /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo /home/omar/Documents/UTD/ros2/roarm_ws_em0/build/moveit_servo/CMakeFiles/moveit_servo_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" moveit_servo_uninstall
+	cd /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo /home/omar/Documents/UTD/RIDE/roarm_ws_em0/src/roarm_main/moveit_servo /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo /home/omar/Documents/UTD/RIDE/roarm_ws_em0/build/moveit_servo/CMakeFiles/moveit_servo_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" moveit_servo_uninstall
 .PHONY : CMakeFiles/moveit_servo_uninstall.dir/depend
 
